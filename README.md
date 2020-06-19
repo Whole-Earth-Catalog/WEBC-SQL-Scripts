@@ -9,3 +9,5 @@ Important tags:
 	- $a has place of publication
 	- $b has name of publisher 
 	- $c has date of publication 
+
+created by Vasco, commits from clays code are a mistake from git configuration
