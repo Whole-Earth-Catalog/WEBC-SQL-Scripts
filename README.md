@@ -1,5 +1,5 @@
-# Republishing Patterns
-A collecting of sql queries to analyze republishing patterns. 
+# Whole Earth Book Catalog
+ 
 Important tags:
 - tag245: 
 	- $a has title of record
@@ -10,4 +10,3 @@ Important tags:
 	- $b has name of publisher 
 	- $c has date of publication 
 
-created by Vasco, commits from clays code are a mistake from git configuration
