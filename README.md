@@ -2,16 +2,16 @@
 This directory contains queries and building scripts for the mysql database.
 
 ## MySQL on the Silver Surfer
-For the database created in build use (this database is an example of building):                   
-access wc (worldcat) database  using:           
-$ mysql -u wcuser -p         
-$ use wc           
-
 For the complete database use:
 $ mysql -u root -p                
 $ use webc                
 Documentation for complete data set in FullDatabase_Guide.pdf
-                           
+ 
+For the database created in build use (this database is an example of building):                   
+access wc (worldcat) database  using:           
+$ mysql -u wcuser -p         
+$ use wc           
+                         
 ## Important tags:
 - tag245: 
 	- $a has title of record
