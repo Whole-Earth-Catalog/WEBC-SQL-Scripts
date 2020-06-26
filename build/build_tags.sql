@@ -26,7 +26,7 @@ CREATE TABLE tag245 (
 	col_u varchar(100),
 	col_v varchar(100),
 	col_w varchar(100),
-	col_x varchar(100),
+	col_x varchar(100)
 );
 LOAD DATA LOCAL INFILE "245.tsv"
 INTO TABLE tag245
@@ -55,7 +55,7 @@ CREATE TABLE tag100 (
 	col_t varchar(100),
 	col_u varchar(100),
 	col_v varchar(100),
-	col_x varchar(100),
+	col_x varchar(100)
 );
 LOAD DATA LOCAL INFILE "100.tsv"
 INTO TABLE tag100
@@ -79,7 +79,7 @@ CREATE TABLE tag260 (
 	col_s varchar(100),
 	col_v varchar(100),
 	col_x varchar(100),
-	col_z varchar(100),
+	col_z varchar(100)
 );
 LOAD DATA LOCAL INFILE "260.tsv"
 INTO TABLE tag260
