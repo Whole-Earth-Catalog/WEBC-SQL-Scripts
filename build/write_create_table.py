@@ -1,8 +1,15 @@
 import csv
-
 def write_create_table(
 	file_name, delim, table_name, col_prefix="", 
 	default_type="varchar(100)"):
+    """Print sql create table command to standard output. 
+
+    Arguments:
+    file_name -- the name of the tsv file to be created into a table
+    delim -- the delimiter of the tsv/csv file
+    table_name -- the name of the table to create
+    col_prefix -- prefix for the columns incase names in tsv are improper
+    """
     print("CREATE TABLE " + table_name + " {")
     with open(file_name) as csv_file:
 	reader = csv.reader(csv_file, delimiter=delim)
