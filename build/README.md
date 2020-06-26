@@ -14,7 +14,7 @@ To print a standard create table command based off of the header of the
 tsv use the write_create_table.py script. You will probably want to adjust
 the default data type for each column  but this helps save some typing.
 
-LOAD DATA LOCAL INFILE *filename*
-INTO TABLE *table name*
-FIELDS TERMINATED BY *delimiter*
-LINES TERMINATED BY '\n' 
+LOAD DATA LOCAL INFILE *filename*                   
+INTO TABLE *table name*                     
+FIELDS TERMINATED BY *delimiter*                       
+LINES TERMINATED BY '\n'                      
