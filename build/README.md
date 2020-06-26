@@ -24,4 +24,21 @@ the default data type for each column  but this helps save some typing.
 LOAD DATA LOCAL INFILE *filename*                   
 INTO TABLE *table name*                     
 FIELDS TERMINATED BY *delimiter*                       
-LINES TERMINATED BY '\n';                      
+LINES TERMINATED BY '\n';    
+
+# SQL Errors and fixes during build
+- ERROR 3948 (42000): Loading local data is disabled; this must be enabled on both the client and server sides                     
+Fixed by using instructions from top answer here: https://stackoverflow.com/questions/59993844/error-loading-local-data-is-disabled-this-must-be-enabled-on-both-the-client
+| set the global variables by using this command:                 
+|| mysql> SET GLOBAL local_infile=1;              
+|     Query OK, 0 rows affected (0.00 sec)            
+| quit current server:           
+|| mysql> quit              
+|| Bye                            
+| connect to the server with local-infile system variable :            
+| mysql --local-infile=1 -u root -p1                
+- ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)              
+Fixed by using instructions from second top answer here: https://stackoverflow.com/questions/11657829/error-2002-hy000-cant-connect-to-local-mysql-server-through-socket-var-run
+| mysql -h 127.0.0.1 -P 3306 -u root -p <database>
+- For both error 2002 and 42000 I combined the commands to be            
+| mysql -h 127.0.0.1 -P 3306 -u root -p 'wc' --local-infile
