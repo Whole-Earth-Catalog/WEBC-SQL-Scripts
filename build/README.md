@@ -1,4 +1,4 @@
-# Scripts for Building tables from tsv files for SQL
+# Scripts for building tables from tsv files for MySQL database
 
 - write_create_tables.py: has def write_create_table(file_name, delim, table_name, col_prefix="", default_type="varchar(100)") that prints to standard output the sql command to create a table based on given tsv file. Output example below.
 - write_load_data.py: has def write_load_data(file_name, delim, table_name)) that prints to standard output the sql command to load the data from the tsv file into the table created by the write_create_tables method.
