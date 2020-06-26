@@ -1,5 +1,4 @@
 """ Written by Vasco Madrid
-
 Date created: 6/25/2020
 Description: Contains definition to print an sql create table command to standard output. The output should be inserted into an .sql file and run using MySQL using the source command
 """
