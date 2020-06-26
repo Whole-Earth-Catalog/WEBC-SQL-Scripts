@@ -1,4 +1,4 @@
-CREATE TABLE tag245 {
+CREATE TABLE tag245 (
 	col_id varchar(100),
 	col_1 varchar(100),
 	col_4 varchar(100),
@@ -27,12 +27,12 @@ CREATE TABLE tag245 {
 	col_v varchar(100),
 	col_w varchar(100),
 	col_x varchar(100),
-};
+);
 LOAD DATA LOCAL INFILE "245.tsv"
 INTO TABLE tag245
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n';
-CREATE TABLE tag100 {
+CREATE TABLE tag100 (
 	col_id varchar(100),
 	col_1 varchar(100),
 	col_4 varchar(100),
@@ -56,12 +56,12 @@ CREATE TABLE tag100 {
 	col_u varchar(100),
 	col_v varchar(100),
 	col_x varchar(100),
-};
+);
 LOAD DATA LOCAL INFILE "100.tsv"
 INTO TABLE tag100
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n';
-CREATE TABLE tag260 {
+CREATE TABLE tag260 (
 	col_id varchar(100),
 	col_3 varchar(100),
 	col_5 varchar(100),
@@ -80,7 +80,7 @@ CREATE TABLE tag260 {
 	col_v varchar(100),
 	col_x varchar(100),
 	col_z varchar(100),
-};
+);
 LOAD DATA LOCAL INFILE "260.tsv"
 INTO TABLE tag260
 FIELDS TERMINATED BY '\t'
