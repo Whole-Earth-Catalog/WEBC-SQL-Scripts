@@ -14,12 +14,12 @@ def write_create_table(
     table_name -- the name of the table to create
     col_prefix -- prefix for the columns incase names in tsv are improper
     """
-    print("CREATE TABLE " + table_name + " {")
+    print("CREATE TABLE " + table_name + " (")
     with open(file_name) as csv_file:
 	reader = csv.reader(csv_file, delimiter=delim)
 	header = next(reader)
 	for col in header:
 	    name = col_prefix + col
 	    print("\t" + name + " " + default_type + ",")
-    print("};")
+    print(");")
 
