@@ -14,5 +14,7 @@ $ use wc
 - tag260:
 	- $a has place of publication
 	- $b has name of publisher 
-	- $c has date of publication 
+	- $c has date of publication
+- tag008:
+	- has the control number, with date code and other useful info
 
