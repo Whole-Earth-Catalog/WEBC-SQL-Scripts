@@ -80,7 +80,7 @@ sql_file = open('create_terms_table.sql', 'w')
 print("CREATE TABLE terms (" + 
                "term_lc varchar(20), " +
                "term_cap1 varchar(20), " +
-               "key varchar(20), " + 
+               "term_key varchar(20), " + 
                "language varchar(20));")
 # write input into commands for each term
 for key in keys:
@@ -89,7 +89,7 @@ for key in keys:
         for term in key_term_dict[language]:
 	    term_lc = term.lower()
 	    term_cap1 = term[0].upper() + term[1:].lower()
-            print("INPUT INTO terms " + 
+            print("INSERT INTO terms " + 
 		  "VALUES (\"" + term_lc +
                   "\", \"" + term_cap1 + 
 		  "\", \"" + key +
