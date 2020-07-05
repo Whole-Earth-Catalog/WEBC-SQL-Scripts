@@ -1,6 +1,5 @@
 # Queries
 
-- *create_terms_and titles.sql*: creates a table with all titles that have a term from the language matrix in it with the associated term, term key, and language. Uses select command and joining tables to create the terms_and_titles table. 
 - *basicqs_on_terms_and_titles.sql*: basic queries to understand the terms and titles table       
 RESULTS
   - Q1) Returns total number of rows: 775,731, this means there are 775,731 matches between the terms and the titles
