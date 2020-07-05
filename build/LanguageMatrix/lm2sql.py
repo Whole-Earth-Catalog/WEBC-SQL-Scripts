@@ -4,7 +4,7 @@ def clean_list(a_list):
     b_list = []
     # strip words of extra characters
     for item in a_list:
-	b_list.append(item.strip("\n").strip("*"))
+        b_list.append(item.strip("\n").strip("*"))
     b_set = set(b_list)
     c_list = list(b_set)
     # remove empty strings
@@ -16,11 +16,11 @@ def fill_keys(key_list):
     row_list = []
     curr_key = ""
     for elem in key_list:
-	if elem != "":
-	    curr_key = elem
-	else:
-	    elem = curr_key
-	row_list.append(elem)
+        if elem != "":
+            curr_key = elem
+        else:
+            elem = curr_key
+        row_list.append(elem)
     return row_list
 
 gc = gspread.service_account()
@@ -49,12 +49,13 @@ unique_keys = list(key_set)
 # number of rows
 num_row = len(keys)
 # create dict of all terms
+'''  
 all_terms = {}
 for language in languages:
     col_num = col_title.index(language) + 1
     term_list = lm_sheet.col_values(col_num)
     all_terms.update({language : term_list})
-#print(all_terms)
+print(all_terms)
 # create dict of keys with specific term dictionaries
 keys = {}
 for key in unique_keys:
@@ -77,7 +78,7 @@ for key in unique_keys:
 sql_file = open('create_terms_table.sql', 'w')
 
 # write create table command for full term table
-print("CREATE TABLE terms (" + 
+sql_file.write("CREATE TABLE terms (" + 
                "term_lc varchar(20), " +
                "term_cap1 varchar(20), " +
                "term_key varchar(20), " + 
@@ -89,8 +90,9 @@ for key in keys:
         for term in key_term_dict[language]:
 	    term_lc = term.lower()
 	    term_cap1 = term[0].upper() + term[1:].lower()
-            print("INSERT INTO terms " + 
-		  "VALUES (\"" + term_lc +
-                  "\", \"" + term_cap1 + 
-		  "\", \"" + key +
-		  "\", \"" + language + "\");")
+            sql_file.write("INSERT INTO terms " + 
+		                   "VALUES (\"" + term_lc +
+                           "\", \"" + term_cap1 + 
+		                   "\", \"" + key +
+		                   "\", \"" + language + "\");")
+''' 
