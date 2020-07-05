@@ -1,0 +1,9 @@
+CREATE TABLE tag008 (
+    id varchar(30),
+    data varchar(40)
+);
+
+LOAD DATA LOCAL INFILE '008.tsv'
+INTO TABLE tag008
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
