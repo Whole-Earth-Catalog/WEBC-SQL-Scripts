@@ -1,9 +1,14 @@
 # Scripts for building tables from tsv files for MySQL database
 
-- write_create_tables.py: has def write_create_table(file_name, delim, table_name, col_prefix="", default_type="varchar(100)") that prints to standard output the sql command to create a table based on given tsv file. Output example below.
-- write_load_data.py: has def write_load_data(file_name, delim, table_name)) that prints to standard output the sql command to load the data from the tsv file into the table created by the write_create_tables method.
-- wct_tags.py: implements write_create_table and write_load_data methods to create build_tags.sql
-- build_tags.sql : sql script to create table for tsv files for the project and load the data into. File made by running "python wct_tags.py >> build_tags.sql" and editing the data types of some columns 
+- CodeToWriteScript/write_create_tables.py: has def write_create_table(file_name, delim, table_name, col_prefix="", default_type="varchar(100)") that prints to standard output the sql command to create a table based on given tsv file. Output example below.
+- CodeToWritScript/write_load_data.py: has def write_load_data(file_name, delim, table_name)) that prints to standard output the sql command to load the data from the tsv file into the table created by the write_create_tables method.
+- CodeToWriteScript/wct_tags.py: implements write_create_table and write_load_data methods to create build_tags.sql
+- build_tags.sql : sql script to build tables out of important tags, needs to be in directory with data files
+- CodeToWriteScript/XMLTagToTSV.py: iterates through XML file extracting the id and tag008 data and writing it to a tsv file.
+- create_008_table.sql: sql script to create a table for tag 008 which has date information and was missing from the master build. Loads data from tsv created by XMLTagToTSV.py
+- LanguageMatrix/create_terms_table.sql: script written by lm2sql.py to create table of terms from language table
+- LanguageMatrix/create_terms_and_titles.sql: script that joins terms table and title table (tag245) where title has term
+- LanguageMatrix/lm2sql.py: uses google sheets api to read language matrix and writes to standard output sql commands to create a term table out of matrix
 
 # How to load large amount of data into table
 
@@ -19,7 +24,7 @@ CREATE TABLE *table name* (
                 
 To print a standard create table command based off of the header of the
 tsv use the write_create_table.py script. You will probably want to adjust
-the default data type for each column  but this helps save some typing.
+the default data type for each column  but this helps save some typing if there are many columns.
 
 LOAD DATA LOCAL INFILE *filename*                   
 INTO TABLE *table name*                     
