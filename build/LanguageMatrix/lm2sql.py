@@ -38,8 +38,8 @@ num_col = len(all_values[0])
 
 # write create table command for full term table
 print("CREATE TABLE terms (" + 
-      "term_lc varchar(20), " +
-      "term_cap1 varchar(20), " +
+      "term_lc varchar(40), " +
+      "term_cap1 varchar(40), " +
       "term_key varchar(20), " + 
       "language varchar(20));")
 
@@ -57,33 +57,3 @@ for row in range(1,num_row):
                    "\", \"" + term_key +
                    "\", \"" + language + "\");")
 
-
-
-'''  
-all_terms = {}
-for language in languages:
-    col_num = col_title.index(language) + 1
-    term_list = lm_sheet.col_values(col_num)
-    all_terms.update({language : term_list})
-print(all_terms)
-# create dict of keys with specific term dictionaries
-keys = {}
-for key in unique_keys:
-    term_dict = {}
-    row_nums = []
-    # get list of rows associated with term
-    for row_num in range(len(key_rows)):
-	if key == key_rows[row_num]:
-	    row_nums.append(row_num)
-    # get terms for each language
-    for language in all_terms:
-	all_term_list = all_terms[language]
-	key_term_list = []
-	for num in row_nums:
-            key_term_list.append(all_term_list[num])
-	key_term_list = clean_list(key_term_list)
-        term_dict.update({language : key_term_list})
-    keys.update({key : term_dict})
-
-sql_file = open('create_terms_table.sql', 'w')
-'''
