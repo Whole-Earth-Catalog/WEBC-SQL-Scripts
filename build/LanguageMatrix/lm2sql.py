@@ -1,16 +1,8 @@
 import gspread 
 
-def clean_list(a_list):
-    b_list = []
-    # strip words of extra characters
-    for item in a_list:
-        b_list.append(item.strip("\n").strip("*"))
-    b_set = set(b_list)
-    c_list = list(b_set)
-    # remove empty strings
-    if "" in c_list:
-        c_list.remove("")
-    return c_list
+def clean_item(item):
+    clean_item = item.strip("\n").strip("*").strip()
+    return clean_item
 
 def fill_keys(key_list):
     row_list = []
@@ -29,26 +21,44 @@ gc = gspread.service_account()
 lm = gc.open_by_key('1X9Ifq6mgzT0G-yjJPBoi1MVWh4KCc4qAQUfatY8rekE')
 # select worksheet
 lm_sheet = lm.get_worksheet(0)
-# list of column titles
-col_title = lm_sheet.row_values(1)
-# list of languages
-languages = col_title
-# dont include first column in language list (keys)
-languages.pop(0)
-# dont include last column in language list (definitions)
-languages.pop(len(col_title)-1)
-# print(languages)
-# number of columns
-num_col = len(col_title)
 # Get a map of keys
 keys = lm_sheet.col_values(1)
 key_rows = fill_keys(keys)
-key_set = set(key_rows)
-unique_keys = list(key_set)
-# print(key_rows)
-# number of rows
-num_row = len(keys)
-# create dict of all terms
+#print("Map of key col")
+#print(key_rows)
+
+# get all values as list of lists
+all_values = lm_sheet.get_all_values()
+num_row = len(all_values)
+print("number of rows: " + str(num_row))
+columns = all_values[0]
+num_col = len(all_values[0])
+print("number of columns: " + str(num_col))
+print("columns: " + str(columns))
+
+# write create table command for full term table
+print("CREATE TABLE terms (" + 
+      "term_lc varchar(20), " +
+      "term_cap1 varchar(20), " +
+      "term_key varchar(20), " + 
+      "language varchar(20));")
+
+for row in range(1,num_row):
+    for col in range(1,num_col-1):
+	term = clean_item(all_values[row][col])
+	if term != "":
+	    term_lc = term.lower()
+	    term_cap1 = term_lc[0].upper() + term_lc[1:]
+	    language = columns[col]
+	    term_key = key_rows[row]
+	    print("INSERT INTO terms " + 
+                   "VALUES (\"" + term_lc +
+                   "\", \"" + term_cap1 + 
+                   "\", \"" + term_key +
+                   "\", \"" + language + "\");")
+
+
+
 '''  
 all_terms = {}
 for language in languages:
@@ -76,23 +86,4 @@ for key in unique_keys:
     keys.update({key : term_dict})
 
 sql_file = open('create_terms_table.sql', 'w')
-
-# write create table command for full term table
-sql_file.write("CREATE TABLE terms (" + 
-               "term_lc varchar(20), " +
-               "term_cap1 varchar(20), " +
-               "term_key varchar(20), " + 
-               "language varchar(20));")
-# write input into commands for each term
-for key in keys:
-    key_term_dict = keys[key]
-    for language in key_term_dict:
-        for term in key_term_dict[language]:
-	    term_lc = term.lower()
-	    term_cap1 = term[0].upper() + term[1:].lower()
-            sql_file.write("INSERT INTO terms " + 
-		                   "VALUES (\"" + term_lc +
-                           "\", \"" + term_cap1 + 
-		                   "\", \"" + key +
-		                   "\", \"" + language + "\");")
-''' 
+'''
