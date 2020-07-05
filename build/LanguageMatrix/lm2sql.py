@@ -30,11 +30,11 @@ key_rows = fill_keys(keys)
 # get all values as list of lists
 all_values = lm_sheet.get_all_values()
 num_row = len(all_values)
-print("number of rows: " + str(num_row))
+# print("number of rows: " + str(num_row))
 columns = all_values[0]
 num_col = len(all_values[0])
-print("number of columns: " + str(num_col))
-print("columns: " + str(columns))
+# print("number of columns: " + str(num_col))
+# print("columns: " + str(columns))
 
 # write create table command for full term table
 print("CREATE TABLE terms (" + 
