@@ -1,2122 +1,3919 @@
-[
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1510",
-		"num_ids" : 1
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1530",
-		"num_ids" : 1
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1540",
-		"num_ids" : 6
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1550",
-		"num_ids" : 6
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1560",
-		"num_ids" : 9
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1570",
-		"num_ids" : 17
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1580",
-		"num_ids" : 9
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1590",
-		"num_ids" : 13
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1600",
-		"num_ids" : 23
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1610",
-		"num_ids" : 32
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1620",
-		"num_ids" : 22
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1630",
-		"num_ids" : 18
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1640",
-		"num_ids" : 21
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1650",
-		"num_ids" : 18
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1660",
-		"num_ids" : 35
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1670",
-		"num_ids" : 15
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1680",
-		"num_ids" : 28
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1690",
-		"num_ids" : 14
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1700",
-		"num_ids" : 8
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1710",
-		"num_ids" : 10
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1720",
-		"num_ids" : 16
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1730",
-		"num_ids" : 12
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1740",
-		"num_ids" : 2
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1750",
-		"num_ids" : 10
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1760",
-		"num_ids" : 8
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1770",
-		"num_ids" : 2
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1780",
-		"num_ids" : 15
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1790",
-		"num_ids" : 16
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "17u0",
-		"num_ids" : 2
-	},
-	{
-		"concat(term_key)" : "Enlightenment",
-		"decade" : "1800",
-		"num_ids" : 3
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1500",
-		"num_ids" : 9
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1510",
-		"num_ids" : 21
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1520",
-		"num_ids" : 42
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1530",
-		"num_ids" : 83
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1540",
-		"num_ids" : 60
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1550",
-		"num_ids" : 154
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1560",
-		"num_ids" : 58
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1570",
-		"num_ids" : 65
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1580",
-		"num_ids" : 81
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1590",
-		"num_ids" : 74
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "15u0",
-		"num_ids" : 4
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1600",
-		"num_ids" : 90
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1610",
-		"num_ids" : 114
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1620",
-		"num_ids" : 96
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1630",
-		"num_ids" : 197
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1640",
-		"num_ids" : 1106
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1650",
-		"num_ids" : 1260
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1660",
-		"num_ids" : 854
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1670",
-		"num_ids" : 832
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1680",
-		"num_ids" : 1445
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1690",
-		"num_ids" : 603
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "16u0",
-		"num_ids" : 6
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1700",
-		"num_ids" : 874
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1710",
-		"num_ids" : 1381
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1720",
-		"num_ids" : 961
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1730",
-		"num_ids" : 1239
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1740",
-		"num_ids" : 775
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1750",
-		"num_ids" : 917
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1760",
-		"num_ids" : 858
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1770",
-		"num_ids" : 2531
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1780",
-		"num_ids" : 2094
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1790",
-		"num_ids" : 3253
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "17u0",
-		"num_ids" : 28
-	},
-	{
-		"concat(term_key)" : "justice",
-		"decade" : "1800",
-		"num_ids" : 227
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1500",
-		"num_ids" : 447
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1510",
-		"num_ids" : 574
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1520",
-		"num_ids" : 700
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1530",
-		"num_ids" : 1015
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1540",
-		"num_ids" : 1033
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1550",
-		"num_ids" : 1138
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1560",
-		"num_ids" : 1196
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1570",
-		"num_ids" : 1076
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1580",
-		"num_ids" : 1571
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1590",
-		"num_ids" : 2120
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "15u0",
-		"num_ids" : 40
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1600",
-		"num_ids" : 2544
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1610",
-		"num_ids" : 2622
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1620",
-		"num_ids" : 3340
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1630",
-		"num_ids" : 2576
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1640",
-		"num_ids" : 7286
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1650",
-		"num_ids" : 3745
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1660",
-		"num_ids" : 4991
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1670",
-		"num_ids" : 3368
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1680",
-		"num_ids" : 8606
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1690",
-		"num_ids" : 8272
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "16u0",
-		"num_ids" : 113
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1700",
-		"num_ids" : 6019
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1710",
-		"num_ids" : 6399
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1720",
-		"num_ids" : 4250
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1730",
-		"num_ids" : 4594
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1740",
-		"num_ids" : 4976
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1750",
-		"num_ids" : 5456
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1760",
-		"num_ids" : 5909
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1770",
-		"num_ids" : 6352
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1780",
-		"num_ids" : 10398
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1790",
-		"num_ids" : 9188
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "17u0",
-		"num_ids" : 245
-	},
-	{
-		"concat(term_key)" : "king, queen",
-		"decade" : "1800",
-		"num_ids" : 650
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1500",
-		"num_ids" : 58
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1510",
-		"num_ids" : 69
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1520",
-		"num_ids" : 370
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1530",
-		"num_ids" : 177
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1540",
-		"num_ids" : 160
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1550",
-		"num_ids" : 229
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1560",
-		"num_ids" : 175
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1570",
-		"num_ids" : 238
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1580",
-		"num_ids" : 203
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1590",
-		"num_ids" : 269
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "15u0",
-		"num_ids" : 8
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1600",
-		"num_ids" : 414
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1610",
-		"num_ids" : 399
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1620",
-		"num_ids" : 471
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1630",
-		"num_ids" : 398
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1640",
-		"num_ids" : 926
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1650",
-		"num_ids" : 1301
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1660",
-		"num_ids" : 999
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1670",
-		"num_ids" : 890
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1680",
-		"num_ids" : 1330
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1690",
-		"num_ids" : 904
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "16u0",
-		"num_ids" : 29
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1700",
-		"num_ids" : 1143
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1710",
-		"num_ids" : 1429
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1720",
-		"num_ids" : 1402
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1730",
-		"num_ids" : 1339
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1740",
-		"num_ids" : 1212
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1750",
-		"num_ids" : 1548
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1760",
-		"num_ids" : 1513
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1770",
-		"num_ids" : 1842
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1780",
-		"num_ids" : 2565
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1790",
-		"num_ids" : 9079
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "17u0",
-		"num_ids" : 61
-	},
-	{
-		"concat(term_key)" : "law",
-		"decade" : "1800",
-		"num_ids" : 903
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1500",
-		"num_ids" : 12
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1510",
-		"num_ids" : 14
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1530",
-		"num_ids" : 12
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1540",
-		"num_ids" : 21
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1550",
-		"num_ids" : 46
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1560",
-		"num_ids" : 46
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1570",
-		"num_ids" : 62
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1580",
-		"num_ids" : 77
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1590",
-		"num_ids" : 51
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1600",
-		"num_ids" : 75
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1610",
-		"num_ids" : 243
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1620",
-		"num_ids" : 390
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1630",
-		"num_ids" : 315
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1640",
-		"num_ids" : 311
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1650",
-		"num_ids" : 588
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1660",
-		"num_ids" : 444
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1670",
-		"num_ids" : 269
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1680",
-		"num_ids" : 527
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1690",
-		"num_ids" : 301
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "16u0",
-		"num_ids" : 11
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1700",
-		"num_ids" : 430
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1710",
-		"num_ids" : 458
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1720",
-		"num_ids" : 531
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1730",
-		"num_ids" : 250
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1740",
-		"num_ids" : 280
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1750",
-		"num_ids" : 295
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1760",
-		"num_ids" : 248
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1770",
-		"num_ids" : 359
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1780",
-		"num_ids" : 819
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1790",
-		"num_ids" : 1061
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "17u0",
-		"num_ids" : 18
-	},
-	{
-		"concat(term_key)" : "monarchy",
-		"decade" : "1800",
-		"num_ids" : 40
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1500",
-		"num_ids" : 51
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1510",
-		"num_ids" : 40
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1520",
-		"num_ids" : 499
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1530",
-		"num_ids" : 202
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1540",
-		"num_ids" : 285
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1550",
-		"num_ids" : 186
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1560",
-		"num_ids" : 286
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1570",
-		"num_ids" : 272
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1580",
-		"num_ids" : 515
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1590",
-		"num_ids" : 399
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "15u0",
-		"num_ids" : 28
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1600",
-		"num_ids" : 395
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1610",
-		"num_ids" : 298
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1620",
-		"num_ids" : 422
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1630",
-		"num_ids" : 381
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1640",
-		"num_ids" : 2632
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1650",
-		"num_ids" : 4290
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1660",
-		"num_ids" : 2897
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1670",
-		"num_ids" : 1751
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1680",
-		"num_ids" : 2447
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1690",
-		"num_ids" : 3025
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "16u0",
-		"num_ids" : 21
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1700",
-		"num_ids" : 2685
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1710",
-		"num_ids" : 3182
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1720",
-		"num_ids" : 2851
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1730",
-		"num_ids" : 2660
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1740",
-		"num_ids" : 4188
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1750",
-		"num_ids" : 4755
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1760",
-		"num_ids" : 3718
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1770",
-		"num_ids" : 4422
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1780",
-		"num_ids" : 8769
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1790",
-		"num_ids" : 19022
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "17u0",
-		"num_ids" : 85
-	},
-	{
-		"concat(term_key)" : "nation, people",
-		"decade" : "1800",
-		"num_ids" : 1019
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1500",
-		"num_ids" : 182
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1510",
-		"num_ids" : 124
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1520",
-		"num_ids" : 54
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1530",
-		"num_ids" : 18
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1540",
-		"num_ids" : 13
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1550",
-		"num_ids" : 169
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1560",
-		"num_ids" : 139
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1570",
-		"num_ids" : 196
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1580",
-		"num_ids" : 241
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1590",
-		"num_ids" : 145
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "15u0",
-		"num_ids" : 6
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1600",
-		"num_ids" : 174
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1610",
-		"num_ids" : 196
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1620",
-		"num_ids" : 203
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1630",
-		"num_ids" : 265
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1640",
-		"num_ids" : 170
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1650",
-		"num_ids" : 369
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1660",
-		"num_ids" : 405
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1670",
-		"num_ids" : 423
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1680",
-		"num_ids" : 350
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1690",
-		"num_ids" : 354
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "16u0",
-		"num_ids" : 15
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1700",
-		"num_ids" : 280
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1710",
-		"num_ids" : 203
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1720",
-		"num_ids" : 444
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1730",
-		"num_ids" : 667
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1740",
-		"num_ids" : 701
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1750",
-		"num_ids" : 804
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1760",
-		"num_ids" : 726
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1770",
-		"num_ids" : 982
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1780",
-		"num_ids" : 1251
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1790",
-		"num_ids" : 1850
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "17u0",
-		"num_ids" : 24
-	},
-	{
-		"concat(term_key)" : "philosophy",
-		"decade" : "1800",
-		"num_ids" : 250
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1500",
-		"num_ids" : 38
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1510",
-		"num_ids" : 14
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1520",
-		"num_ids" : 37
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1530",
-		"num_ids" : 33
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1540",
-		"num_ids" : 158
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1550",
-		"num_ids" : 265
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1560",
-		"num_ids" : 151
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1570",
-		"num_ids" : 281
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1580",
-		"num_ids" : 324
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1590",
-		"num_ids" : 213
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "15u0",
-		"num_ids" : 3
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1600",
-		"num_ids" : 507
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1610",
-		"num_ids" : 405
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1620",
-		"num_ids" : 339
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1630",
-		"num_ids" : 315
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1640",
-		"num_ids" : 489
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1650",
-		"num_ids" : 1594
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1660",
-		"num_ids" : 349
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1670",
-		"num_ids" : 357
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1680",
-		"num_ids" : 441
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1690",
-		"num_ids" : 214
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "16u0",
-		"num_ids" : 16
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1700",
-		"num_ids" : 269
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1710",
-		"num_ids" : 196
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1720",
-		"num_ids" : 315
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1730",
-		"num_ids" : 301
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1740",
-		"num_ids" : 285
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1750",
-		"num_ids" : 279
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1760",
-		"num_ids" : 305
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1770",
-		"num_ids" : 379
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1780",
-		"num_ids" : 2011
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1790",
-		"num_ids" : 3422
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "17u0",
-		"num_ids" : 17
-	},
-	{
-		"concat(term_key)" : "republic",
-		"decade" : "1800",
-		"num_ids" : 273
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1540",
-		"num_ids" : 9
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1550",
-		"num_ids" : 9
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1580",
-		"num_ids" : 3
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1610",
-		"num_ids" : 3
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1620",
-		"num_ids" : 2
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1630",
-		"num_ids" : 12
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1640",
-		"num_ids" : 81
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1650",
-		"num_ids" : 105
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1660",
-		"num_ids" : 3
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1670",
-		"num_ids" : 159
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1680",
-		"num_ids" : 396
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1690",
-		"num_ids" : 602
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1700",
-		"num_ids" : 618
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1710",
-		"num_ids" : 999
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1720",
-		"num_ids" : 502
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1730",
-		"num_ids" : 191
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1740",
-		"num_ids" : 650
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1750",
-		"num_ids" : 467
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1760",
-		"num_ids" : 599
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1770",
-		"num_ids" : 968
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1780",
-		"num_ids" : 2295
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1790",
-		"num_ids" : 7871
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "17u0",
-		"num_ids" : 22
-	},
-	{
-		"concat(term_key)" : "revolution",
-		"decade" : "1800",
-		"num_ids" : 453
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1500",
-		"num_ids" : 194
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1510",
-		"num_ids" : 314
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1520",
-		"num_ids" : 1441
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1530",
-		"num_ids" : 748
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1540",
-		"num_ids" : 675
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1550",
-		"num_ids" : 1025
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1560",
-		"num_ids" : 914
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1570",
-		"num_ids" : 1375
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1580",
-		"num_ids" : 1768
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1590",
-		"num_ids" : 1507
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "15u0",
-		"num_ids" : 42
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1600",
-		"num_ids" : 1495
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1610",
-		"num_ids" : 1649
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1620",
-		"num_ids" : 1370
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1630",
-		"num_ids" : 1255
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1640",
-		"num_ids" : 6222
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1650",
-		"num_ids" : 2664
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1660",
-		"num_ids" : 2189
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1670",
-		"num_ids" : 2052
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1680",
-		"num_ids" : 3796
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1690",
-		"num_ids" : 2809
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "16u0",
-		"num_ids" : 51
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1700",
-		"num_ids" : 4676
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1710",
-		"num_ids" : 4577
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1720",
-		"num_ids" : 3732
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1730",
-		"num_ids" : 4538
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1740",
-		"num_ids" : 5451
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1750",
-		"num_ids" : 4845
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1760",
-		"num_ids" : 8123
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1770",
-		"num_ids" : 6075
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1780",
-		"num_ids" : 6427
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1790",
-		"num_ids" : 10940
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "17u0",
-		"num_ids" : 89
-	},
-	{
-		"concat(term_key)" : "right",
-		"decade" : "1800",
-		"num_ids" : 782
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1500",
-		"num_ids" : 32
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1510",
-		"num_ids" : 18
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1520",
-		"num_ids" : 61
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1530",
-		"num_ids" : 55
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1540",
-		"num_ids" : 72
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1550",
-		"num_ids" : 70
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1560",
-		"num_ids" : 99
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1570",
-		"num_ids" : 126
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1580",
-		"num_ids" : 106
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1590",
-		"num_ids" : 85
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "15u0",
-		"num_ids" : 2
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1600",
-		"num_ids" : 73
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1610",
-		"num_ids" : 80
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1620",
-		"num_ids" : 73
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1630",
-		"num_ids" : 106
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1640",
-		"num_ids" : 179
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1650",
-		"num_ids" : 247
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1660",
-		"num_ids" : 312
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1670",
-		"num_ids" : 270
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1680",
-		"num_ids" : 205
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1690",
-		"num_ids" : 271
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "16u0",
-		"num_ids" : 3
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1700",
-		"num_ids" : 145
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1710",
-		"num_ids" : 266
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1720",
-		"num_ids" : 385
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1730",
-		"num_ids" : 316
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1740",
-		"num_ids" : 301
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1750",
-		"num_ids" : 454
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1760",
-		"num_ids" : 399
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1770",
-		"num_ids" : 766
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1780",
-		"num_ids" : 845
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1790",
-		"num_ids" : 1269
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "17u0",
-		"num_ids" : 12
-	},
-	{
-		"concat(term_key)" : "science",
-		"decade" : "1800",
-		"num_ids" : 247
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1500",
-		"num_ids" : 14
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1510",
-		"num_ids" : 2
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1520",
-		"num_ids" : 30
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1530",
-		"num_ids" : 38
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1540",
-		"num_ids" : 152
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1550",
-		"num_ids" : 161
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1560",
-		"num_ids" : 102
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1570",
-		"num_ids" : 278
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1580",
-		"num_ids" : 300
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1590",
-		"num_ids" : 383
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "15u0",
-		"num_ids" : 4
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1600",
-		"num_ids" : 510
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1610",
-		"num_ids" : 503
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1620",
-		"num_ids" : 786
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1630",
-		"num_ids" : 619
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1640",
-		"num_ids" : 2190
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1650",
-		"num_ids" : 1851
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1660",
-		"num_ids" : 1235
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1670",
-		"num_ids" : 2129
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1680",
-		"num_ids" : 2924
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1690",
-		"num_ids" : 2505
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "16u0",
-		"num_ids" : 33
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1700",
-		"num_ids" : 2882
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1710",
-		"num_ids" : 3510
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1720",
-		"num_ids" : 2688
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1730",
-		"num_ids" : 3176
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1740",
-		"num_ids" : 3449
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1750",
-		"num_ids" : 3549
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1760",
-		"num_ids" : 3325
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1770",
-		"num_ids" : 7055
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1780",
-		"num_ids" : 15811
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1790",
-		"num_ids" : 21960
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "17u0",
-		"num_ids" : 69
-	},
-	{
-		"concat(term_key)" : "state",
-		"decade" : "1800",
-		"num_ids" : 2371
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1500",
-		"num_ids" : 6
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1510",
-		"num_ids" : 11
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1520",
-		"num_ids" : 95
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1530",
-		"num_ids" : 46
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1540",
-		"num_ids" : 16
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1550",
-		"num_ids" : 27
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1560",
-		"num_ids" : 23
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1570",
-		"num_ids" : 14
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1580",
-		"num_ids" : 21
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1590",
-		"num_ids" : 23
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "15u0",
-		"num_ids" : 6
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1600",
-		"num_ids" : 8
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1610",
-		"num_ids" : 30
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1620",
-		"num_ids" : 14
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1630",
-		"num_ids" : 20
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1640",
-		"num_ids" : 107
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1650",
-		"num_ids" : 83
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1660",
-		"num_ids" : 32
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1670",
-		"num_ids" : 61
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1680",
-		"num_ids" : 38
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1690",
-		"num_ids" : 62
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1700",
-		"num_ids" : 24
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1710",
-		"num_ids" : 43
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1720",
-		"num_ids" : 11
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1730",
-		"num_ids" : 31
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1740",
-		"num_ids" : 49
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1750",
-		"num_ids" : 47
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1760",
-		"num_ids" : 30
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1770",
-		"num_ids" : 34
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1780",
-		"num_ids" : 88
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "1790",
-		"num_ids" : 180
-	},
-	{
-		"concat(term_key)" : "violence",
-		"decade" : "17u0",
-		"num_ids" : 2
-	}
-]
+term,term_key,language,decade,num_ids
+aufklaerung,Enlightenment,German,1780,3
+bevolking,"nation, people",Dutch,1660,1
+bevolking,"nation, people",Dutch,1700,6
+bevolking,"nation, people",Dutch,1720,3
+ciencia,science,Spanish,1590,4
+ciencia,science,Spanish,1600,1
+ciencia,science,Spanish,1610,2
+ciencia,science,Spanish,1640,4
+ciencia,science,Spanish,1660,7
+ciencia,science,Spanish,1690,8
+ciencia,science,Spanish,1700,1
+ciencia,science,Spanish,1720,6
+ciencia,science,Spanish,1740,5
+ciencia,science,Spanish,1750,2
+ciencia,science,Spanish,1760,2
+ciencia,science,Spanish,1770,7
+ciencia,science,Spanish,1780,2
+ciencia,science,Spanish,1790,21
+ciencia,science,Spanish,1800,8
+ciudadano,"nation, people",Spanish,1570,6
+ciudadano,"nation, people",Spanish,1580,1
+ciudadano,"nation, people",Spanish,1600,2
+ciudadano,"nation, people",Spanish,1610,1
+ciudadano,"nation, people",Spanish,1630,1
+ciudadano,"nation, people",Spanish,1640,1
+ciudadano,"nation, people",Spanish,1650,2
+ciudadano,"nation, people",Spanish,1660,2
+ciudadano,"nation, people",Spanish,1720,1
+ciudadano,"nation, people",Spanish,1780,1
+ciudadano,"nation, people",Spanish,1790,9
+ciudadano,"nation, people",Spanish,1800,1
+civitas,state,Latin,1560,3
+civitas,state,Latin,1570,1
+civitas,state,Latin,1580,3
+civitas,state,Latin,1610,9
+civitas,state,Latin,1620,2
+civitas,state,Latin,1630,17
+civitas,state,Latin,1640,9
+civitas,state,Latin,1650,11
+civitas,state,Latin,1660,16
+civitas,state,Latin,1670,8
+civitas,state,Latin,1690,2
+civitas,state,Latin,1700,1
+civitas,state,Latin,1710,6
+civitas,state,Latin,1720,2
+civitas,state,Latin,1730,6
+civitas,state,Latin,1740,5
+civitas,state,Latin,1750,1
+civitas,state,Latin,1760,1
+civitas,state,Latin,1770,2
+civitat,state,Latin,1630,1
+civitat,state,Latin,1700,1
+civitat,state,Latin,1760,1
+commonwealth,republic,English,1540,1
+commonwealth,republic,English,1560,4
+commonwealth,republic,English,1570,1
+commonwealth,republic,English,1580,2
+commonwealth,republic,English,1590,12
+commonwealth,republic,English,1600,22
+commonwealth,republic,English,1610,15
+commonwealth,republic,English,1620,12
+commonwealth,republic,English,1630,31
+commonwealth,republic,English,1640,142
+commonwealth,republic,English,1650,1206
+commonwealth,republic,English,1660,81
+commonwealth,republic,English,1670,1
+commonwealth,republic,English,1680,24
+commonwealth,republic,English,1690,16
+commonwealth,republic,English,1700,19
+commonwealth,republic,English,1710,13
+commonwealth,republic,English,1720,4
+commonwealth,republic,English,1730,40
+commonwealth,republic,English,1740,38
+commonwealth,republic,English,1750,14
+commonwealth,republic,English,1760,25
+commonwealth,republic,English,1770,158
+commonwealth,republic,English,1780,1703
+commonwealth,republic,English,1790,1777
+commonwealth,republic,English,17u0,4
+commonwealth,republic,English,1800,165
+communauté,republic,French,1690,1
+communauté,republic,French,1700,1
+communauté,republic,French,1710,2
+communauté,republic,French,1720,2
+communauté,republic,French,1740,4
+communauté,republic,French,1750,1
+communauté,republic,French,1760,1
+communauté,republic,French,1770,4
+communauté,republic,French,1780,3
+confederazione,republic,Italian,1660,1
+confederazione,republic,Italian,1730,1
+confederazione,republic,Italian,1760,2
+confederazione,republic,Italian,1790,4
+derecho,law,Spanish,1510,1
+derecho,right,Spanish,1510,1
+derecho,law,Spanish,1520,2
+derecho,right,Spanish,1520,2
+derecho,law,Spanish,1540,3
+derecho,right,Spanish,1540,3
+derecho,law,Spanish,1550,10
+derecho,right,Spanish,1550,10
+derecho,law,Spanish,1560,2
+derecho,right,Spanish,1560,2
+derecho,law,Spanish,1570,4
+derecho,right,Spanish,1570,4
+derecho,law,Spanish,1580,13
+derecho,right,Spanish,1580,13
+derecho,law,Spanish,1590,10
+derecho,right,Spanish,1590,10
+derecho,law,Spanish,1600,19
+derecho,right,Spanish,1600,19
+derecho,law,Spanish,1610,17
+derecho,right,Spanish,1610,17
+derecho,law,Spanish,1620,20
+derecho,right,Spanish,1620,20
+derecho,law,Spanish,1630,26
+derecho,right,Spanish,1630,26
+derecho,law,Spanish,1640,28
+derecho,right,Spanish,1640,28
+derecho,law,Spanish,1650,24
+derecho,right,Spanish,1650,24
+derecho,law,Spanish,1660,15
+derecho,right,Spanish,1660,15
+derecho,law,Spanish,1670,14
+derecho,right,Spanish,1670,14
+derecho,law,Spanish,1680,5
+derecho,right,Spanish,1680,5
+derecho,law,Spanish,1690,7
+derecho,right,Spanish,1690,7
+derecho,law,Spanish,16u0,2
+derecho,right,Spanish,16u0,2
+derecho,law,Spanish,1700,14
+derecho,right,Spanish,1700,14
+derecho,law,Spanish,1710,17
+derecho,right,Spanish,1710,17
+derecho,law,Spanish,1720,18
+derecho,right,Spanish,1720,18
+derecho,law,Spanish,1730,25
+derecho,right,Spanish,1730,25
+derecho,law,Spanish,1740,24
+derecho,right,Spanish,1740,24
+derecho,law,Spanish,1750,22
+derecho,right,Spanish,1750,22
+derecho,law,Spanish,1760,21
+derecho,right,Spanish,1760,21
+derecho,law,Spanish,1770,28
+derecho,right,Spanish,1770,28
+derecho,law,Spanish,1780,44
+derecho,right,Spanish,1780,44
+derecho,law,Spanish,1790,28
+derecho,right,Spanish,1790,28
+derecho,law,Spanish,17u0,5
+derecho,right,Spanish,17u0,5
+derecho,law,Spanish,1800,3
+derecho,right,Spanish,1800,3
+derechos,right,Spanish,1530,1
+derechos,right,Spanish,1540,4
+derechos,right,Spanish,1560,2
+derechos,right,Spanish,1600,5
+derechos,right,Spanish,1610,2
+derechos,right,Spanish,1620,3
+derechos,right,Spanish,1640,6
+derechos,right,Spanish,1650,6
+derechos,right,Spanish,1660,8
+derechos,right,Spanish,1670,4
+derechos,right,Spanish,1680,2
+derechos,right,Spanish,1690,3
+derechos,right,Spanish,16u0,2
+derechos,right,Spanish,1700,2
+derechos,right,Spanish,1720,13
+derechos,right,Spanish,1730,6
+derechos,right,Spanish,1740,38
+derechos,right,Spanish,1750,12
+derechos,right,Spanish,1760,18
+derechos,right,Spanish,1770,44
+derechos,right,Spanish,1780,50
+derechos,right,Spanish,1790,13
+derechos,right,Spanish,1800,3
+diritti,right,Italian,1510,1
+diritti,right,Italian,1570,11
+diritti,right,Italian,1610,2
+diritti,right,Italian,1620,1
+diritti,right,Italian,1670,1
+diritti,right,Italian,1700,1
+diritti,right,Italian,1710,5
+diritti,right,Italian,1720,2
+diritti,right,Italian,1740,4
+diritti,right,Italian,1750,2
+diritti,right,Italian,1760,4
+diritti,right,Italian,1770,11
+diritti,right,Italian,1780,6
+diritti,right,Italian,1790,49
+diritti,right,Italian,17u0,2
+diritto,law,Italian,1560,4
+diritto,right,Italian,1560,4
+diritto,law,Italian,1590,15
+diritto,right,Italian,1590,15
+diritto,law,Italian,1600,1
+diritto,right,Italian,1600,1
+diritto,law,Italian,1620,1
+diritto,right,Italian,1620,1
+diritto,law,Italian,1640,2
+diritto,right,Italian,1640,2
+diritto,law,Italian,1650,3
+diritto,right,Italian,1650,3
+diritto,law,Italian,1660,6
+diritto,right,Italian,1660,6
+diritto,law,Italian,1670,5
+diritto,right,Italian,1670,5
+diritto,law,Italian,1680,1
+diritto,right,Italian,1680,1
+diritto,law,Italian,1690,5
+diritto,right,Italian,1690,5
+diritto,law,Italian,1710,4
+diritto,right,Italian,1710,4
+diritto,law,Italian,1720,9
+diritto,right,Italian,1720,9
+diritto,law,Italian,1730,3
+diritto,right,Italian,1730,3
+diritto,law,Italian,1740,5
+diritto,right,Italian,1740,5
+diritto,law,Italian,1750,13
+diritto,right,Italian,1750,13
+diritto,law,Italian,1760,33
+diritto,right,Italian,1760,33
+diritto,law,Italian,1770,18
+diritto,right,Italian,1770,18
+diritto,law,Italian,1780,45
+diritto,right,Italian,1780,45
+diritto,law,Italian,1790,32
+diritto,right,Italian,1790,32
+diritto,law,Italian,17u0,2
+diritto,right,Italian,17u0,2
+diritto,law,Italian,1800,5
+diritto,right,Italian,1800,5
+droit,right,French,1500,8
+droit,right,French,1510,5
+droit,right,French,1520,4
+droit,right,French,1540,4
+droit,right,French,1550,2
+droit,right,French,1560,4
+droit,right,French,1570,19
+droit,right,French,1580,19
+droit,right,French,1590,12
+droit,right,French,1600,39
+droit,right,French,1610,49
+droit,right,French,1620,13
+droit,right,French,1630,10
+droit,right,French,1640,36
+droit,right,French,1650,26
+droit,right,French,1660,49
+droit,right,French,1670,82
+droit,right,French,1680,147
+droit,right,French,1690,116
+droit,right,French,16u0,2
+droit,right,French,1700,219
+droit,right,French,1710,222
+droit,right,French,1720,435
+droit,right,French,1730,670
+droit,right,French,1740,433
+droit,right,French,1750,829
+droit,right,French,1760,561
+droit,right,French,1770,919
+droit,right,French,1780,1053
+droit,right,French,1790,1128
+droit,right,French,17u0,15
+droit,right,French,1800,22
+droite,right,French,1560,7
+droite,right,French,1610,1
+droite,right,French,1640,7
+droite,right,French,1650,1
+droite,right,French,1680,2
+droite,right,French,1690,2
+droite,right,French,1700,3
+droite,right,French,1750,6
+droite,right,French,1760,1
+droite,right,French,1770,1
+droite,right,French,1780,6
+droite,right,French,1790,15
+droite,right,French,1800,1
+estado,state,Spanish,1520,1
+estado,state,Spanish,1550,4
+estado,state,Spanish,1560,8
+estado,state,Spanish,1570,2
+estado,state,Spanish,1580,23
+estado,state,Spanish,1590,21
+estado,state,Spanish,15u0,2
+estado,state,Spanish,1600,20
+estado,state,Spanish,1610,43
+estado,state,Spanish,1620,43
+estado,state,Spanish,1630,37
+estado,state,Spanish,1640,37
+estado,state,Spanish,1650,22
+estado,state,Spanish,1660,22
+estado,state,Spanish,1670,17
+estado,state,Spanish,1680,18
+estado,state,Spanish,1690,20
+estado,state,Spanish,16u0,6
+estado,state,Spanish,1700,16
+estado,state,Spanish,1710,16
+estado,state,Spanish,1720,24
+estado,state,Spanish,1730,22
+estado,state,Spanish,1740,33
+estado,state,Spanish,1750,28
+estado,state,Spanish,1760,39
+estado,state,Spanish,1770,62
+estado,state,Spanish,1780,105
+estado,state,Spanish,1790,111
+estado,state,Spanish,17u0,17
+estado,state,Spanish,1800,11
+estados,state,Spanish,1520,3
+estados,state,Spanish,1530,1
+estados,state,Spanish,1540,3
+estados,state,Spanish,1550,8
+estados,state,Spanish,1560,5
+estados,state,Spanish,1570,2
+estados,state,Spanish,1580,3
+estados,state,Spanish,1590,25
+estados,state,Spanish,1600,22
+estados,state,Spanish,1610,20
+estados,state,Spanish,1620,60
+estados,state,Spanish,1630,28
+estados,state,Spanish,1640,18
+estados,state,Spanish,1650,9
+estados,state,Spanish,1660,12
+estados,state,Spanish,1670,11
+estados,state,Spanish,1680,2
+estados,state,Spanish,1690,1
+estados,state,Spanish,16u0,1
+estados,state,Spanish,1700,10
+estados,state,Spanish,1710,21
+estados,state,Spanish,1720,6
+estados,state,Spanish,1730,2
+estados,state,Spanish,1740,32
+estados,state,Spanish,1750,8
+estados,state,Spanish,1760,4
+estados,state,Spanish,1770,15
+estados,state,Spanish,1780,19
+estados,state,Spanish,1790,48
+estados,state,Spanish,1800,6
+état,state,French,1640,2
+état,state,French,1680,4
+état,state,French,1690,26
+état,state,French,1700,36
+état,state,French,1710,4
+état,state,French,1720,16
+etat,state,French,1730,12
+état,state,French,1740,12
+état,state,French,1750,36
+état,state,French,1760,22
+état,state,French,1770,20
+état,state,French,1780,126
+état,state,French,1790,100
+états,state,French,1500,2
+états,state,French,1560,8
+états,state,French,1570,8
+états,state,French,1580,12
+états,state,French,1610,12
+états,state,French,1620,2
+états,state,French,1630,6
+états,state,French,1640,14
+états,state,French,1650,10
+états,state,French,1660,14
+états,state,French,1670,58
+états,state,French,1680,138
+états,state,French,1690,110
+états,state,French,1700,136
+états,state,French,1710,230
+états,state,French,1720,156
+états,state,French,1730,88
+états,state,French,1740,130
+états,state,French,1750,182
+états,state,French,1760,158
+états,state,French,1770,202
+états,state,French,1780,1918
+états,state,French,1790,566
+états,state,French,17u0,4
+états,state,French,1800,14
+filosofia,philosophy,Italian,1500,1
+filosofía,philosophy,Spanish,1500,1
+filosofia,philosophy,Italian,1520,1
+filosofía,philosophy,Spanish,1520,1
+filosofia,philosophy,Italian,1550,63
+filosofía,philosophy,Spanish,1550,63
+filosofia,philosophy,Italian,1560,46
+filosofía,philosophy,Spanish,1560,46
+filosofia,philosophy,Italian,1570,22
+filosofía,philosophy,Spanish,1570,22
+filosofia,philosophy,Italian,1580,37
+filosofía,philosophy,Spanish,1580,37
+filosofia,philosophy,Italian,1590,3
+filosofía,philosophy,Spanish,1590,3
+filosofia,philosophy,Italian,1600,15
+filosofía,philosophy,Spanish,1600,15
+filosofia,philosophy,Italian,1610,25
+filosofía,philosophy,Spanish,1610,25
+filosofia,philosophy,Italian,1620,3
+filosofía,philosophy,Spanish,1620,3
+filosofia,philosophy,Italian,1630,9
+filosofía,philosophy,Spanish,1630,9
+filosofia,philosophy,Italian,1640,14
+filosofía,philosophy,Spanish,1640,14
+filosofia,philosophy,Italian,1650,3
+filosofía,philosophy,Spanish,1650,3
+filosofia,philosophy,Italian,1660,2
+filosofía,philosophy,Spanish,1660,2
+filosofia,philosophy,Italian,1670,27
+filosofía,philosophy,Spanish,1670,27
+filosofia,philosophy,Italian,1680,8
+filosofía,philosophy,Spanish,1680,8
+filosofia,philosophy,Italian,1690,23
+filosofía,philosophy,Spanish,1690,23
+filosofia,philosophy,Italian,16u0,2
+filosofía,philosophy,Spanish,16u0,2
+filosofia,philosophy,Italian,1700,4
+filosofía,philosophy,Spanish,1700,4
+filosofia,philosophy,Italian,1710,4
+filosofía,philosophy,Spanish,1710,4
+filosofia,philosophy,Italian,1720,15
+filosofía,philosophy,Spanish,1720,15
+filosofia,philosophy,Italian,1730,31
+filosofía,philosophy,Spanish,1730,31
+filosofia,philosophy,Italian,1740,20
+filosofía,philosophy,Spanish,1740,20
+filosofia,philosophy,Italian,1750,28
+filosofía,philosophy,Spanish,1750,28
+filosofia,philosophy,Italian,1760,32
+filosofía,philosophy,Spanish,1760,32
+filosofia,philosophy,Italian,1770,52
+filosofía,philosophy,Spanish,1770,52
+filosofia,philosophy,Italian,1780,56
+filosofía,philosophy,Spanish,1780,56
+filosofia,philosophy,Italian,1790,43
+filosofía,philosophy,Spanish,1790,43
+filosofia,philosophy,Italian,1800,7
+filosofía,philosophy,Spanish,1800,7
+filosofie,philosophy,Dutch,1570,6
+filosofie,philosophy,Dutch,1600,2
+filosofie,philosophy,Dutch,1690,3
+filosofie,philosophy,Dutch,1740,1
+filosofie,philosophy,Dutch,1770,2
+gemeenschap,"nation, people",Dutch,1610,1
+gemeenschap,"nation, people",Dutch,1620,11
+gemeenschap,"nation, people",Dutch,1640,2
+gemeenschap,"nation, people",Dutch,1650,5
+gemeenschap,"nation, people",Dutch,1670,1
+gemeenschap,"nation, people",Dutch,1680,8
+gemeenschap,"nation, people",Dutch,1690,1
+gemeenschap,"nation, people",Dutch,1700,1
+gemeenschap,"nation, people",Dutch,1710,1
+gemeenschap,"nation, people",Dutch,1750,1
+gemeenschap,"nation, people",Dutch,1770,2
+gemeenschap,"nation, people",Dutch,1790,1
+gens,"nation, people",French,1500,15
+gens,"nation, people",French,1510,5
+gens,"nation, people",French,1520,11
+gens,"nation, people",French,1530,10
+gens,"nation, people",French,1540,21
+gens,"nation, people",French,1550,20
+gens,"nation, people",French,1560,28
+gens,"nation, people",French,1570,28
+gens,"nation, people",French,1580,17
+gens,"nation, people",French,1590,11
+gens,"nation, people",French,15u0,2
+gens,"nation, people",French,1600,9
+gens,"nation, people",French,1610,63
+gens,"nation, people",French,1620,41
+gens,"nation, people",French,1630,23
+gens,"nation, people",French,1640,46
+gens,"nation, people",French,1650,33
+gens,"nation, people",French,1660,32
+gens,"nation, people",French,1670,22
+gens,"nation, people",French,1680,75
+gens,"nation, people",French,1690,24
+gens,"nation, people",French,16u0,1
+gens,"nation, people",French,1700,64
+gens,"nation, people",French,1710,77
+gens,"nation, people",French,1720,122
+gens,"nation, people",French,1730,86
+gens,"nation, people",French,1740,79
+gens,"nation, people",French,1750,203
+gens,"nation, people",French,1760,284
+gens,"nation, people",French,1770,397
+gens,"nation, people",French,1780,586
+gens,"nation, people",French,1790,544
+gens,"nation, people",French,17u0,8
+gens,"nation, people",French,1800,16
+gente,"nation, people",Spanish,1500,7
+gente,"nation, people",Spanish,1520,3
+gente,"nation, people",Spanish,1530,3
+gente,"nation, people",Spanish,1550,2
+gente,"nation, people",Spanish,1560,11
+gente,"nation, people",Spanish,1570,5
+gente,"nation, people",Spanish,1580,20
+gente,"nation, people",Spanish,1590,18
+gente,"nation, people",Spanish,1600,16
+gente,"nation, people",Spanish,1610,9
+gente,"nation, people",Spanish,1620,25
+gente,"nation, people",Spanish,1630,18
+gente,"nation, people",Spanish,1640,5
+gente,"nation, people",Spanish,1650,12
+gente,"nation, people",Spanish,1660,15
+gente,"nation, people",Spanish,1670,13
+gente,"nation, people",Spanish,1680,9
+gente,"nation, people",Spanish,1690,5
+gente,"nation, people",Spanish,1700,17
+gente,"nation, people",Spanish,1710,19
+gente,"nation, people",Spanish,1720,16
+gente,"nation, people",Spanish,1730,9
+gente,"nation, people",Spanish,1740,13
+gente,"nation, people",Spanish,1750,22
+gente,"nation, people",Spanish,1760,17
+gente,"nation, people",Spanish,1770,12
+gente,"nation, people",Spanish,1780,14
+gente,"nation, people",Spanish,1790,27
+gente,"nation, people",Spanish,1800,1
+gerecht,justice,German,1510,13
+gerecht,justice,German,1520,23
+gerecht,justice,German,1530,19
+gerecht,justice,German,1540,14
+gerecht,justice,German,1550,36
+gerecht,justice,German,1560,1
+gerecht,justice,German,1570,4
+gerecht,justice,German,1580,2
+gerecht,justice,German,1590,1
+gerecht,justice,German,1600,2
+gerecht,justice,German,1610,1
+gerecht,justice,German,1650,3
+gerecht,justice,German,1660,1
+gerecht,justice,German,1690,2
+gerecht,justice,German,1700,3
+gerecht,justice,German,1710,2
+gerecht,justice,German,1720,1
+gerecht,justice,German,1740,2
+gerecht,justice,German,1750,1
+gerecht,justice,German,1760,4
+gerecht,justice,German,1790,1
+gerechtigheid,justice,Dutch,1770,3
+gerechtigheid,justice,Dutch,1780,1
+gerechtigkeit,justice,German,1510,2
+gerechtigkeit,justice,German,1520,7
+gerechtigkeit,justice,German,1530,20
+gerechtigkeit,justice,German,1540,2
+gerechtigkeit,justice,German,1550,66
+gerechtigkeit,justice,German,1560,12
+gerechtigkeit,justice,German,1570,6
+gerechtigkeit,justice,German,1580,3
+gerechtigkeit,justice,German,15u0,2
+gerechtigkeit,justice,German,1600,3
+gerechtigkeit,justice,German,1610,2
+gerechtigkeit,justice,German,1620,4
+gerechtigkeit,justice,German,1640,2
+gerechtigkeit,justice,German,1650,13
+gerechtigkeit,justice,German,1660,9
+gerechtigkeit,justice,German,1670,11
+gerechtigkeit,justice,German,1690,1
+gerechtigkeit,justice,German,1700,10
+gerechtigkeit,justice,German,1710,4
+gerechtigkeit,justice,German,1720,8
+gerechtigkeit,justice,German,1730,7
+gerechtigkeit,justice,German,1740,18
+gerechtigkeit,justice,German,1750,13
+gerechtigkeit,justice,German,1760,1
+gerechtigkeit,justice,German,1770,18
+gerechtigkeit,justice,German,1780,16
+gerechtigkeit,justice,German,1790,7
+gewalt,violence,German,1500,3
+gewalt,violence,German,1510,11
+gewalt,violence,German,1520,95
+gewalt,violence,German,1530,46
+gewalt,violence,German,1540,16
+gewalt,violence,German,1550,27
+gewalt,violence,German,1560,22
+gewalt,violence,German,1570,13
+gewalt,violence,German,1580,15
+gewalt,violence,German,1590,16
+gewalt,violence,German,15u0,6
+gewalt,violence,German,1600,3
+gewalt,violence,German,1610,16
+gewalt,violence,German,1620,12
+gewalt,violence,German,1630,12
+gewalt,violence,German,1640,3
+gewalt,violence,German,1660,3
+gewalt,violence,German,1670,10
+gewalt,violence,German,1680,4
+gewalt,violence,German,1690,13
+gewalt,violence,German,1700,16
+gewalt,violence,German,1710,13
+gewalt,violence,German,1720,9
+gewalt,violence,German,1730,4
+gewalt,violence,German,1740,17
+gewalt,violence,German,1750,16
+gewalt,violence,German,1760,10
+gewalt,violence,German,1770,6
+gewalt,violence,German,1780,16
+gewalt,violence,German,1790,20
+geweld,violence,Dutch,1700,2
+geweld,violence,Dutch,1750,1
+geweld,violence,Dutch,1780,10
+giudice,justice,Italian,1550,1
+giudice,justice,Italian,1560,4
+giudice,justice,Italian,1570,1
+giudice,justice,Italian,1580,1
+giudice,justice,Italian,1610,6
+giudice,justice,Italian,1620,2
+giudice,justice,Italian,1640,5
+giudice,justice,Italian,1660,1
+giudice,justice,Italian,1670,1
+giudice,justice,Italian,1680,3
+giudice,justice,Italian,1690,4
+giudice,justice,Italian,1700,1
+giudice,justice,Italian,1710,2
+giudice,justice,Italian,1730,2
+giudice,justice,Italian,1740,3
+giudice,justice,Italian,1750,6
+giudice,justice,Italian,1760,4
+giudice,justice,Italian,1770,1
+giudice,justice,Italian,1780,5
+giudice,justice,Italian,1790,6
+giustizia,justice,Italian,1570,4
+giustizia,justice,Italian,1580,1
+giustizia,justice,Italian,1590,1
+giustizia,justice,Italian,1610,1
+giustizia,justice,Italian,1630,2
+giustizia,justice,Italian,1670,3
+giustizia,justice,Italian,1690,4
+giustizia,justice,Italian,1700,6
+giustizia,justice,Italian,1710,8
+giustizia,justice,Italian,1720,3
+giustizia,justice,Italian,1730,4
+giustizia,justice,Italian,1740,5
+giustizia,justice,Italian,1750,7
+giustizia,justice,Italian,1760,14
+giustizia,justice,Italian,1770,12
+giustizia,justice,Italian,1780,19
+giustizia,justice,Italian,1790,19
+giustizia,justice,Italian,1800,3
+habitants,"nation, people",Spanish,1560,3
+habitants,"nation, people",Spanish,1590,1
+habitants,"nation, people",Spanish,1600,1
+habitants,"nation, people",Spanish,1610,4
+habitants,"nation, people",Spanish,1620,3
+habitants,"nation, people",Spanish,1630,1
+habitants,"nation, people",Spanish,1640,4
+habitants,"nation, people",Spanish,1650,4
+habitants,"nation, people",Spanish,1660,7
+habitants,"nation, people",Spanish,1670,5
+habitants,"nation, people",Spanish,1680,5
+habitants,"nation, people",Spanish,1690,4
+habitants,"nation, people",Spanish,1700,10
+habitants,"nation, people",Spanish,1710,21
+habitants,"nation, people",Spanish,1720,87
+habitants,"nation, people",Spanish,1730,64
+habitants,"nation, people",Spanish,1740,43
+habitants,"nation, people",Spanish,1750,46
+habitants,"nation, people",Spanish,1760,35
+habitants,"nation, people",Spanish,1770,68
+habitants,"nation, people",Spanish,1780,126
+habitants,"nation, people",Spanish,1790,90
+iura,right,Latin,1500,6
+iura,right,Latin,1510,4
+iura,right,Latin,1520,8
+iura,right,Latin,1530,12
+iura,right,Latin,1540,10
+iura,right,Latin,1550,20
+iura,right,Latin,1560,4
+iura,right,Latin,1570,5
+iura,right,Latin,1580,14
+iura,right,Latin,1590,3
+iura,right,Latin,15u0,1
+iura,right,Latin,1600,9
+iura,right,Latin,1610,9
+iura,right,Latin,1620,13
+iura,right,Latin,1630,1
+iura,right,Latin,1640,4
+iura,right,Latin,1650,16
+iura,right,Latin,1660,12
+iura,right,Latin,1670,1
+iura,right,Latin,1680,5
+iura,right,Latin,1700,2
+iura,right,Latin,1710,2
+iura,right,Latin,1720,6
+iura,right,Latin,1730,10
+iura,right,Latin,1750,6
+iura,right,Latin,1760,5
+iura,right,Latin,1770,3
+iura,right,Latin,1780,3
+iura,right,Latin,1790,1
+iura,right,Latin,17u0,1
+iure,right,Latin,1500,9
+iure,right,Latin,1510,33
+iure,right,Latin,1520,43
+iure,right,Latin,1530,65
+iure,right,Latin,1540,69
+iure,right,Latin,1550,91
+iure,right,Latin,1560,127
+iure,right,Latin,1570,165
+iure,right,Latin,1580,273
+iure,right,Latin,1590,160
+iure,right,Latin,15u0,5
+iure,right,Latin,1600,191
+iure,right,Latin,1610,194
+iure,right,Latin,1620,116
+iure,right,Latin,1630,88
+iure,right,Latin,1640,154
+iure,right,Latin,1650,81
+iure,right,Latin,1660,102
+iure,right,Latin,1670,55
+iure,right,Latin,1680,20
+iure,right,Latin,1690,24
+iure,right,Latin,16u0,2
+iure,right,Latin,1700,26
+iure,right,Latin,1710,47
+iure,right,Latin,1720,57
+iure,right,Latin,1730,105
+iure,right,Latin,1740,177
+iure,right,Latin,1750,113
+iure,right,Latin,1760,40
+iure,right,Latin,1770,66
+iure,right,Latin,1780,39
+iure,right,Latin,1790,30
+iure,right,Latin,17u0,1
+iure,right,Latin,1800,4
+iuris,right,Latin,1500,117
+iuris,right,Latin,1510,206
+iuris,right,Latin,1520,137
+iuris,right,Latin,1530,196
+iuris,right,Latin,1540,218
+iuris,right,Latin,1550,336
+iuris,right,Latin,1560,354
+iuris,right,Latin,1570,361
+iuris,right,Latin,1580,458
+iuris,right,Latin,1590,396
+iuris,right,Latin,15u0,3
+iuris,right,Latin,1600,349
+iuris,right,Latin,1610,317
+iuris,right,Latin,1620,245
+iuris,right,Latin,1630,149
+iuris,right,Latin,1640,145
+iuris,right,Latin,1650,182
+iuris,right,Latin,1660,187
+iuris,right,Latin,1670,105
+iuris,right,Latin,1680,67
+iuris,right,Latin,1690,51
+iuris,right,Latin,16u0,6
+iuris,right,Latin,1700,50
+iuris,right,Latin,1710,84
+iuris,right,Latin,1720,191
+iuris,right,Latin,1730,255
+iuris,right,Latin,1740,238
+iuris,right,Latin,1750,200
+iuris,right,Latin,1760,143
+iuris,right,Latin,1770,141
+iuris,right,Latin,1780,107
+iuris,right,Latin,1790,68
+iuris,right,Latin,17u0,2
+iuris,right,Latin,1800,4
+ius,right,Latin,1500,1
+ius,right,Latin,1510,3
+ius,right,Latin,1520,5
+ius,right,Latin,1530,8
+ius,right,Latin,1540,11
+ius,right,Latin,1550,16
+ius,right,Latin,1560,28
+ius,right,Latin,1570,35
+ius,right,Latin,1580,45
+ius,right,Latin,1590,27
+ius,right,Latin,15u0,1
+ius,right,Latin,1600,47
+ius,right,Latin,1610,35
+ius,right,Latin,1620,27
+ius,right,Latin,1630,46
+ius,right,Latin,1640,59
+ius,right,Latin,1650,39
+ius,right,Latin,1660,17
+ius,right,Latin,1670,10
+ius,right,Latin,1680,13
+ius,right,Latin,1690,6
+ius,right,Latin,1700,9
+ius,right,Latin,1710,12
+ius,right,Latin,1720,36
+ius,right,Latin,1730,31
+ius,right,Latin,1740,42
+ius,right,Latin,1750,24
+ius,right,Latin,1760,17
+ius,right,Latin,1770,19
+ius,right,Latin,1780,24
+ius,right,Latin,1790,8
+ius,right,Latin,17u0,1
+ius,right,Latin,1800,1
+juez,justice,Spanish,1590,1
+juez,justice,Spanish,1610,2
+juez,justice,Spanish,1630,3
+juez,justice,Spanish,1640,4
+juez,justice,Spanish,1650,5
+juez,justice,Spanish,1660,6
+juez,justice,Spanish,1670,3
+juez,justice,Spanish,1680,1
+juez,justice,Spanish,1690,7
+juez,justice,Spanish,1700,3
+juez,justice,Spanish,1710,3
+juez,justice,Spanish,1720,8
+juez,justice,Spanish,1730,5
+juez,justice,Spanish,1740,11
+juez,justice,Spanish,1750,8
+juez,justice,Spanish,1760,12
+juez,justice,Spanish,1770,76
+juez,justice,Spanish,1780,40
+juez,justice,Spanish,1790,39
+juez,justice,Spanish,17u0,5
+juez,justice,Spanish,1800,1
+justice,justice,English,1500,4
+justice,justice,French,1500,4
+justice,justice,English,1510,2
+justice,justice,French,1510,2
+justice,justice,English,1520,1
+justice,justice,French,1520,1
+justice,justice,English,1530,19
+justice,justice,French,1530,19
+justice,justice,English,1540,20
+justice,justice,French,1540,20
+justice,justice,English,1550,22
+justice,justice,French,1550,22
+justice,justice,English,1560,17
+justice,justice,French,1560,17
+justice,justice,English,1570,22
+justice,justice,French,1570,22
+justice,justice,English,1580,31
+justice,justice,French,1580,31
+justice,justice,English,1590,21
+justice,justice,French,1590,21
+justice,justice,English,15u0,1
+justice,justice,French,15u0,1
+justice,justice,English,1600,31
+justice,justice,French,1600,31
+justice,justice,English,1610,46
+justice,justice,French,1610,46
+justice,justice,English,1620,43
+justice,justice,French,1620,43
+justice,justice,English,1630,80
+justice,justice,French,1630,80
+justice,justice,English,1640,535
+justice,justice,French,1640,535
+justice,justice,English,1650,582
+justice,justice,French,1650,582
+justice,justice,English,1660,409
+justice,justice,French,1660,409
+justice,justice,English,1670,388
+justice,justice,French,1670,388
+justice,justice,English,1680,704
+justice,justice,French,1680,704
+justice,justice,English,1690,283
+justice,justice,French,1690,283
+justice,justice,English,16u0,1
+justice,justice,French,16u0,1
+justice,justice,English,1700,407
+justice,justice,French,1700,407
+justice,justice,English,1710,662
+justice,justice,French,1710,662
+justice,justice,English,1720,458
+justice,justice,French,1720,458
+justice,justice,English,1730,591
+justice,justice,French,1730,591
+justice,justice,English,1740,355
+justice,justice,French,1740,355
+justice,justice,English,1750,430
+justice,justice,French,1750,430
+justice,justice,English,1760,395
+justice,justice,French,1760,395
+justice,justice,English,1770,1194
+justice,justice,French,1770,1194
+justice,justice,English,1780,993
+justice,justice,French,1780,993
+justice,justice,English,1790,1578
+justice,justice,French,1790,1578
+justice,justice,English,17u0,7
+justice,justice,French,17u0,7
+justice,justice,English,1800,110
+justice,justice,French,1800,110
+justicia,justice,Spanish,1520,8
+justicia,justice,Spanish,1530,6
+justicia,justice,Spanish,1540,2
+justicia,justice,Spanish,1550,6
+justicia,justice,Spanish,1560,1
+justicia,justice,Spanish,1570,1
+justicia,justice,Spanish,1590,19
+justicia,justice,Spanish,1600,10
+justicia,justice,Spanish,1610,2
+justicia,justice,Spanish,1620,2
+justicia,justice,Spanish,1630,12
+justicia,justice,Spanish,1640,10
+justicia,justice,Spanish,1650,10
+justicia,justice,Spanish,1660,6
+justicia,justice,Spanish,1670,3
+justicia,justice,Spanish,1680,11
+justicia,justice,Spanish,1690,6
+justicia,justice,Spanish,16u0,4
+justicia,justice,Spanish,1700,17
+justicia,justice,Spanish,1710,11
+justicia,justice,Spanish,1720,12
+justicia,justice,Spanish,1730,13
+justicia,justice,Spanish,1740,15
+justicia,justice,Spanish,1750,10
+justicia,justice,Spanish,1760,15
+justicia,justice,Spanish,1770,17
+justicia,justice,Spanish,1780,18
+justicia,justice,Spanish,1790,22
+justicia,justice,Spanish,17u0,8
+justicia,justice,Spanish,1800,2
+justitia,justice,Latin,1500,1
+justitia,justice,Latin,1510,2
+justitia,justice,Latin,1520,2
+justitia,justice,Latin,1540,2
+justitia,justice,Latin,1550,1
+justitia,justice,Latin,1560,6
+justitia,justice,Latin,1570,5
+justitia,justice,Latin,1580,12
+justitia,justice,Latin,1590,10
+justitia,justice,Latin,1600,13
+justitia,justice,Latin,1610,8
+justitia,justice,Latin,1620,2
+justitia,justice,Latin,1630,20
+justitia,justice,Latin,1640,15
+justitia,justice,Latin,1650,65
+justitia,justice,Latin,1660,13
+justitia,justice,Latin,1670,35
+justitia,justice,Latin,1680,22
+justitia,justice,Latin,1690,13
+justitia,justice,Latin,1700,20
+justitia,justice,Latin,1710,27
+justitia,justice,Latin,1720,13
+justitia,justice,Latin,1730,26
+justitia,justice,Latin,1740,11
+justitia,justice,Latin,1750,12
+justitia,justice,Latin,1760,18
+justitia,justice,Latin,1770,16
+justitia,justice,Latin,1780,9
+justitia,justice,Latin,1790,3
+justitia,justice,Latin,17u0,1
+justitia,justice,Latin,1800,1
+justo,right,Spanish,1510,1
+justo,right,Spanish,1540,2
+justo,right,Spanish,1550,2
+justo,right,Spanish,1560,2
+justo,right,Spanish,1580,5
+justo,right,Spanish,1590,2
+justo,right,Spanish,1600,9
+justo,right,Spanish,1610,3
+justo,right,Spanish,1620,16
+justo,right,Spanish,1630,16
+justo,right,Spanish,1640,8
+justo,right,Spanish,1650,11
+justo,right,Spanish,1660,8
+justo,right,Spanish,1670,9
+justo,right,Spanish,1680,13
+justo,right,Spanish,1690,15
+justo,right,Spanish,1700,11
+justo,right,Spanish,1710,14
+justo,right,Spanish,1720,12
+justo,right,Spanish,1730,10
+justo,right,Spanish,1740,13
+justo,right,Spanish,1750,18
+justo,right,Spanish,1760,14
+justo,right,Spanish,1770,27
+justo,right,Spanish,1780,19
+justo,right,Spanish,1790,10
+justo,right,Spanish,17u0,5
+king,"king, queen",English,1500,38
+king,"king, queen",English,1510,34
+king,"king, queen",English,1520,44
+king,"king, queen",English,1530,18
+king,"king, queen",English,1540,76
+king,"king, queen",English,1550,71
+king,"king, queen",English,1560,143
+king,"king, queen",English,1570,219
+king,"king, queen",English,1580,474
+king,"king, queen",English,1590,1004
+king,"king, queen",English,15u0,4
+king,"king, queen",English,1600,1254
+king,"king, queen",English,1610,1325
+king,"king, queen",English,1620,2082
+king,"king, queen",English,1630,1659
+king,"king, queen",English,1640,5581
+king,"king, queen",English,1650,2323
+king,"king, queen",English,1660,3405
+king,"king, queen",English,1670,1894
+king,"king, queen",English,1680,5546
+king,"king, queen",English,1690,4856
+king,"king, queen",English,16u0,54
+king,"king, queen",English,1700,2808
+king,"king, queen",English,1710,3522
+king,"king, queen",English,1720,1984
+king,"king, queen",English,1730,2167
+king,"king, queen",English,1740,2129
+king,"king, queen",English,1750,2127
+king,"king, queen",English,1760,2113
+king,"king, queen",English,1770,1668
+king,"king, queen",English,1780,2002
+king,"king, queen",English,1790,2851
+king,"king, queen",English,17u0,93
+king,"king, queen",English,1800,349
+koenig,"king, queen",German,1540,3
+koenig,"king, queen",German,1550,1
+koenig,"king, queen",German,1570,1
+koenig,"king, queen",German,1580,1
+koenig,"king, queen",German,1590,2
+koenig,"king, queen",German,1610,2
+koenig,"king, queen",German,1620,1
+koenig,"king, queen",German,1630,1
+koenig,"king, queen",German,1640,2
+koenig,"king, queen",German,1680,2
+koenig,"king, queen",German,1690,1
+koenig,"king, queen",German,1730,2
+koenig,"king, queen",German,1740,1
+koenig,"king, queen",German,1750,10
+koenig,"king, queen",German,1760,2
+koenig,"king, queen",German,1770,5
+koenig,"king, queen",German,1780,6
+koenig,"king, queen",German,1790,11
+koenig,"king, queen",German,1800,2
+koning,"king, queen",Dutch,1520,2
+koning,"king, queen",Dutch,1580,1
+koning,"king, queen",Dutch,1600,1
+koning,"king, queen",Dutch,1610,5
+koning,"king, queen",Dutch,1620,23
+koning,"king, queen",Dutch,1630,7
+koning,"king, queen",Dutch,1640,30
+koning,"king, queen",Dutch,1650,29
+koning,"king, queen",Dutch,1660,76
+koning,"king, queen",Dutch,1670,80
+koning,"king, queen",Dutch,1680,235
+koning,"king, queen",Dutch,1690,152
+koning,"king, queen",Dutch,16u0,1
+koning,"king, queen",Dutch,1700,107
+koning,"king, queen",Dutch,1710,51
+koning,"king, queen",Dutch,1720,37
+koning,"king, queen",Dutch,1730,20
+koning,"king, queen",Dutch,1740,41
+koning,"king, queen",Dutch,1750,31
+koning,"king, queen",Dutch,1760,14
+koning,"king, queen",Dutch,1770,24
+koning,"king, queen",Dutch,1780,61
+koning,"king, queen",Dutch,1790,58
+koning,"king, queen",Dutch,17u0,2
+koning,"king, queen",Dutch,1800,2
+koningin,"king, queen",Dutch,1640,1
+koningin,"king, queen",Dutch,1650,5
+koningin,"king, queen",Dutch,1660,5
+koningin,"king, queen",Dutch,1670,3
+koningin,"king, queen",Dutch,1680,27
+koningin,"king, queen",Dutch,1690,31
+koningin,"king, queen",Dutch,1700,1
+koningin,"king, queen",Dutch,1710,6
+koningin,"king, queen",Dutch,1730,1
+koningin,"king, queen",Dutch,1770,6
+koningin,"king, queen",Dutch,1790,1
+law,law,English,1500,4
+law,law,English,1510,7
+law,law,English,1520,8
+law,law,English,1530,8
+law,law,English,1540,10
+law,law,English,1550,8
+law,law,English,1560,5
+law,law,English,1570,18
+law,law,English,1580,16
+law,law,English,1590,15
+law,law,English,1600,129
+law,law,English,1610,68
+law,law,English,1620,192
+law,law,English,1630,174
+law,law,English,1640,594
+law,law,English,1650,847
+law,law,English,1660,596
+law,law,English,1670,524
+law,law,English,1680,823
+law,law,English,1690,591
+law,law,English,16u0,9
+law,law,English,1700,734
+law,law,English,1710,1025
+law,law,English,1720,952
+law,law,English,1730,900
+law,law,English,1740,860
+law,law,English,1750,924
+law,law,English,1760,1029
+law,law,English,1770,1044
+law,law,English,1780,1450
+law,law,English,1790,2771
+law,law,English,17u0,15
+law,law,English,1800,325
+legaal,law,Dutch,1700,1
+legal,law,English,1500,11
+legal,law,Spanish,1500,11
+legal,law,English,1510,4
+legal,law,Spanish,1510,4
+legal,law,English,1530,3
+legal,law,Spanish,1530,3
+legal,law,English,1540,1
+legal,law,Spanish,1540,1
+legal,law,English,1550,8
+legal,law,Spanish,1550,8
+legal,law,English,1560,5
+legal,law,Spanish,1560,5
+legal,law,English,1570,7
+legal,law,Spanish,1570,7
+legal,law,English,1580,6
+legal,law,Spanish,1580,6
+legal,law,English,1590,11
+legal,law,Spanish,1590,11
+legal,law,English,15u0,1
+legal,law,Spanish,15u0,1
+legal,law,English,1600,10
+legal,law,Spanish,1600,10
+legal,law,English,1610,9
+legal,law,Spanish,1610,9
+legal,law,English,1620,9
+legal,law,Spanish,1620,9
+legal,law,English,1630,12
+legal,law,Spanish,1630,12
+legal,law,English,1640,47
+legal,law,Spanish,1640,47
+legal,law,English,1650,110
+legal,law,Spanish,1650,110
+legal,law,English,1660,113
+legal,law,Spanish,1660,113
+legal,law,English,1670,42
+legal,law,Spanish,1670,42
+legal,law,English,1680,124
+legal,law,Spanish,1680,124
+legal,law,English,1690,68
+legal,law,Spanish,1690,68
+legal,law,English,16u0,4
+legal,law,Spanish,16u0,4
+legal,law,English,1700,73
+legal,law,Spanish,1700,73
+legal,law,English,1710,80
+legal,law,Spanish,1710,80
+legal,law,English,1720,89
+legal,law,Spanish,1720,89
+legal,law,English,1730,71
+legal,law,Spanish,1730,71
+legal,law,English,1740,54
+legal,law,Spanish,1740,54
+legal,law,English,1750,116
+legal,law,Spanish,1750,116
+legal,law,English,1760,89
+legal,law,Spanish,1760,89
+legal,law,English,1770,159
+legal,law,Spanish,1770,159
+legal,law,English,1780,234
+legal,law,Spanish,1780,234
+legal,law,English,1790,364
+legal,law,Spanish,1790,364
+legal,law,English,17u0,7
+legal,law,Spanish,17u0,7
+legal,law,English,1800,28
+legal,law,Spanish,1800,28
+legale,law,Italian,1590,1
+legale,law,Italian,1620,1
+legale,law,Italian,1650,1
+legale,law,Italian,1660,4
+legale,law,Italian,1670,7
+legale,law,Italian,1680,18
+legale,law,Italian,1690,1
+legale,law,Italian,1700,29
+legale,law,Italian,1710,4
+legale,law,Italian,1720,10
+legale,law,Italian,1730,8
+legale,law,Italian,1740,2
+legale,law,Italian,1750,8
+legale,law,Italian,1760,6
+legale,law,Italian,1770,9
+legale,law,Italian,1780,9
+legale,law,Italian,1790,13
+leges,law,Latin,1500,15
+leges,law,Latin,1510,27
+leges,law,Latin,1520,31
+leges,law,Latin,1530,49
+leges,law,Latin,1540,39
+leges,law,Latin,1550,53
+leges,law,Latin,1560,51
+leges,law,Latin,1570,61
+leges,law,Latin,1580,65
+leges,law,Latin,1590,62
+leges,law,Latin,1600,107
+leges,law,Latin,1610,112
+leges,law,Latin,1620,44
+leges,law,Latin,1630,64
+leges,law,Latin,1640,50
+leges,law,Latin,1650,67
+leges,law,Latin,1660,42
+leges,law,Latin,1670,92
+leges,law,Latin,1680,40
+leges,law,Latin,1690,44
+leges,law,Latin,1700,47
+leges,law,Latin,1710,46
+leges,law,Latin,1720,37
+leges,law,Latin,1730,57
+leges,law,Latin,1740,41
+leges,law,Latin,1750,66
+leges,law,Latin,1760,36
+leges,law,Latin,1770,70
+leges,law,Latin,1780,53
+leges,law,Latin,1790,17
+leges,law,Latin,17u0,1
+legge,law,Italian,1510,1
+legge,law,Italian,1530,8
+legge,law,Italian,1540,3
+legge,law,Italian,1550,19
+legge,law,Italian,1560,21
+legge,law,Italian,1570,50
+legge,law,Italian,1580,7
+legge,law,Italian,1590,3
+legge,law,Italian,15u0,1
+legge,law,Italian,1600,9
+legge,law,Italian,1610,3
+legge,law,Italian,1620,38
+legge,law,Italian,1630,7
+legge,law,Italian,1640,8
+legge,law,Italian,1650,3
+legge,law,Italian,1660,7
+legge,law,Italian,1670,7
+legge,law,Italian,1680,8
+legge,law,Italian,1690,9
+legge,law,Italian,16u0,4
+legge,law,Italian,1700,8
+legge,law,Italian,1720,15
+legge,law,Italian,1730,6
+legge,law,Italian,1740,6
+legge,law,Italian,1750,10
+legge,law,Italian,1760,28
+legge,law,Italian,1770,20
+legge,law,Italian,1780,16
+legge,law,Italian,1790,23
+legge,law,Italian,1800,2
+legítima,right,Spanish,1500,1
+legítima,right,Spanish,1540,4
+legítima,right,Spanish,1550,10
+legítima,right,Spanish,1560,8
+legítima,right,Spanish,1570,34
+legítima,right,Spanish,1580,39
+legítima,right,Spanish,1590,26
+legítima,right,Spanish,1600,20
+legítima,right,Spanish,1610,33
+legítima,right,Spanish,1620,36
+legítima,right,Spanish,1630,22
+legítima,right,Spanish,1640,19
+legítima,right,Spanish,1650,19
+legítima,right,Spanish,1660,18
+legítima,right,Spanish,1670,22
+legítima,right,Spanish,1680,18
+legítima,right,Spanish,1690,29
+legítima,right,Spanish,1700,13
+legítima,right,Spanish,1710,19
+legítima,right,Spanish,1720,16
+legítima,right,Spanish,1730,25
+legítima,right,Spanish,1740,14
+legítima,right,Spanish,1750,21
+legítima,right,Spanish,1760,59
+legítima,right,Spanish,1770,14
+legítima,right,Spanish,1780,6
+legítima,right,Spanish,1790,2
+legítima,right,Spanish,1800,1
+legítimo,right,Spanish,1520,2
+legítimo,right,Spanish,1530,4
+legítimo,right,Spanish,1550,6
+legítimo,right,Spanish,1560,1
+legítimo,right,Spanish,1570,4
+legítimo,right,Spanish,1580,5
+legítimo,right,Spanish,1590,6
+legítimo,right,Spanish,1600,2
+legítimo,right,Spanish,1610,12
+legítimo,right,Spanish,1620,37
+legítimo,right,Spanish,1630,32
+legítimo,right,Spanish,1640,11
+legítimo,right,Spanish,1650,15
+legítimo,right,Spanish,1660,17
+legítimo,right,Spanish,1670,5
+legítimo,right,Spanish,1680,4
+legítimo,right,Spanish,1690,4
+legítimo,right,Spanish,16u0,2
+legítimo,right,Spanish,1700,13
+legítimo,right,Spanish,1710,8
+legítimo,right,Spanish,1720,16
+legítimo,right,Spanish,1730,10
+legítimo,right,Spanish,1740,10
+legítimo,right,Spanish,1750,12
+legítimo,right,Spanish,1760,15
+legítimo,right,Spanish,1770,11
+legítimo,right,Spanish,1780,4
+legítimo,right,Spanish,1790,2
+legittimo,right,Italian,1630,1
+legittimo,right,Italian,1710,1
+legittimo,right,Italian,1730,1
+legittimo,right,Italian,1780,1
+legittimo,right,Italian,1790,3
+lex,law,Latin,1500,5
+lex,law,Latin,1510,2
+lex,law,Latin,1520,3
+lex,law,Latin,1530,1
+lex,law,Latin,1550,13
+lex,law,Latin,1570,1
+lex,law,Latin,1590,1
+lex,law,Latin,15u0,1
+lex,law,Latin,1600,5
+lex,law,Latin,1610,7
+lex,law,Latin,1620,44
+lex,law,Latin,1630,35
+lex,law,Latin,1640,18
+lex,law,Latin,1650,21
+lex,law,Latin,1660,12
+lex,law,Latin,1670,10
+lex,law,Latin,1680,38
+lex,law,Latin,1690,7
+lex,law,Latin,1700,9
+lex,law,Latin,1710,3
+lex,law,Latin,1720,15
+lex,law,Latin,1730,8
+lex,law,Latin,1740,9
+lex,law,Latin,1750,5
+lex,law,Latin,1760,2
+lex,law,Latin,1770,4
+lex,law,Latin,1780,5
+lex,law,Latin,1790,3
+ley,law,Spanish,1530,3
+ley,law,Spanish,1540,3
+ley,law,Spanish,1550,4
+ley,law,Spanish,1560,1
+ley,law,Spanish,1570,2
+ley,law,Spanish,1580,6
+ley,law,Spanish,1590,10
+ley,law,Spanish,15u0,1
+ley,law,Spanish,1600,23
+ley,law,Spanish,1610,31
+ley,law,Spanish,1620,30
+ley,law,Spanish,1630,8
+ley,law,Spanish,1640,20
+ley,law,Spanish,1650,21
+ley,law,Spanish,1660,20
+ley,law,Spanish,1670,72
+ley,law,Spanish,1680,62
+ley,law,Spanish,1690,18
+ley,law,Spanish,16u0,1
+ley,law,Spanish,1700,23
+ley,law,Spanish,1710,21
+ley,law,Spanish,1720,28
+ley,law,Spanish,1730,19
+ley,law,Spanish,1740,21
+ley,law,Spanish,1750,27
+ley,law,Spanish,1760,38
+ley,law,Spanish,1770,28
+ley,law,Spanish,1780,44
+ley,law,Spanish,1790,28
+ley,law,Spanish,17u0,12
+leyes,law,Spanish,1500,3
+leyes,law,Spanish,1510,4
+leyes,law,Spanish,1520,17
+leyes,law,Spanish,1530,7
+leyes,law,Spanish,1540,48
+leyes,law,Spanish,1550,31
+leyes,law,Spanish,1560,27
+leyes,law,Spanish,1570,16
+leyes,law,Spanish,1580,17
+leyes,law,Spanish,1590,53
+leyes,law,Spanish,1600,13
+leyes,law,Spanish,1610,28
+leyes,law,Spanish,1620,16
+leyes,law,Spanish,1630,3
+leyes,law,Spanish,1640,15
+leyes,law,Spanish,1660,3
+leyes,law,Spanish,1670,4
+leyes,law,Spanish,1680,19
+leyes,law,Spanish,1690,8
+leyes,law,Spanish,16u0,2
+leyes,law,Spanish,1700,2
+leyes,law,Spanish,1710,5
+leyes,law,Spanish,1720,14
+leyes,law,Spanish,1730,18
+leyes,law,Spanish,1740,34
+leyes,law,Spanish,1750,44
+leyes,law,Spanish,1760,21
+leyes,law,Spanish,1770,87
+leyes,law,Spanish,1780,70
+leyes,law,Spanish,1790,55
+leyes,law,Spanish,17u0,3
+leyes,law,Spanish,1800,1
+loi,law,French,1510,1
+loi,law,French,1520,1
+loi,law,French,1530,1
+loi,law,French,1580,2
+loi,law,French,1600,6
+loi,law,French,1630,4
+loi,law,French,1650,7
+loi,law,French,1660,1
+loi,law,French,1670,3
+loi,law,French,1680,3
+loi,law,French,1690,11
+loi,law,French,1700,6
+loi,law,French,1710,20
+loi,law,French,1720,2
+loi,law,French,1730,18
+loi,law,French,1740,11
+loi,law,French,1750,69
+loi,law,French,1760,18
+loi,law,French,1770,84
+loi,law,French,1780,111
+loi,law,French,1790,4265
+loi,law,French,1800,405
+lois,law,French,1500,1
+lois,law,French,1550,4
+lois,law,French,1570,7
+lois,law,French,1580,3
+lois,law,French,1600,7
+lois,law,French,1610,4
+lois,law,French,1620,1
+lois,law,French,1640,1
+lois,law,French,1660,1
+lois,law,French,1670,1
+lois,law,French,1680,7
+lois,law,French,1690,4
+lois,law,French,1700,13
+lois,law,French,1710,3
+lois,law,French,1720,1
+lois,law,French,1730,1
+lois,law,French,1740,20
+lois,law,French,1750,11
+lois,law,French,1760,23
+lois,law,French,1770,22
+lois,law,French,1780,94
+lois,law,French,1790,1015
+lois,law,French,17u0,1
+lois,law,French,1800,88
+lumi,Enlightenment,Italian,1590,1
+lumi,Enlightenment,Italian,1690,1
+lumi,Enlightenment,Italian,1740,1
+lumi,Enlightenment,Italian,1780,2
+lumi,Enlightenment,Italian,1790,1
+lumière,Enlightenment,French,1510,1
+lumière,Enlightenment,French,1530,1
+lumière,Enlightenment,French,1540,6
+lumière,Enlightenment,French,1550,6
+lumière,Enlightenment,French,1560,9
+lumière,Enlightenment,French,1570,17
+lumière,Enlightenment,French,1580,9
+lumière,Enlightenment,French,1590,12
+lumière,Enlightenment,French,1600,23
+lumière,Enlightenment,French,1610,32
+lumière,Enlightenment,French,1620,22
+lumière,Enlightenment,French,1630,18
+lumière,Enlightenment,French,1640,21
+lumière,Enlightenment,French,1650,18
+lumière,Enlightenment,French,1660,35
+lumière,Enlightenment,French,1670,15
+lumière,Enlightenment,French,1680,28
+lumière,Enlightenment,French,1690,13
+lumière,Enlightenment,French,1700,8
+lumière,Enlightenment,French,1710,10
+lumière,Enlightenment,French,1720,16
+lumière,Enlightenment,French,1730,12
+lumière,Enlightenment,French,1740,1
+lumière,Enlightenment,French,1750,10
+lumière,Enlightenment,French,1760,8
+lumière,Enlightenment,French,1770,2
+lumière,Enlightenment,French,1780,8
+lumière,Enlightenment,French,1790,3
+lumière,Enlightenment,French,17u0,2
+monarca,monarchy,Italian,1620,6
+monarca,monarchy,Spanish,1620,6
+monarca,monarchy,Italian,1630,7
+monarca,monarchy,Spanish,1630,7
+monarca,monarchy,Italian,1640,6
+monarca,monarchy,Spanish,1640,6
+monarca,monarchy,Italian,1650,9
+monarca,monarchy,Spanish,1650,9
+monarca,monarchy,Italian,1660,1
+monarca,monarchy,Spanish,1660,1
+monarca,monarchy,Italian,1670,29
+monarca,monarchy,Spanish,1670,29
+monarca,monarchy,Italian,1680,4
+monarca,monarchy,Spanish,1680,4
+monarca,monarchy,Italian,1690,8
+monarca,monarchy,Spanish,1690,8
+monarca,monarchy,Italian,16u0,1
+monarca,monarchy,Spanish,16u0,1
+monarca,monarchy,Italian,1700,45
+monarca,monarchy,Spanish,1700,45
+monarca,monarchy,Italian,1710,8
+monarca,monarchy,Spanish,1710,8
+monarca,monarchy,Italian,1720,6
+monarca,monarchy,Spanish,1720,6
+monarca,monarchy,Italian,1730,3
+monarca,monarchy,Spanish,1730,3
+monarca,monarchy,Italian,1740,23
+monarca,monarchy,Spanish,1740,23
+monarca,monarchy,Italian,1750,15
+monarca,monarchy,Spanish,1750,15
+monarca,monarchy,Italian,1760,7
+monarca,monarchy,Spanish,1760,7
+monarca,monarchy,Italian,1770,9
+monarca,monarchy,Spanish,1770,9
+monarca,monarchy,Italian,1780,34
+monarca,monarchy,Spanish,1780,34
+monarca,monarchy,Italian,1790,37
+monarca,monarchy,Spanish,1790,37
+monarca,monarchy,Italian,17u0,3
+monarca,monarchy,Spanish,17u0,3
+monarch,monarchy,English,1510,1
+monarch,monarchy,Dutch,1510,1
+monarch,monarchy,English,1590,3
+monarch,monarchy,Dutch,1590,3
+monarch,monarchy,English,1600,7
+monarch,monarchy,Dutch,1600,7
+monarch,monarchy,English,1610,7
+monarch,monarchy,Dutch,1610,7
+monarch,monarchy,English,1620,36
+monarch,monarchy,Dutch,1620,36
+monarch,monarchy,English,1630,26
+monarch,monarchy,Dutch,1630,26
+monarch,monarchy,English,1640,24
+monarch,monarchy,Dutch,1640,24
+monarch,monarchy,English,1650,101
+monarch,monarchy,Dutch,1650,101
+monarch,monarchy,English,1660,86
+monarch,monarchy,Dutch,1660,86
+monarch,monarchy,English,1670,28
+monarch,monarchy,Dutch,1670,28
+monarch,monarchy,English,1680,115
+monarch,monarchy,Dutch,1680,115
+monarch,monarchy,English,1690,44
+monarch,monarchy,Dutch,1690,44
+monarch,monarchy,English,16u0,2
+monarch,monarchy,Dutch,16u0,2
+monarch,monarchy,English,1700,29
+monarch,monarchy,Dutch,1700,29
+monarch,monarchy,English,1710,11
+monarch,monarchy,Dutch,1710,11
+monarch,monarchy,English,1720,15
+monarch,monarchy,Dutch,1720,15
+monarch,monarchy,English,1730,10
+monarch,monarchy,Dutch,1730,10
+monarch,monarchy,English,1740,2
+monarch,monarchy,Dutch,1740,2
+monarch,monarchy,English,1750,22
+monarch,monarchy,Dutch,1750,22
+monarch,monarchy,English,1760,6
+monarch,monarchy,Dutch,1760,6
+monarch,monarchy,English,1770,17
+monarch,monarchy,Dutch,1770,17
+monarch,monarchy,English,1780,15
+monarch,monarchy,Dutch,1780,15
+monarch,monarchy,English,1790,20
+monarch,monarchy,Dutch,1790,20
+monarch,monarchy,English,17u0,2
+monarch,monarchy,Dutch,17u0,2
+monarch,monarchy,English,1800,2
+monarch,monarchy,Dutch,1800,2
+monarchia,monarchy,Latin,1530,12
+monarchia,monarchy,Latin,1550,4
+monarchia,monarchy,Latin,1560,1
+monarchia,monarchy,Latin,1570,26
+monarchia,monarchy,Latin,1580,13
+monarchia,monarchy,Latin,1590,23
+monarchia,monarchy,Latin,1600,16
+monarchia,monarchy,Latin,1610,49
+monarchia,monarchy,Latin,1620,18
+monarchia,monarchy,Latin,1630,6
+monarchia,monarchy,Latin,1640,69
+monarchia,monarchy,Latin,1650,57
+monarchia,monarchy,Latin,1660,12
+monarchia,monarchy,Latin,1670,67
+monarchia,monarchy,Latin,1680,38
+monarchia,monarchy,Latin,1690,16
+monarchia,monarchy,Latin,16u0,5
+monarchia,monarchy,Latin,1700,30
+monarchia,monarchy,Latin,1710,12
+monarchia,monarchy,Latin,1720,62
+monarchia,monarchy,Latin,1730,7
+monarchia,monarchy,Latin,1740,19
+monarchia,monarchy,Latin,1750,22
+monarchia,monarchy,Latin,1760,25
+monarchia,monarchy,Latin,1770,4
+monarchia,monarchy,Latin,1780,4
+monarchia,monarchy,Latin,1790,7
+monarchia,monarchy,Latin,17u0,2
+monarchia,monarchy,Latin,1800,2
+monarchie,monarchy,French,1500,4
+monarchie,monarchy,German,1500,4
+monarchie,monarchy,Dutch,1500,4
+monarchie,monarchy,French,1510,4
+monarchie,monarchy,German,1510,4
+monarchie,monarchy,Dutch,1510,4
+monarchie,monarchy,French,1540,7
+monarchie,monarchy,German,1540,7
+monarchie,monarchy,Dutch,1540,7
+monarchie,monarchy,French,1550,14
+monarchie,monarchy,German,1550,14
+monarchie,monarchy,Dutch,1550,14
+monarchie,monarchy,French,1560,15
+monarchie,monarchy,German,1560,15
+monarchie,monarchy,Dutch,1560,15
+monarchie,monarchy,French,1570,12
+monarchie,monarchy,German,1570,12
+monarchie,monarchy,Dutch,1570,12
+monarchie,monarchy,French,1580,21
+monarchie,monarchy,German,1580,21
+monarchie,monarchy,Dutch,1580,21
+monarchie,monarchy,French,1590,7
+monarchie,monarchy,German,1590,7
+monarchie,monarchy,Dutch,1590,7
+monarchie,monarchy,French,1600,14
+monarchie,monarchy,German,1600,14
+monarchie,monarchy,Dutch,1600,14
+monarchie,monarchy,French,1610,59
+monarchie,monarchy,German,1610,59
+monarchie,monarchy,Dutch,1610,59
+monarchie,monarchy,French,1620,84
+monarchie,monarchy,German,1620,84
+monarchie,monarchy,Dutch,1620,84
+monarchie,monarchy,French,1630,76
+monarchie,monarchy,German,1630,76
+monarchie,monarchy,Dutch,1630,76
+monarchie,monarchy,French,1640,41
+monarchie,monarchy,German,1640,41
+monarchie,monarchy,Dutch,1640,41
+monarchie,monarchy,French,1650,31
+monarchie,monarchy,German,1650,31
+monarchie,monarchy,Dutch,1650,31
+monarchie,monarchy,French,1660,44
+monarchie,monarchy,German,1660,44
+monarchie,monarchy,Dutch,1660,44
+monarchie,monarchy,French,1670,21
+monarchie,monarchy,German,1670,21
+monarchie,monarchy,Dutch,1670,21
+monarchie,monarchy,French,1680,21
+monarchie,monarchy,German,1680,21
+monarchie,monarchy,Dutch,1680,21
+monarchie,monarchy,French,1690,47
+monarchie,monarchy,German,1690,47
+monarchie,monarchy,Dutch,1690,47
+monarchie,monarchy,French,1700,61
+monarchie,monarchy,German,1700,61
+monarchie,monarchy,Dutch,1700,61
+monarchie,monarchy,French,1710,63
+monarchie,monarchy,German,1710,63
+monarchie,monarchy,Dutch,1710,63
+monarchie,monarchy,French,1720,124
+monarchie,monarchy,German,1720,124
+monarchie,monarchy,Dutch,1720,124
+monarchie,monarchy,French,1730,65
+monarchie,monarchy,German,1730,65
+monarchie,monarchy,Dutch,1730,65
+monarchie,monarchy,French,1740,50
+monarchie,monarchy,German,1740,50
+monarchie,monarchy,Dutch,1740,50
+monarchie,monarchy,French,1750,61
+monarchie,monarchy,German,1750,61
+monarchie,monarchy,Dutch,1750,61
+monarchie,monarchy,French,1760,61
+monarchie,monarchy,German,1760,61
+monarchie,monarchy,Dutch,1760,61
+monarchie,monarchy,French,1770,92
+monarchie,monarchy,German,1770,92
+monarchie,monarchy,Dutch,1770,92
+monarchie,monarchy,French,1780,229
+monarchie,monarchy,German,1780,229
+monarchie,monarchy,Dutch,1780,229
+monarchie,monarchy,French,1790,293
+monarchie,monarchy,German,1790,293
+monarchie,monarchy,Dutch,1790,293
+monarchie,monarchy,French,17u0,2
+monarchie,monarchy,German,17u0,2
+monarchie,monarchy,Dutch,17u0,2
+monarchie,monarchy,French,1800,8
+monarchie,monarchy,German,1800,8
+monarchie,monarchy,Dutch,1800,8
+monarchy,monarchy,English,1600,2
+monarchy,monarchy,English,1610,1
+monarchy,monarchy,English,1620,31
+monarchy,monarchy,English,1630,6
+monarchy,monarchy,English,1640,53
+monarchy,monarchy,English,1650,211
+monarchy,monarchy,English,1660,115
+monarchy,monarchy,English,1670,24
+monarchy,monarchy,English,1680,184
+monarchy,monarchy,English,1690,40
+monarchy,monarchy,English,1700,61
+monarchy,monarchy,English,1710,215
+monarchy,monarchy,English,1720,50
+monarchy,monarchy,English,1730,19
+monarchy,monarchy,English,1740,61
+monarchy,monarchy,English,1750,9
+monarchy,monarchy,English,1760,12
+monarchy,monarchy,English,1770,25
+monarchy,monarchy,English,1780,11
+monarchy,monarchy,English,1790,51
+monarchy,monarchy,English,1800,9
+monarquía,monarchy,Spanish,1580,1
+monarquía,monarchy,Spanish,1590,1
+monarquía,monarchy,Spanish,1600,1
+monarquía,monarchy,Spanish,1610,2
+monarquía,monarchy,Spanish,1620,5
+monarquía,monarchy,Spanish,1630,9
+monarquía,monarchy,Spanish,1640,6
+monarquía,monarchy,Spanish,1650,7
+monarquía,monarchy,Spanish,1660,11
+monarquía,monarchy,Spanish,1670,1
+monarquía,monarchy,Spanish,1680,4
+monarquía,monarchy,Spanish,1700,8
+monarquía,monarchy,Spanish,1710,4
+monarquía,monarchy,Spanish,1720,5
+monarquía,monarchy,Spanish,1730,3
+monarquía,monarchy,Spanish,1750,7
+monarquía,monarchy,Spanish,1760,2
+monarquía,monarchy,Spanish,1770,2
+monarquía,monarchy,Spanish,1780,19
+monarquía,monarchy,Spanish,1790,10
+monarquía,monarchy,Spanish,1800,1
+nación,"nation, people",Spanish,1500,3
+nación,state,Spanish,1500,3
+nación,"nation, people",Spanish,1510,1
+nación,state,Spanish,1510,1
+nación,"nation, people",Spanish,1520,4
+nación,state,Spanish,1520,4
+nación,"nation, people",Spanish,1530,2
+nación,state,Spanish,1530,2
+nación,"nation, people",Spanish,1540,7
+nación,state,Spanish,1540,7
+nación,"nation, people",Spanish,1550,1
+nación,state,Spanish,1550,1
+nación,"nation, people",Spanish,1590,3
+nación,state,Spanish,1590,3
+nación,"nation, people",Spanish,1600,1
+nación,state,Spanish,1600,1
+nación,"nation, people",Spanish,1610,2
+nación,state,Spanish,1610,2
+nación,"nation, people",Spanish,1620,2
+nación,state,Spanish,1620,2
+nación,"nation, people",Spanish,1630,2
+nación,state,Spanish,1630,2
+nación,"nation, people",Spanish,1640,7
+nación,state,Spanish,1640,7
+nación,"nation, people",Spanish,1650,10
+nación,state,Spanish,1650,10
+nación,"nation, people",Spanish,1660,4
+nación,state,Spanish,1660,4
+nación,"nation, people",Spanish,1670,4
+nación,state,Spanish,1670,4
+nación,"nation, people",Spanish,1680,10
+nación,state,Spanish,1680,10
+nación,"nation, people",Spanish,1690,3
+nación,state,Spanish,1690,3
+nación,"nation, people",Spanish,1700,7
+nación,state,Spanish,1700,7
+nación,"nation, people",Spanish,1710,1
+nación,state,Spanish,1710,1
+nación,"nation, people",Spanish,1720,9
+nación,state,Spanish,1720,9
+nación,"nation, people",Spanish,1730,4
+nación,state,Spanish,1730,4
+nación,"nation, people",Spanish,1740,2
+nación,state,Spanish,1740,2
+nación,"nation, people",Spanish,1750,8
+nación,state,Spanish,1750,8
+nación,"nation, people",Spanish,1760,7
+nación,state,Spanish,1760,7
+nación,"nation, people",Spanish,1770,20
+nación,state,Spanish,1770,20
+nación,"nation, people",Spanish,1780,10
+nación,state,Spanish,1780,10
+nación,"nation, people",Spanish,1790,14
+nación,state,Spanish,1790,14
+nación,"nation, people",Spanish,17u0,1
+nación,state,Spanish,17u0,1
+nacional,"nation, people",Spanish,1520,1
+nacional,"nation, people",Spanish,1530,1
+nacional,"nation, people",Spanish,1560,1
+nacional,"nation, people",Spanish,1700,1
+nacional,"nation, people",Spanish,1740,6
+nacional,"nation, people",Spanish,1750,2
+nacional,"nation, people",Spanish,1780,40
+nacional,"nation, people",Spanish,1790,25
+nacional,"nation, people",Spanish,1800,1
+naciones,"nation, people",Spanish,1500,1
+naciones,"nation, people",Spanish,1510,4
+naciones,"nation, people",Spanish,1550,1
+naciones,"nation, people",Spanish,1570,1
+naciones,"nation, people",Spanish,1600,1
+naciones,"nation, people",Spanish,1620,5
+naciones,"nation, people",Spanish,1640,4
+naciones,"nation, people",Spanish,1660,1
+naciones,"nation, people",Spanish,1680,2
+naciones,"nation, people",Spanish,1690,1
+naciones,"nation, people",Spanish,1700,7
+naciones,"nation, people",Spanish,1710,5
+naciones,"nation, people",Spanish,1720,4
+naciones,"nation, people",Spanish,1730,3
+naciones,"nation, people",Spanish,1750,5
+naciones,"nation, people",Spanish,1760,14
+naciones,"nation, people",Spanish,1770,14
+naciones,"nation, people",Spanish,1780,29
+naciones,"nation, people",Spanish,1790,33
+naciones,"nation, people",Spanish,1800,8
+natie,"nation, people",Dutch,1580,6
+natie,"nation, people",Dutch,1600,6
+natie,"nation, people",Dutch,1640,3
+natie,"nation, people",Dutch,1650,14
+natie,"nation, people",Dutch,1660,2
+natie,"nation, people",Dutch,1670,10
+natie,"nation, people",Dutch,1680,4
+natie,"nation, people",Dutch,1710,1
+natie,"nation, people",Dutch,1720,1
+natie,"nation, people",Dutch,1730,2
+natie,"nation, people",Dutch,1740,2
+natie,"nation, people",Dutch,1750,4
+natie,"nation, people",Dutch,1760,2
+natie,"nation, people",Dutch,1770,5
+natie,"nation, people",Dutch,1780,2
+natie,"nation, people",Dutch,1790,4
+natie,"nation, people",Dutch,1800,1
+natio,"nation, people",Latin,1550,3
+natio,"nation, people",Latin,1560,4
+natio,"nation, people",Latin,1570,1
+natio,"nation, people",Latin,1580,1
+natio,"nation, people",Latin,1610,1
+natio,"nation, people",Latin,1630,2
+natio,"nation, people",Latin,1720,1
+natio,"nation, people",Latin,1750,1
+natio,"nation, people",Latin,1770,1
+nation,"nation, people",English,1500,1
+nation,"nation, people",French,1500,1
+nation,"nation, people",Latin,1500,1
+nation,"nation, people",English,1510,1
+nation,"nation, people",French,1510,1
+nation,"nation, people",Latin,1510,1
+nation,"nation, people",English,1520,147
+nation,"nation, people",French,1520,147
+nation,"nation, people",Latin,1520,147
+nation,"nation, people",English,1530,41
+nation,"nation, people",French,1530,41
+nation,"nation, people",Latin,1530,41
+nation,"nation, people",English,1540,44
+nation,"nation, people",French,1540,44
+nation,"nation, people",Latin,1540,44
+nation,"nation, people",English,1550,21
+nation,"nation, people",French,1550,21
+nation,"nation, people",Latin,1550,21
+nation,"nation, people",English,1560,23
+nation,"nation, people",French,1560,23
+nation,"nation, people",Latin,1560,23
+nation,"nation, people",English,1570,28
+nation,"nation, people",French,1570,28
+nation,"nation, people",Latin,1570,28
+nation,"nation, people",English,1580,62
+nation,"nation, people",French,1580,62
+nation,"nation, people",Latin,1580,62
+nation,"nation, people",English,1590,68
+nation,"nation, people",French,1590,68
+nation,"nation, people",Latin,1590,68
+nation,"nation, people",English,15u0,6
+nation,"nation, people",French,15u0,6
+nation,"nation, people",Latin,15u0,6
+nation,"nation, people",English,1600,36
+nation,"nation, people",French,1600,36
+nation,"nation, people",Latin,1600,36
+nation,"nation, people",English,1610,16
+nation,"nation, people",French,1610,16
+nation,"nation, people",Latin,1610,16
+nation,"nation, people",English,1620,46
+nation,"nation, people",French,1620,46
+nation,"nation, people",Latin,1620,46
+nation,"nation, people",English,1630,48
+nation,"nation, people",French,1630,48
+nation,"nation, people",Latin,1630,48
+nation,"nation, people",French,1640,268
+nation,"nation, people",Latin,1640,268
+nation,"nation, people",English,1640,268
+nation,"nation, people",English,1650,650
+nation,"nation, people",French,1650,650
+nation,"nation, people",Latin,1650,650
+nation,"nation, people",English,1660,386
+nation,"nation, people",French,1660,386
+nation,"nation, people",Latin,1660,386
+nation,"nation, people",English,1670,218
+nation,"nation, people",French,1670,218
+nation,"nation, people",Latin,1670,218
+nation,"nation, people",English,1680,328
+nation,"nation, people",French,1680,328
+nation,"nation, people",Latin,1680,328
+nation,"nation, people",English,1690,402
+nation,"nation, people",French,1690,402
+nation,"nation, people",Latin,1690,402
+nation,"nation, people",English,16u0,2
+nation,"nation, people",French,16u0,2
+nation,"nation, people",Latin,16u0,2
+nation,"nation, people",English,1700,352
+nation,"nation, people",French,1700,352
+nation,"nation, people",Latin,1700,352
+nation,"nation, people",English,1710,558
+nation,"nation, people",French,1710,558
+nation,"nation, people",Latin,1710,558
+nation,"nation, people",English,1720,335
+nation,"nation, people",French,1720,335
+nation,"nation, people",Latin,1720,335
+nation,"nation, people",English,1730,253
+nation,"nation, people",French,1730,253
+nation,"nation, people",Latin,1730,253
+nation,"nation, people",English,1740,631
+nation,"nation, people",French,1740,631
+nation,"nation, people",Latin,1740,631
+nation,"nation, people",English,1750,383
+nation,"nation, people",French,1750,383
+nation,"nation, people",Latin,1750,383
+nation,"nation, people",English,1760,450
+nation,"nation, people",French,1760,450
+nation,"nation, people",Latin,1760,450
+nation,"nation, people",English,1770,230
+nation,"nation, people",French,1770,230
+nation,"nation, people",Latin,1770,230
+nation,"nation, people",English,1780,1135
+nation,"nation, people",French,1780,1135
+nation,"nation, people",Latin,1780,1135
+nation,"nation, people",English,1790,1507
+nation,"nation, people",French,1790,1507
+nation,"nation, people",Latin,1790,1507
+nation,"nation, people",English,17u0,6
+nation,"nation, people",French,17u0,6
+nation,"nation, people",Latin,17u0,6
+nation,"nation, people",English,1800,51
+nation,"nation, people",French,1800,51
+nation,"nation, people",Latin,1800,51
+nationaal,"nation, people",Dutch,1610,1
+nationaal,"nation, people",Dutch,1640,3
+nationaal,"nation, people",Dutch,1660,1
+nationaal,"nation, people",Dutch,1690,1
+nationaal,"nation, people",Dutch,1710,2
+nationaal,"nation, people",Dutch,1720,1
+nationaal,"nation, people",Dutch,1730,1
+nationaal,"nation, people",Dutch,1740,8
+nationaal,"nation, people",Dutch,1750,5
+nationaal,"nation, people",Dutch,1760,5
+nationaal,"nation, people",Dutch,1770,5
+nationaal,"nation, people",Dutch,1790,9
+nationaal,"nation, people",Dutch,17u0,2
+national,"nation, people",English,1500,2
+national,"nation, people",English,1540,1
+national,"nation, people",English,1550,2
+national,"nation, people",English,1560,1
+national,"nation, people",English,1580,2
+national,"nation, people",English,1600,6
+national,"nation, people",English,1610,19
+national,"nation, people",English,1620,12
+national,"nation, people",English,1630,8
+national,"nation, people",English,1640,53
+national,"nation, people",English,1650,48
+national,"nation, people",English,1660,33
+national,"nation, people",English,1670,47
+national,"nation, people",English,1680,99
+national,"nation, people",English,1690,555
+national,"nation, people",English,16u0,1
+national,"nation, people",English,1700,518
+national,"nation, people",English,1710,319
+national,"nation, people",English,1720,466
+national,"nation, people",English,1730,351
+national,"nation, people",English,1740,640
+national,"nation, people",English,1750,935
+national,"nation, people",English,1760,353
+national,"nation, people",English,1770,766
+national,"nation, people",English,1780,1094
+national,"nation, people",English,1790,3642
+national,"nation, people",English,17u0,5
+national,"nation, people",English,1800,256
+nazione,"nation, people",Italian,1540,1
+nazione,"nation, people",Italian,1590,6
+nazione,"nation, people",Italian,1600,1
+nazione,"nation, people",Italian,1650,2
+nazione,"nation, people",Italian,1670,1
+nazione,"nation, people",Italian,1700,10
+nazione,"nation, people",Italian,1710,6
+nazione,"nation, people",Italian,1720,4
+nazione,"nation, people",Italian,1730,10
+nazione,"nation, people",Italian,1740,4
+nazione,"nation, people",Italian,1750,7
+nazione,"nation, people",Italian,1760,31
+nazione,"nation, people",Italian,1770,17
+nazione,"nation, people",Italian,1780,32
+nazione,"nation, people",Italian,1790,26
+nazione,"nation, people",Italian,1800,6
+people,"nation, people",English,1500,7
+people,"nation, people",English,1510,22
+people,"nation, people",English,1520,38
+people,"nation, people",English,1530,58
+people,"nation, people",English,1540,99
+people,"nation, people",English,1550,50
+people,"nation, people",English,1560,78
+people,"nation, people",English,1570,99
+people,"nation, people",English,1580,200
+people,"nation, people",English,1590,100
+people,"nation, people",English,15u0,2
+people,"nation, people",English,1600,175
+people,"nation, people",English,1610,107
+people,"nation, people",English,1620,113
+people,"nation, people",English,1630,132
+people,"nation, people",English,1640,1556
+people,"nation, people",English,1650,1998
+people,"nation, people",English,1660,1536
+people,"nation, people",English,1670,870
+people,"nation, people",English,1680,918
+people,"nation, people",English,1690,1138
+people,"nation, people",English,16u0,12
+people,"nation, people",English,1700,851
+people,"nation, people",English,1710,962
+people,"nation, people",English,1720,998
+people,"nation, people",English,1730,1250
+people,"nation, people",English,1740,1268
+people,"nation, people",English,1750,2010
+people,"nation, people",English,1760,1209
+people,"nation, people",English,1770,1928
+people,"nation, people",English,1780,1962
+people,"nation, people",English,1790,4237
+people,"nation, people",English,17u0,20
+people,"nation, people",English,1800,380
+personas,"nation, people",Spanish,1500,6
+personas,"nation, people",Spanish,1510,4
+personas,"nation, people",Spanish,1520,1
+personas,"nation, people",Spanish,1540,5
+personas,"nation, people",Spanish,1550,13
+personas,"nation, people",Spanish,1560,15
+personas,"nation, people",Spanish,1580,14
+personas,"nation, people",Spanish,1590,28
+personas,"nation, people",Spanish,15u0,3
+personas,"nation, people",Spanish,1600,31
+personas,"nation, people",Spanish,1610,18
+personas,"nation, people",Spanish,1620,25
+personas,"nation, people",Spanish,1630,14
+personas,"nation, people",Spanish,1640,12
+personas,"nation, people",Spanish,1650,18
+personas,"nation, people",Spanish,1660,8
+personas,"nation, people",Spanish,1670,5
+personas,"nation, people",Spanish,1680,19
+personas,"nation, people",Spanish,1690,5
+personas,"nation, people",Spanish,1700,5
+personas,"nation, people",Spanish,1710,4
+personas,"nation, people",Spanish,1720,19
+personas,"nation, people",Spanish,1730,14
+personas,"nation, people",Spanish,1740,19
+personas,"nation, people",Spanish,1750,9
+personas,"nation, people",Spanish,1760,26
+personas,"nation, people",Spanish,1770,20
+personas,"nation, people",Spanish,1780,25
+personas,"nation, people",Spanish,1790,26
+personas,"nation, people",Spanish,17u0,4
+personas,"nation, people",Spanish,1800,1
+peuple,"nation, people",French,1500,3
+peuple,"nation, people",French,1530,1
+peuple,"nation, people",French,1540,3
+peuple,"nation, people",French,1550,17
+peuple,"nation, people",French,1560,70
+peuple,"nation, people",French,1570,19
+peuple,"nation, people",French,1580,50
+peuple,"nation, people",French,1590,16
+peuple,"nation, people",French,1600,16
+peuple,"nation, people",French,1610,11
+peuple,"nation, people",French,1620,25
+peuple,"nation, people",French,1630,11
+peuple,"nation, people",French,1640,56
+peuple,"nation, people",French,1650,22
+peuple,"nation, people",French,1670,9
+peuple,"nation, people",French,1680,7
+peuple,"nation, people",French,1690,6
+peuple,"nation, people",French,1700,26
+peuple,"nation, people",French,1710,20
+peuple,"nation, people",French,1720,28
+peuple,"nation, people",French,1730,30
+peuple,"nation, people",French,1740,38
+peuple,"nation, people",French,1750,148
+peuple,"nation, people",French,1760,120
+peuple,"nation, people",French,1770,100
+peuple,"nation, people",French,1780,941
+peuple,"nation, people",French,1790,4469
+peuple,"nation, people",French,1800,30
+philosophie,philosophy,French,1500,90
+philosophie,philosophy,German,1500,90
+philosophie,philosophy,French,1510,61
+philosophie,philosophy,German,1510,61
+philosophie,philosophy,French,1520,26
+philosophie,philosophy,German,1520,26
+philosophie,philosophy,French,1530,9
+philosophie,philosophy,German,1530,9
+philosophie,philosophy,French,1540,6
+philosophie,philosophy,German,1540,6
+philosophie,philosophy,French,1550,18
+philosophie,philosophy,German,1550,18
+philosophie,philosophy,French,1560,19
+philosophie,philosophy,German,1560,19
+philosophie,philosophy,French,1570,59
+philosophie,philosophy,German,1570,59
+philosophie,philosophy,French,1580,81
+philosophie,philosophy,German,1580,81
+philosophie,philosophy,French,1590,67
+philosophie,philosophy,German,1590,67
+philosophie,philosophy,French,15u0,2
+philosophie,philosophy,German,15u0,2
+philosophie,philosophy,French,1600,67
+philosophie,philosophy,German,1600,67
+philosophie,philosophy,French,1610,71
+philosophie,philosophy,German,1610,71
+philosophie,philosophy,French,1620,95
+philosophie,philosophy,German,1620,95
+philosophie,philosophy,French,1630,102
+philosophie,philosophy,German,1630,102
+philosophie,philosophy,French,1640,61
+philosophie,philosophy,German,1640,61
+philosophie,philosophy,French,1650,113
+philosophie,philosophy,German,1650,113
+philosophie,philosophy,French,1660,122
+philosophie,philosophy,German,1660,122
+philosophie,philosophy,French,1670,130
+philosophie,philosophy,German,1670,130
+philosophie,philosophy,French,1680,112
+philosophie,philosophy,German,1680,112
+philosophie,philosophy,French,1690,67
+philosophie,philosophy,German,1690,67
+philosophie,philosophy,French,16u0,5
+philosophie,philosophy,German,16u0,5
+philosophie,philosophy,French,1700,32
+philosophie,philosophy,German,1700,32
+philosophie,philosophy,French,1710,32
+philosophie,philosophy,German,1710,32
+philosophie,philosophy,French,1720,106
+philosophie,philosophy,German,1720,106
+philosophie,philosophy,French,1730,148
+philosophie,philosophy,German,1730,148
+philosophie,philosophy,French,1740,168
+philosophie,philosophy,German,1740,168
+philosophie,philosophy,French,1750,166
+philosophie,philosophy,German,1750,166
+philosophie,philosophy,French,1760,187
+philosophie,philosophy,German,1760,187
+philosophie,philosophy,French,1770,305
+philosophie,philosophy,German,1770,305
+philosophie,philosophy,French,1780,355
+philosophie,philosophy,German,1780,355
+philosophie,philosophy,French,1790,470
+philosophie,philosophy,German,1790,470
+philosophie,philosophy,French,17u0,7
+philosophie,philosophy,German,17u0,7
+philosophie,philosophy,French,1800,74
+philosophie,philosophy,German,1800,74
+philosophy,philosophy,English,1510,2
+philosophy,philosophy,English,1540,1
+philosophy,philosophy,English,1550,7
+philosophy,philosophy,English,1560,9
+philosophy,philosophy,English,1570,28
+philosophy,philosophy,English,1580,5
+philosophy,philosophy,English,1590,5
+philosophy,philosophy,English,15u0,2
+philosophy,philosophy,English,1600,8
+philosophy,philosophy,English,1610,4
+philosophy,philosophy,English,1620,7
+philosophy,philosophy,English,1630,43
+philosophy,philosophy,English,1640,20
+philosophy,philosophy,English,1650,137
+philosophy,philosophy,English,1660,157
+philosophy,philosophy,English,1670,109
+philosophy,philosophy,English,1680,110
+philosophy,philosophy,English,1690,171
+philosophy,philosophy,English,16u0,1
+philosophy,philosophy,English,1700,208
+philosophy,philosophy,English,1710,131
+philosophy,philosophy,English,1720,202
+philosophy,philosophy,English,1730,309
+philosophy,philosophy,English,1740,324
+philosophy,philosophy,English,1750,416
+philosophy,philosophy,English,1760,288
+philosophy,philosophy,English,1770,266
+philosophy,philosophy,English,1780,429
+philosophy,philosophy,English,1790,824
+philosophy,philosophy,English,17u0,10
+philosophy,philosophy,English,1800,88
+popli,"nation, people",Latin,1580,1
+popolo,"nation, people",Italian,1510,1
+popolo,"nation, people",Italian,1540,8
+popolo,"nation, people",Italian,1550,6
+popolo,"nation, people",Italian,1560,4
+popolo,"nation, people",Italian,1570,17
+popolo,"nation, people",Italian,1580,15
+popolo,"nation, people",Italian,1590,4
+popolo,"nation, people",Italian,15u0,1
+popolo,"nation, people",Italian,1600,10
+popolo,"nation, people",Italian,1610,5
+popolo,"nation, people",Italian,1620,12
+popolo,"nation, people",Italian,1630,11
+popolo,"nation, people",Italian,1640,22
+popolo,"nation, people",Italian,1650,6
+popolo,"nation, people",Italian,1660,5
+popolo,"nation, people",Italian,1670,30
+popolo,"nation, people",Italian,1680,15
+popolo,"nation, people",Italian,1690,8
+popolo,"nation, people",Italian,16u0,1
+popolo,"nation, people",Italian,1700,8
+popolo,"nation, people",Italian,1710,8
+popolo,"nation, people",Italian,1720,10
+popolo,"nation, people",Italian,1730,7
+popolo,"nation, people",Italian,1740,5
+popolo,"nation, people",Italian,1750,14
+popolo,"nation, people",Italian,1760,23
+popolo,"nation, people",Italian,1770,29
+popolo,"nation, people",Italian,1780,46
+popolo,"nation, people",Italian,1790,157
+popolo,"nation, people",Italian,17u0,3
+popolo,"nation, people",Italian,1800,19
+popular,"nation, people",English,1590,1
+popular,"nation, people",Spanish,1590,1
+popular,"nation, people",English,1610,1
+popular,"nation, people",Spanish,1610,1
+popular,"nation, people",English,1620,1
+popular,"nation, people",Spanish,1620,1
+popular,"nation, people",English,1630,4
+popular,"nation, people",Spanish,1630,4
+popular,"nation, people",English,1640,16
+popular,"nation, people",Spanish,1640,16
+popular,"nation, people",English,1650,75
+popular,"nation, people",Spanish,1650,75
+popular,"nation, people",English,1660,37
+popular,"nation, people",Spanish,1660,37
+popular,"nation, people",English,1670,27
+popular,"nation, people",Spanish,1670,27
+popular,"nation, people",English,1680,137
+popular,"nation, people",Spanish,1680,137
+popular,"nation, people",English,1690,21
+popular,"nation, people",Spanish,1690,21
+popular,"nation, people",English,1700,34
+popular,"nation, people",Spanish,1700,34
+popular,"nation, people",English,1710,20
+popular,"nation, people",Spanish,1710,20
+popular,"nation, people",English,1720,23
+popular,"nation, people",Spanish,1720,23
+popular,"nation, people",English,1730,27
+popular,"nation, people",Spanish,1730,27
+popular,"nation, people",English,1740,61
+popular,"nation, people",Spanish,1740,61
+popular,"nation, people",English,1750,62
+popular,"nation, people",Spanish,1750,62
+popular,"nation, people",English,1760,97
+popular,"nation, people",Spanish,1760,97
+popular,"nation, people",English,1770,123
+popular,"nation, people",Spanish,1770,123
+popular,"nation, people",English,1780,117
+popular,"nation, people",Spanish,1780,117
+popular,"nation, people",English,1790,272
+popular,"nation, people",Spanish,1790,272
+popular,"nation, people",English,17u0,2
+popular,"nation, people",Spanish,17u0,2
+popular,"nation, people",English,1800,64
+popular,"nation, people",Spanish,1800,64
+pueblo,"nation, people",Spanish,1500,4
+pueblo,"nation, people",Spanish,1530,2
+pueblo,"nation, people",Spanish,1550,4
+pueblo,"nation, people",Spanish,1570,12
+pueblo,"nation, people",Spanish,1590,2
+pueblo,"nation, people",Spanish,1600,12
+pueblo,"nation, people",Spanish,1610,6
+pueblo,"nation, people",Spanish,1620,6
+pueblo,"nation, people",Spanish,1630,2
+pueblo,"nation, people",Spanish,1640,22
+pueblo,"nation, people",Spanish,1650,16
+pueblo,"nation, people",Spanish,1660,12
+pueblo,"nation, people",Spanish,1670,14
+pueblo,"nation, people",Spanish,1680,8
+pueblo,"nation, people",Spanish,1690,12
+pueblo,"nation, people",Spanish,1700,12
+pueblo,"nation, people",Spanish,1710,14
+pueblo,"nation, people",Spanish,1720,18
+pueblo,"nation, people",Spanish,1730,2
+pueblo,"nation, people",Spanish,1740,18
+pueblo,"nation, people",Spanish,1750,44
+pueblo,"nation, people",Spanish,1760,28
+pueblo,"nation, people",Spanish,1770,48
+pueblo,"nation, people",Spanish,1780,44
+pueblo,"nation, people",Spanish,1790,48
+pueblo,"nation, people",Spanish,17u0,12
+pueblo,"nation, people",Spanish,1800,8
+queen,"king, queen",English,1500,2
+queen,"king, queen",English,1530,3
+queen,"king, queen",English,1540,5
+queen,"king, queen",English,1550,14
+queen,"king, queen",English,1560,44
+queen,"king, queen",English,1570,24
+queen,"king, queen",English,1580,36
+queen,"king, queen",English,1590,39
+queen,"king, queen",English,15u0,6
+queen,"king, queen",English,1600,38
+queen,"king, queen",English,1610,65
+queen,"king, queen",English,1620,29
+queen,"king, queen",English,1630,76
+queen,"king, queen",English,1640,338
+queen,"king, queen",English,1650,454
+queen,"king, queen",English,1660,210
+queen,"king, queen",English,1670,293
+queen,"king, queen",English,1680,1567
+queen,"king, queen",English,1690,1826
+queen,"king, queen",English,16u0,7
+queen,"king, queen",English,1700,1880
+queen,"king, queen",English,1710,1505
+queen,"king, queen",English,1720,647
+queen,"king, queen",English,1730,738
+queen,"king, queen",English,1740,701
+queen,"king, queen",English,1750,490
+queen,"king, queen",English,1760,505
+queen,"king, queen",English,1770,431
+queen,"king, queen",English,1780,391
+queen,"king, queen",English,1790,848
+queen,"king, queen",English,17u0,24
+queen,"king, queen",English,1800,118
+re,"king, queen",Italian,1500,99
+re,"king, queen",Italian,1510,158
+re,"king, queen",Italian,1520,239
+re,"king, queen",Italian,1530,586
+re,"king, queen",Italian,1540,595
+re,"king, queen",Italian,1550,424
+re,"king, queen",Italian,1560,272
+re,"king, queen",Italian,1570,226
+re,"king, queen",Italian,1580,313
+re,"king, queen",Italian,1590,318
+re,"king, queen",Italian,15u0,13
+re,"king, queen",Italian,1600,174
+re,"king, queen",Italian,1610,202
+re,"king, queen",Italian,1620,201
+re,"king, queen",Italian,1630,178
+re,"king, queen",Italian,1640,131
+re,"king, queen",Italian,1650,187
+re,"king, queen",Italian,1660,163
+re,"king, queen",Italian,1670,200
+re,"king, queen",Italian,1680,185
+re,"king, queen",Italian,1690,168
+re,"king, queen",Italian,16u0,7
+re,"king, queen",Italian,1700,214
+re,"king, queen",Italian,1710,138
+re,"king, queen",Italian,1720,196
+re,"king, queen",Italian,1730,269
+re,"king, queen",Italian,1740,179
+re,"king, queen",Italian,1750,234
+re,"king, queen",Italian,1760,258
+re,"king, queen",Italian,1770,188
+re,"king, queen",Italian,1780,223
+re,"king, queen",Italian,1790,239
+re,"king, queen",Italian,17u0,14
+re,"king, queen",Italian,1800,16
+"re publica",republic,Latin,1500,9
+"re publica",republic,Latin,1510,5
+"re publica",republic,Latin,1560,1
+"re publica",republic,Latin,1700,13
+"re publica",republic,Latin,1730,3
+"re publica",republic,Latin,1740,1
+"rebus publicis",republic,Latin,1540,3
+"rebus publicis",republic,Latin,1600,11
+"rebus publicis",republic,Latin,1630,15
+"rebus publicis",republic,Latin,1640,1
+"rebus publicis",republic,Latin,1650,1
+"rebus publicis",republic,Latin,1670,1
+"rebus publicis",republic,Latin,1720,1
+"rebus publicis",republic,Latin,1780,1
+rebuspublicis,republic,Latin,1580,1
+rebuspublicis,republic,Latin,1600,14
+rebuspublicis,republic,Latin,1620,3
+rebuspublicis,republic,Latin,1630,17
+rebuspublicis,republic,Latin,1640,11
+rebuspublicis,republic,Latin,1650,6
+rebuspublicis,republic,Latin,1670,4
+rebuspublicis,republic,Latin,1690,7
+rebuspublicis,republic,Latin,1720,1
+rebuspublicis,republic,Latin,1740,3
+recht,law,Dutch,1500,6
+recht,right,Dutch,1500,6
+recht,right,German,1500,6
+recht,law,Dutch,1510,17
+recht,right,Dutch,1510,17
+recht,right,German,1510,17
+recht,law,Dutch,1520,308
+recht,right,Dutch,1520,308
+recht,right,German,1520,308
+recht,law,Dutch,1530,94
+recht,right,Dutch,1530,94
+recht,right,German,1530,94
+recht,law,Dutch,1540,51
+recht,right,Dutch,1540,51
+recht,right,German,1540,51
+recht,law,Dutch,1550,64
+recht,right,Dutch,1550,64
+recht,right,German,1550,64
+recht,law,Dutch,1560,50
+recht,right,Dutch,1560,50
+recht,right,German,1560,50
+recht,law,Dutch,1570,63
+recht,right,Dutch,1570,63
+recht,right,German,1570,63
+recht,law,Dutch,1580,58
+recht,right,Dutch,1580,58
+recht,right,German,1580,58
+recht,law,Dutch,1590,63
+recht,right,Dutch,1590,63
+recht,right,German,1590,63
+recht,law,Dutch,15u0,3
+recht,right,Dutch,15u0,3
+recht,right,German,15u0,3
+recht,law,Dutch,1600,63
+recht,right,Dutch,1600,63
+recht,right,German,1600,63
+recht,law,Dutch,1610,107
+recht,right,Dutch,1610,107
+recht,right,German,1610,107
+recht,law,Dutch,1620,59
+recht,right,Dutch,1620,59
+recht,right,German,1620,59
+recht,law,Dutch,1630,46
+recht,right,Dutch,1630,46
+recht,right,German,1630,46
+recht,law,Dutch,1640,88
+recht,right,Dutch,1640,88
+recht,right,German,1640,88
+recht,law,Dutch,1650,83
+recht,right,Dutch,1650,83
+recht,right,German,1650,83
+recht,law,Dutch,1660,59
+recht,right,Dutch,1660,59
+recht,right,German,1660,59
+recht,law,Dutch,1670,64
+recht,right,Dutch,1670,64
+recht,right,German,1670,64
+recht,law,Dutch,1680,55
+recht,right,Dutch,1680,55
+recht,right,German,1680,55
+recht,law,Dutch,1690,57
+recht,right,Dutch,1690,57
+recht,right,German,1690,57
+recht,law,Dutch,16u0,2
+recht,right,Dutch,16u0,2
+recht,right,German,16u0,2
+recht,law,Dutch,1700,109
+recht,right,Dutch,1700,109
+recht,right,German,1700,109
+recht,law,Dutch,1710,116
+recht,right,Dutch,1710,116
+recht,right,German,1710,116
+recht,law,Dutch,1720,117
+recht,right,Dutch,1720,117
+recht,right,German,1720,117
+recht,law,Dutch,1730,127
+recht,right,Dutch,1730,127
+recht,right,German,1730,127
+recht,law,Dutch,1740,67
+recht,right,Dutch,1740,67
+recht,right,German,1740,67
+recht,law,Dutch,1750,100
+recht,right,Dutch,1750,100
+recht,right,German,1750,100
+recht,law,Dutch,1760,68
+recht,right,Dutch,1760,68
+recht,right,German,1760,68
+recht,law,Dutch,1770,104
+recht,right,Dutch,1770,104
+recht,right,German,1770,104
+recht,law,Dutch,1780,139
+recht,right,Dutch,1780,139
+recht,right,German,1780,139
+recht,law,Dutch,1790,87
+recht,right,Dutch,1790,87
+recht,right,German,1790,87
+recht,law,Dutch,17u0,6
+recht,right,Dutch,17u0,6
+recht,right,German,17u0,6
+recht,law,Dutch,1800,15
+recht,right,Dutch,1800,15
+recht,right,German,1800,15
+rechte,right,German,1500,3
+rechte,right,German,1510,4
+rechte,right,German,1520,56
+rechte,right,German,1530,38
+rechte,right,German,1540,24
+rechte,right,German,1550,73
+rechte,right,German,1560,25
+rechte,right,German,1570,27
+rechte,right,German,1580,24
+rechte,right,German,1590,49
+rechte,right,German,15u0,10
+rechte,right,German,1600,30
+rechte,right,German,1610,37
+rechte,right,German,1620,28
+rechte,right,German,1630,42
+rechte,right,German,1640,24
+rechte,right,German,1650,64
+rechte,right,German,1660,38
+rechte,right,German,1670,41
+rechte,right,German,1680,34
+rechte,right,German,1690,49
+rechte,right,German,16u0,1
+rechte,right,German,1700,49
+rechte,right,German,1710,42
+rechte,right,German,1720,36
+rechte,right,German,1730,36
+rechte,right,German,1740,50
+rechte,right,German,1750,62
+rechte,right,German,1760,52
+rechte,right,German,1770,62
+rechte,right,German,1780,91
+rechte,right,German,1790,137
+rechte,right,German,1800,13
+rechten,right,Dutch,1500,12
+rechten,right,German,1500,12
+rechten,right,Dutch,1510,6
+rechten,right,German,1510,6
+rechten,right,Dutch,1520,266
+rechten,right,German,1520,266
+rechten,right,Dutch,1530,109
+rechten,right,German,1530,109
+rechten,right,Dutch,1540,58
+rechten,right,German,1540,58
+rechten,right,Dutch,1550,90
+rechten,right,German,1550,90
+rechten,right,Dutch,1560,78
+rechten,right,German,1560,78
+rechten,right,Dutch,1570,101
+rechten,right,German,1570,101
+rechten,right,Dutch,1580,53
+rechten,right,German,1580,53
+rechten,right,Dutch,1590,82
+rechten,right,German,1590,82
+rechten,right,Dutch,15u0,6
+rechten,right,German,15u0,6
+rechten,right,Dutch,1600,31
+rechten,right,German,1600,31
+rechten,right,Dutch,1610,59
+rechten,right,German,1610,59
+rechten,right,Dutch,1620,30
+rechten,right,German,1620,30
+rechten,right,Dutch,1630,43
+rechten,right,German,1630,43
+rechten,right,Dutch,1640,48
+rechten,right,German,1640,48
+rechten,right,Dutch,1650,47
+rechten,right,German,1650,47
+rechten,right,Dutch,1660,50
+rechten,right,German,1660,50
+rechten,right,Dutch,1670,26
+rechten,right,German,1670,26
+rechten,right,Dutch,1680,38
+rechten,right,German,1680,38
+rechten,right,Dutch,1690,52
+rechten,right,German,1690,52
+rechten,right,Dutch,16u0,2
+rechten,right,German,16u0,2
+rechten,right,Dutch,1700,44
+rechten,right,German,1700,44
+rechten,right,Dutch,1710,38
+rechten,right,German,1710,38
+rechten,right,Dutch,1720,73
+rechten,right,German,1720,73
+rechten,right,Dutch,1730,62
+rechten,right,German,1730,62
+rechten,right,Dutch,1740,64
+rechten,right,German,1740,64
+rechten,right,Dutch,1750,47
+rechten,right,German,1750,47
+rechten,right,Dutch,1760,35
+rechten,right,German,1760,35
+rechten,right,Dutch,1770,70
+rechten,right,German,1770,70
+rechten,right,Dutch,1780,60
+rechten,right,German,1780,60
+rechten,right,Dutch,1790,83
+rechten,right,German,1790,83
+rechten,right,Dutch,17u0,3
+rechten,right,German,17u0,3
+rechten,right,Dutch,1800,6
+rechten,right,German,1800,6
+rechtes,right,German,1510,1
+rechtes,right,German,1550,1
+rechtes,right,German,1560,2
+rechtes,right,German,1570,2
+rechtes,right,German,1580,3
+rechtes,right,German,1610,4
+rechtes,right,German,1620,2
+rechtes,right,German,1680,1
+rechtes,right,German,1690,3
+rechtes,right,German,1720,1
+rechtes,right,German,1740,1
+rechtes,right,German,1750,5
+rechtes,right,German,1770,1
+rechtes,right,German,1780,3
+rechtes,right,German,1800,2
+rechtmatig,right,Dutch,1730,3
+rechtmatig,right,Dutch,1740,1
+rechts,right,German,1530,1
+rechts,right,German,1540,1
+rechts,right,German,1560,1
+rechts,right,German,1610,5
+rechts,right,German,1620,3
+rechts,right,German,1640,2
+rechts,right,German,1650,1
+rechts,right,German,1660,3
+rechts,right,German,1670,3
+rechts,right,German,1680,7
+rechts,right,German,1690,3
+rechts,right,German,1700,19
+rechts,right,German,1710,12
+rechts,right,German,1720,6
+rechts,right,German,1730,18
+rechts,right,German,1740,12
+rechts,right,German,1750,16
+rechts,right,German,1760,13
+rechts,right,German,1770,20
+rechts,right,German,1780,22
+rechts,right,German,1790,47
+rechts,right,German,1800,2
+rege,"king, queen",Latin,1500,26
+rege,"king, queen",Latin,1510,30
+rege,"king, queen",Latin,1520,34
+rege,"king, queen",Latin,1530,43
+rege,"king, queen",Latin,1540,22
+rege,"king, queen",Latin,1550,94
+rege,"king, queen",Latin,1560,46
+rege,"king, queen",Latin,1570,40
+rege,"king, queen",Latin,1580,43
+rege,"king, queen",Latin,1590,54
+rege,"king, queen",Latin,1600,43
+rege,"king, queen",Latin,1610,71
+rege,"king, queen",Latin,1620,39
+rege,"king, queen",Latin,1630,30
+rege,"king, queen",Latin,1640,44
+rege,"king, queen",Latin,1650,88
+rege,"king, queen",Latin,1660,24
+rege,"king, queen",Latin,1670,55
+rege,"king, queen",Latin,1680,48
+rege,"king, queen",Latin,1690,36
+rege,"king, queen",Latin,1700,16
+rege,"king, queen",Latin,1710,26
+rege,"king, queen",Latin,1720,25
+rege,"king, queen",Latin,1730,47
+rege,"king, queen",Latin,1740,42
+rege,"king, queen",Latin,1750,23
+rege,"king, queen",Latin,1760,16
+rege,"king, queen",Latin,1770,19
+rege,"king, queen",Latin,1780,19
+rege,"king, queen",Latin,1790,30
+rege,"king, queen",Latin,1800,5
+regina,"king, queen",Italian,1500,19
+regina,"king, queen",Latin,1500,19
+regina,"king, queen",Italian,1510,4
+regina,"king, queen",Latin,1510,4
+regina,"king, queen",Italian,1520,20
+regina,"king, queen",Latin,1520,20
+regina,"king, queen",Italian,1530,32
+regina,"king, queen",Latin,1530,32
+regina,"king, queen",Italian,1540,9
+regina,"king, queen",Latin,1540,9
+regina,"king, queen",Italian,1550,33
+regina,"king, queen",Latin,1550,33
+regina,"king, queen",Italian,1560,61
+regina,"king, queen",Latin,1560,61
+regina,"king, queen",Italian,1570,45
+regina,"king, queen",Latin,1570,45
+regina,"king, queen",Italian,1580,68
+regina,"king, queen",Latin,1580,68
+regina,"king, queen",Italian,1590,72
+regina,"king, queen",Latin,1590,72
+regina,"king, queen",Italian,1600,58
+regina,"king, queen",Latin,1600,58
+regina,"king, queen",Italian,1610,42
+regina,"king, queen",Latin,1610,42
+regina,"king, queen",Italian,1620,45
+regina,"king, queen",Latin,1620,45
+regina,"king, queen",Italian,1630,39
+regina,"king, queen",Latin,1630,39
+regina,"king, queen",Italian,1640,54
+regina,"king, queen",Latin,1640,54
+regina,"king, queen",Italian,1650,89
+regina,"king, queen",Latin,1650,89
+regina,"king, queen",Italian,1660,64
+regina,"king, queen",Latin,1660,64
+regina,"king, queen",Italian,1670,40
+regina,"king, queen",Latin,1670,40
+regina,"king, queen",Italian,1680,72
+regina,"king, queen",Latin,1680,72
+regina,"king, queen",Italian,1690,49
+regina,"king, queen",Latin,1690,49
+regina,"king, queen",Italian,16u0,8
+regina,"king, queen",Latin,16u0,8
+regina,"king, queen",Italian,1700,49
+regina,"king, queen",Latin,1700,49
+regina,"king, queen",Italian,1710,45
+regina,"king, queen",Latin,1710,45
+regina,"king, queen",Italian,1720,31
+regina,"king, queen",Latin,1720,31
+regina,"king, queen",Italian,1730,34
+regina,"king, queen",Latin,1730,34
+regina,"king, queen",Italian,1740,40
+regina,"king, queen",Latin,1740,40
+regina,"king, queen",Italian,1750,28
+regina,"king, queen",Latin,1750,28
+regina,"king, queen",Italian,1760,57
+regina,"king, queen",Latin,1760,57
+regina,"king, queen",Italian,1770,40
+regina,"king, queen",Latin,1770,40
+regina,"king, queen",Italian,1780,46
+regina,"king, queen",Latin,1780,46
+regina,"king, queen",Italian,1790,49
+regina,"king, queen",Latin,1790,49
+regina,"king, queen",Italian,17u0,1
+regina,"king, queen",Latin,17u0,1
+regina,"king, queen",Italian,1800,6
+regina,"king, queen",Latin,1800,6
+regis,"king, queen",Latin,1500,129
+regis,"king, queen",Latin,1510,268
+regis,"king, queen",Latin,1520,204
+regis,"king, queen",Latin,1530,179
+regis,"king, queen",Latin,1540,167
+regis,"king, queen",Latin,1550,250
+regis,"king, queen",Latin,1560,374
+regis,"king, queen",Latin,1570,380
+regis,"king, queen",Latin,1580,348
+regis,"king, queen",Latin,1590,280
+regis,"king, queen",Latin,15u0,9
+regis,"king, queen",Latin,1600,407
+regis,"king, queen",Latin,1610,515
+regis,"king, queen",Latin,1620,447
+regis,"king, queen",Latin,1630,256
+regis,"king, queen",Latin,1640,516
+regis,"king, queen",Latin,1650,196
+regis,"king, queen",Latin,1660,644
+regis,"king, queen",Latin,1670,457
+regis,"king, queen",Latin,1680,427
+regis,"king, queen",Latin,1690,611
+regis,"king, queen",Latin,16u0,3
+regis,"king, queen",Latin,1700,228
+regis,"king, queen",Latin,1710,394
+regis,"king, queen",Latin,1720,742
+regis,"king, queen",Latin,1730,649
+regis,"king, queen",Latin,1740,830
+regis,"king, queen",Latin,1750,949
+regis,"king, queen",Latin,1760,736
+regis,"king, queen",Latin,1770,667
+regis,"king, queen",Latin,1780,688
+regis,"king, queen",Latin,1790,530
+regis,"king, queen",Latin,17u0,9
+regis,"king, queen",Latin,1800,13
+regium,"king, queen",Latin,1500,2
+regium,"king, queen",Latin,1510,11
+regium,"king, queen",Latin,1520,14
+regium,"king, queen",Latin,1530,10
+regium,"king, queen",Latin,1540,8
+regium,"king, queen",Latin,1550,7
+regium,"king, queen",Latin,1560,3
+regium,"king, queen",Latin,1570,3
+regium,"king, queen",Latin,1580,13
+regium,"king, queen",Latin,1590,7
+regium,"king, queen",Latin,1600,11
+regium,"king, queen",Latin,1610,33
+regium,"king, queen",Latin,1620,13
+regium,"king, queen",Latin,1630,13
+regium,"king, queen",Latin,1640,6
+regium,"king, queen",Latin,1650,4
+regium,"king, queen",Latin,1660,3
+regium,"king, queen",Latin,1670,16
+regium,"king, queen",Latin,1680,25
+regium,"king, queen",Latin,1690,12
+regium,"king, queen",Latin,1700,37
+regium,"king, queen",Latin,1710,16
+regium,"king, queen",Latin,1720,1
+regium,"king, queen",Latin,1730,12
+regium,"king, queen",Latin,1740,8
+regium,"king, queen",Latin,1750,4
+regium,"king, queen",Latin,1760,12
+regium,"king, queen",Latin,1770,9
+regium,"king, queen",Latin,1780,9
+regium,"king, queen",Latin,1790,19
+regla,law,Spanish,1500,2
+regla,law,Spanish,1510,1
+regla,law,Spanish,1540,1
+regla,law,Spanish,1550,7
+regla,law,Spanish,1560,4
+regla,law,Spanish,1570,2
+regla,law,Spanish,1580,4
+regla,law,Spanish,1590,14
+regla,law,Spanish,1600,12
+regla,law,Spanish,1610,4
+regla,law,Spanish,1620,7
+regla,law,Spanish,1630,7
+regla,law,Spanish,1640,8
+regla,law,Spanish,1650,4
+regla,law,Spanish,1660,7
+regla,law,Spanish,1670,3
+regla,law,Spanish,1680,3
+regla,law,Spanish,1690,6
+regla,law,Spanish,16u0,1
+regla,law,Spanish,1700,2
+regla,law,Spanish,1710,5
+regla,law,Spanish,1720,6
+regla,law,Spanish,1730,7
+regla,law,Spanish,1740,4
+regla,law,Spanish,1750,17
+regla,law,Spanish,1760,12
+regla,law,Spanish,1770,6
+regla,law,Spanish,1780,17
+regla,law,Spanish,1790,14
+regla,law,Spanish,17u0,2
+regla,law,Spanish,1800,3
+"rei publicae",republic,Latin,1530,1
+"rei publicae",republic,Latin,1550,2
+"rei publicae",republic,Latin,1570,11
+"rei publicae",republic,Latin,1580,3
+"rei publicae",republic,Latin,1670,1
+"rei publicae",republic,Latin,1680,1
+"rei publicae",republic,Latin,1750,1
+reina,"king, queen",Spanish,1500,2
+reina,"king, queen",Spanish,1510,6
+reina,"king, queen",Spanish,1540,3
+reina,"king, queen",Spanish,1550,18
+reina,"king, queen",Spanish,1560,35
+reina,"king, queen",Spanish,1570,8
+reina,"king, queen",Spanish,1580,25
+reina,"king, queen",Spanish,1590,25
+reina,"king, queen",Spanish,1600,22
+reina,"king, queen",Spanish,1610,37
+reina,"king, queen",Spanish,1620,15
+reina,"king, queen",Spanish,1630,2
+reina,"king, queen",Spanish,1640,25
+reina,"king, queen",Spanish,1650,13
+reina,"king, queen",Spanish,1660,3
+reina,"king, queen",Spanish,1670,4
+reina,"king, queen",Spanish,1680,11
+reina,"king, queen",Spanish,1690,2
+reina,"king, queen",Spanish,1700,10
+reina,"king, queen",Spanish,1720,1
+reina,"king, queen",Spanish,1730,7
+reina,"king, queen",Spanish,1740,4
+reina,"king, queen",Spanish,1750,1
+reina,"king, queen",Spanish,1760,9
+reina,"king, queen",Spanish,1770,3
+reina,"king, queen",Spanish,1780,2
+reina,"king, queen",Spanish,1790,5
+reina,"king, queen",Spanish,17u0,5
+reine,"king, queen",French,1500,29
+reine,"king, queen",French,1530,2
+reine,"king, queen",French,1540,12
+reine,"king, queen",French,1550,5
+reine,"king, queen",French,1560,16
+reine,"king, queen",French,1570,17
+reine,"king, queen",French,1580,13
+reine,"king, queen",French,1590,13
+reine,"king, queen",French,15u0,2
+reine,"king, queen",French,1600,35
+reine,"king, queen",French,1610,20
+reine,"king, queen",French,1620,18
+reine,"king, queen",French,1630,17
+reine,"king, queen",French,1640,127
+reine,"king, queen",French,1650,53
+reine,"king, queen",French,1660,75
+reine,"king, queen",French,1670,24
+reine,"king, queen",French,1680,65
+reine,"king, queen",French,1690,153
+reine,"king, queen",French,16u0,1
+reine,"king, queen",French,1700,108
+reine,"king, queen",French,1710,152
+reine,"king, queen",French,1720,64
+reine,"king, queen",French,1730,49
+reine,"king, queen",French,1740,148
+reine,"king, queen",French,1750,84
+reine,"king, queen",French,1760,168
+reine,"king, queen",French,1770,186
+reine,"king, queen",French,1780,391
+reine,"king, queen",French,1790,340
+reine,"king, queen",French,17u0,12
+reine,"king, queen",French,1800,12
+reipublicae,republic,Latin,1500,3
+reipublicae,republic,Latin,1510,7
+reipublicae,republic,Latin,1520,6
+reipublicae,republic,Latin,1530,4
+reipublicae,republic,Latin,1540,16
+reipublicae,republic,Latin,1550,36
+reipublicae,republic,Latin,1560,16
+reipublicae,republic,Latin,1570,37
+reipublicae,republic,Latin,1580,17
+reipublicae,republic,Latin,1590,21
+reipublicae,republic,Latin,15u0,1
+reipublicae,republic,Latin,1600,40
+reipublicae,republic,Latin,1610,42
+reipublicae,republic,Latin,1620,25
+reipublicae,republic,Latin,1630,28
+reipublicae,republic,Latin,1640,31
+reipublicae,republic,Latin,1650,60
+reipublicae,republic,Latin,1660,35
+reipublicae,republic,Latin,1670,38
+reipublicae,republic,Latin,1680,26
+reipublicae,republic,Latin,1690,18
+reipublicae,republic,Latin,16u0,1
+reipublicae,republic,Latin,1700,27
+reipublicae,republic,Latin,1710,34
+reipublicae,republic,Latin,1720,36
+reipublicae,republic,Latin,1730,66
+reipublicae,republic,Latin,1740,24
+reipublicae,republic,Latin,1750,46
+reipublicae,republic,Latin,1760,31
+reipublicae,republic,Latin,1770,22
+reipublicae,republic,Latin,1780,13
+reipublicae,republic,Latin,1790,21
+reipublicae,republic,Latin,17u0,1
+"rem publicam",republic,Latin,1650,1
+"rem publicam",republic,Latin,1700,2
+"rem publicam",republic,Latin,1790,1
+rempublicam,republic,Latin,1520,1
+rempublicam,republic,Latin,1530,2
+rempublicam,republic,Latin,1570,3
+rempublicam,republic,Latin,1590,2
+rempublicam,republic,Latin,1600,43
+rempublicam,republic,Latin,1610,6
+rempublicam,republic,Latin,1620,4
+rempublicam,republic,Latin,1630,6
+rempublicam,republic,Latin,1640,6
+rempublicam,republic,Latin,1650,4
+rempublicam,republic,Latin,1660,8
+rempublicam,republic,Latin,1670,3
+rempublicam,republic,Latin,1680,4
+rempublicam,republic,Latin,1690,6
+rempublicam,republic,Latin,1700,3
+rempublicam,republic,Latin,1710,3
+rempublicam,republic,Latin,1720,7
+rempublicam,republic,Latin,1730,4
+rempublicam,republic,Latin,1740,9
+rempublicam,republic,Latin,1750,7
+rempublicam,republic,Latin,1760,11
+rempublicam,republic,Latin,1770,5
+rempublicam,republic,Latin,1780,1
+rempublicam,republic,Latin,1790,2
+rempublicam,republic,Latin,17u0,1
+repubblica,republic,Italian,1530,1
+repubblica,republic,Italian,1550,1
+repubblica,republic,Italian,1600,1
+repubblica,republic,Italian,1620,1
+repubblica,republic,Italian,1650,1
+repubblica,republic,Italian,1680,3
+repubblica,republic,Italian,1690,1
+repubblica,republic,Italian,16u0,2
+repubblica,republic,Italian,1700,13
+repubblica,republic,Italian,1710,14
+repubblica,republic,Italian,1720,38
+repubblica,republic,Italian,1730,24
+repubblica,republic,Italian,1740,14
+repubblica,republic,Italian,1750,51
+repubblica,republic,Italian,1760,69
+repubblica,republic,Italian,1770,23
+repubblica,republic,Italian,1780,51
+repubblica,republic,Italian,1790,288
+repubblica,republic,Italian,17u0,1
+repubblica,republic,Italian,1800,17
+republic,republic,English,1550,1
+republic,republic,English,1560,1
+republic,republic,English,1570,1
+republic,republic,English,1580,2
+republic,republic,English,1600,10
+republic,republic,English,1610,1
+republic,republic,English,1620,1
+republic,republic,English,1630,1
+republic,republic,English,1650,1
+republic,republic,English,1660,1
+republic,republic,English,1670,4
+republic,republic,English,1680,15
+republic,republic,English,1690,11
+republic,republic,English,1700,9
+republic,republic,English,1710,3
+republic,republic,English,1720,43
+republic,republic,English,1730,26
+republic,republic,English,1740,39
+republic,republic,English,1750,14
+republic,republic,English,1760,71
+republic,republic,English,1770,54
+republic,republic,English,1780,29
+republic,republic,English,1790,367
+republic,republic,English,1800,48
+república,republic,Spanish,1500,12
+republica,republic,Latin,1500,12
+república,republic,Spanish,1510,1
+republica,republic,Latin,1510,1
+república,republic,Spanish,1520,15
+republica,republic,Latin,1520,15
+república,republic,Spanish,1530,12
+republica,republic,Latin,1530,12
+república,republic,Spanish,1540,66
+republica,republic,Latin,1540,66
+república,republic,Spanish,1550,104
+republica,republic,Latin,1550,104
+república,republic,Spanish,1560,44
+republica,republic,Latin,1560,44
+república,republic,Spanish,1570,99
+republica,republic,Latin,1570,99
+república,republic,Spanish,1580,131
+republica,republic,Latin,1580,131
+república,republic,Spanish,1590,69
+republica,republic,Latin,1590,69
+república,republic,Spanish,15u0,1
+republica,republic,Latin,15u0,1
+república,republic,Spanish,1600,168
+republica,republic,Latin,1600,168
+república,republic,Spanish,1610,153
+republica,republic,Latin,1610,153
+república,republic,Spanish,1620,120
+republica,republic,Latin,1620,120
+república,republic,Spanish,1630,90
+republica,republic,Latin,1630,90
+república,republic,Spanish,1640,128
+republica,republic,Latin,1640,128
+república,republic,Spanish,1650,120
+republica,republic,Latin,1650,120
+república,republic,Spanish,1660,87
+republica,republic,Latin,1660,87
+república,republic,Spanish,1670,125
+republica,republic,Latin,1670,125
+república,republic,Spanish,1680,130
+republica,republic,Latin,1680,130
+república,republic,Spanish,1690,60
+republica,republic,Latin,1690,60
+república,republic,Spanish,16u0,6
+republica,republic,Latin,16u0,6
+república,republic,Spanish,1700,65
+republica,republic,Latin,1700,65
+república,republic,Spanish,1710,44
+republica,republic,Latin,1710,44
+república,republic,Spanish,1720,66
+republica,republic,Latin,1720,66
+república,republic,Spanish,1730,31
+republica,republic,Latin,1730,31
+república,republic,Spanish,1740,51
+republica,republic,Latin,1740,51
+república,republic,Spanish,1750,50
+republica,republic,Latin,1750,50
+república,republic,Spanish,1760,28
+republica,republic,Latin,1760,28
+república,republic,Spanish,1770,19
+republica,republic,Latin,1770,19
+república,republic,Spanish,1780,39
+republica,republic,Latin,1780,39
+república,republic,Spanish,1790,95
+republica,republic,Latin,1790,95
+república,republic,Spanish,17u0,3
+republica,republic,Latin,17u0,3
+república,republic,Spanish,1800,7
+republica,republic,Latin,1800,7
+republiek,republic,Dutch,1690,1
+republiek,republic,Dutch,1730,3
+republiek,republic,Dutch,1740,21
+republiek,republic,Dutch,1770,6
+republiek,republic,Dutch,1780,45
+republiek,republic,Dutch,1790,100
+republiek,republic,Dutch,1800,6
+republik,republic,German,1570,1
+republik,republic,German,1660,1
+republik,republic,German,1680,7
+republik,republic,German,1690,1
+republik,republic,German,1720,2
+republik,republic,German,1740,1
+republik,republic,German,1750,11
+republik,republic,German,1760,7
+republik,republic,German,1770,27
+republik,republic,German,1780,38
+republik,republic,German,1790,149
+republik,republic,German,1800,9
+république,republic,French,1500,1
+république,republic,French,1530,1
+république,republic,French,1540,2
+république,republic,French,1550,8
+république,republic,French,1560,33
+république,republic,French,1570,29
+république,republic,French,1580,27
+république,republic,French,1590,26
+république,republic,French,1600,18
+république,republic,French,1610,13
+république,republic,French,1620,17
+république,republic,French,1630,2
+république,republic,French,1640,9
+république,republic,French,1650,51
+république,republic,French,1660,17
+république,republic,French,1670,24
+république,republic,French,1680,89
+république,republic,French,1690,21
+république,republic,French,1700,37
+république,republic,French,1710,33
+république,republic,French,1720,42
+république,republic,French,1730,56
+république,republic,French,1740,16
+république,republic,French,1750,32
+république,republic,French,1760,28
+république,republic,French,1770,37
+république,republic,French,1780,31
+république,republic,French,1790,521
+république,republic,French,17u0,2
+république,republic,French,1800,14
+"rerum publicarum",republic,Latin,1540,2
+"rerum publicarum",republic,Latin,1560,1
+"rerum publicarum",republic,Latin,1580,3
+"rerum publicarum",republic,Latin,1590,4
+"rerum publicarum",republic,Latin,1610,7
+"rerum publicarum",republic,Latin,1620,2
+"rerum publicarum",republic,Latin,1630,3
+"rerum publicarum",republic,Latin,1640,1
+"rerum publicarum",republic,Latin,1650,1
+"rerum publicarum",republic,Latin,1660,5
+"rerum publicarum",republic,Latin,1670,8
+"rerum publicarum",republic,Latin,1680,1
+"rerum publicarum",republic,Latin,1690,1
+"rerum publicarum",republic,Latin,1700,1
+"rerum publicarum",republic,Latin,1720,2
+"rerum publicarum",republic,Latin,1730,1
+"rerum publicarum",republic,Latin,1740,2
+"rerum publicarum",republic,Latin,1760,2
+"rerum publicarum",republic,Latin,1770,1
+"rerum publicarum",republic,Latin,1780,3
+"rerum publicarum",republic,Latin,17u0,1
+rerumpublicarum,republic,Latin,1550,4
+rerumpublicarum,republic,Latin,1560,7
+rerumpublicarum,republic,Latin,1580,7
+rerumpublicarum,republic,Latin,1590,10
+rerumpublicarum,republic,Latin,1600,12
+rerumpublicarum,republic,Latin,1610,14
+rerumpublicarum,republic,Latin,1620,16
+rerumpublicarum,republic,Latin,1630,4
+rerumpublicarum,republic,Latin,1640,28
+rerumpublicarum,republic,Latin,1650,7
+rerumpublicarum,republic,Latin,1660,22
+rerumpublicarum,republic,Latin,1670,17
+rerumpublicarum,republic,Latin,1680,7
+rerumpublicarum,republic,Latin,1690,5
+rerumpublicarum,republic,Latin,16u0,1
+rerumpublicarum,republic,Latin,1700,13
+rerumpublicarum,republic,Latin,1710,2
+rerumpublicarum,republic,Latin,1720,3
+rerumpublicarum,republic,Latin,1730,4
+rerumpublicarum,republic,Latin,1740,5
+rerumpublicarum,republic,Latin,1750,1
+rerumpublicarum,republic,Latin,1770,3
+rerumpublicarum,republic,Latin,1780,1
+rerumpublicarum,republic,Latin,1790,1
+"res publica",republic,Latin,1670,2
+"res publica",republic,Latin,1710,2
+"res publica",republic,Latin,1740,1
+"res publica",republic,Latin,1780,5
+respublica,republic,Latin,1500,1
+respublica,republic,Latin,1550,5
+respublica,republic,Latin,1620,15
+respublica,republic,Latin,1630,23
+respublica,republic,Latin,1640,4
+respublica,republic,Latin,1650,6
+respublica,republic,Latin,1660,4
+respublica,republic,Latin,1710,2
+respublica,republic,Latin,1720,1
+respublica,republic,Latin,1730,11
+respublica,republic,Latin,1740,3
+respublica,republic,Latin,1750,1
+respublica,republic,Latin,1760,2
+respublica,republic,Latin,1780,9
+respublica,republic,Latin,1790,1
+respublicas,republic,Latin,1540,2
+respublicas,republic,Latin,1610,1
+respublicas,republic,Latin,1620,3
+respublicas,republic,Latin,1630,5
+respublicas,republic,Latin,1650,9
+respublicas,republic,Latin,1670,4
+respublicas,republic,Latin,1680,4
+respublicas,republic,Latin,1690,5
+respublicas,republic,Latin,1700,1
+respublicas,republic,Latin,1720,1
+respublicas,republic,Latin,1740,2
+respublicas,republic,Latin,1770,1
+respublicas,republic,Latin,17u0,1
+revolución,revolution,Spanish,1620,2
+revolución,revolution,Spanish,1750,1
+revolución,revolution,Spanish,1760,1
+revolución,revolution,Spanish,1800,9
+revoluciones,revolution,Spanish,1680,3
+revoluciones,revolution,Spanish,1720,1
+revoluciones,revolution,Spanish,1730,2
+revoluciones,revolution,Spanish,1740,2
+revoluciones,revolution,Spanish,1780,2
+revoluciones,revolution,Spanish,1790,2
+revolutie,revolution,Dutch,1780,1
+revolutie,revolution,Dutch,1790,10
+revolutie,revolution,Dutch,1800,1
+revolution,revolution,English,1540,3
+revolution,revolution,French,1540,3
+revolution,revolution,German,1540,3
+revolution,revolution,English,1550,3
+revolution,revolution,French,1550,3
+revolution,revolution,German,1550,3
+revolution,revolution,English,1580,1
+revolution,revolution,French,1580,1
+revolution,revolution,German,1580,1
+revolution,revolution,English,1610,1
+revolution,revolution,French,1610,1
+revolution,revolution,German,1610,1
+revolution,revolution,English,1630,4
+revolution,revolution,French,1630,4
+revolution,revolution,German,1630,4
+revolution,revolution,English,1640,27
+revolution,revolution,French,1640,27
+revolution,revolution,German,1640,27
+revolution,revolution,English,1650,35
+revolution,revolution,French,1650,35
+revolution,revolution,German,1650,35
+revolution,revolution,English,1660,1
+revolution,revolution,French,1660,1
+revolution,revolution,German,1660,1
+revolution,revolution,English,1670,53
+revolution,revolution,French,1670,53
+revolution,revolution,German,1670,53
+revolution,revolution,English,1680,131
+revolution,revolution,French,1680,131
+revolution,revolution,German,1680,131
+revolution,revolution,English,1690,200
+revolution,revolution,French,1690,200
+revolution,revolution,German,1690,200
+revolution,revolution,English,1700,206
+revolution,revolution,French,1700,206
+revolution,revolution,German,1700,206
+revolution,revolution,English,1710,333
+revolution,revolution,French,1710,333
+revolution,revolution,German,1710,333
+revolution,revolution,English,1720,167
+revolution,revolution,French,1720,167
+revolution,revolution,German,1720,167
+revolution,revolution,English,1730,63
+revolution,revolution,French,1730,63
+revolution,revolution,German,1730,63
+revolution,revolution,English,1740,216
+revolution,revolution,French,1740,216
+revolution,revolution,German,1740,216
+revolution,revolution,English,1750,153
+revolution,revolution,French,1750,153
+revolution,revolution,German,1750,153
+revolution,revolution,English,1760,198
+revolution,revolution,French,1760,198
+revolution,revolution,German,1760,198
+revolution,revolution,English,1770,322
+revolution,revolution,French,1770,322
+revolution,revolution,German,1770,322
+revolution,revolution,English,1780,761
+revolution,revolution,French,1780,761
+revolution,revolution,German,1780,761
+revolution,revolution,English,1790,2602
+revolution,revolution,French,1790,2602
+revolution,revolution,German,1790,2602
+revolution,revolution,English,17u0,7
+revolution,revolution,French,17u0,7
+revolution,revolution,German,17u0,7
+revolution,revolution,English,1800,141
+revolution,revolution,French,1800,141
+revolution,revolution,German,1800,141
+rex,"king, queen",Latin,1500,13
+rex,"king, queen",Latin,1510,16
+rex,"king, queen",Latin,1520,50
+rex,"king, queen",Latin,1530,58
+rex,"king, queen",Latin,1540,5
+rex,"king, queen",Latin,1550,4
+rex,"king, queen",Latin,1560,9
+rex,"king, queen",Latin,1570,5
+rex,"king, queen",Latin,1580,12
+rex,"king, queen",Latin,1590,20
+rex,"king, queen",Latin,15u0,1
+rex,"king, queen",Latin,1600,13
+rex,"king, queen",Latin,1610,53
+rex,"king, queen",Latin,1620,13
+rex,"king, queen",Latin,1630,27
+rex,"king, queen",Latin,1640,86
+rex,"king, queen",Latin,1650,24
+rex,"king, queen",Latin,1660,32
+rex,"king, queen",Latin,1670,19
+rex,"king, queen",Latin,1680,29
+rex,"king, queen",Latin,1690,25
+rex,"king, queen",Latin,16u0,2
+rex,"king, queen",Latin,1700,24
+rex,"king, queen",Latin,1710,7
+rex,"king, queen",Latin,1720,9
+rex,"king, queen",Latin,1730,11
+rex,"king, queen",Latin,1740,11
+rex,"king, queen",Latin,1750,11
+rex,"king, queen",Latin,1760,10
+rex,"king, queen",Latin,1770,4
+rex,"king, queen",Latin,1780,2
+rex,"king, queen",Latin,1790,5
+rex,"king, queen",Latin,1800,2
+rey,"king, queen",Spanish,1500,27
+rey,"king, queen",Spanish,1510,37
+rey,"king, queen",Spanish,1520,66
+rey,"king, queen",Spanish,1530,45
+rey,"king, queen",Spanish,1540,99
+rey,"king, queen",Spanish,1550,143
+rey,"king, queen",Spanish,1560,100
+rey,"king, queen",Spanish,1570,33
+rey,"king, queen",Spanish,1580,96
+rey,"king, queen",Spanish,1590,158
+rey,"king, queen",Spanish,15u0,4
+rey,"king, queen",Spanish,1600,195
+rey,"king, queen",Spanish,1610,148
+rey,"king, queen",Spanish,1620,271
+rey,"king, queen",Spanish,1630,180
+rey,"king, queen",Spanish,1640,220
+rey,"king, queen",Spanish,1650,146
+rey,"king, queen",Spanish,1660,147
+rey,"king, queen",Spanish,1670,147
+rey,"king, queen",Spanish,1680,117
+rey,"king, queen",Spanish,1690,80
+rey,"king, queen",Spanish,16u0,19
+rey,"king, queen",Spanish,1700,250
+rey,"king, queen",Spanish,1710,110
+rey,"king, queen",Spanish,1720,167
+rey,"king, queen",Spanish,1730,150
+rey,"king, queen",Spanish,1740,203
+rey,"king, queen",Spanish,1750,204
+rey,"king, queen",Spanish,1760,310
+rey,"king, queen",Spanish,1770,219
+rey,"king, queen",Spanish,1780,395
+rey,"king, queen",Spanish,1790,303
+rey,"king, queen",Spanish,17u0,58
+rey,"king, queen",Spanish,1800,32
+reyes,"king, queen",Spanish,1500,2
+reyes,"king, queen",Spanish,1510,5
+reyes,"king, queen",Spanish,1520,7
+reyes,"king, queen",Spanish,1530,7
+reyes,"king, queen",Spanish,1540,15
+reyes,"king, queen",Spanish,1550,33
+reyes,"king, queen",Spanish,1560,20
+reyes,"king, queen",Spanish,1570,9
+reyes,"king, queen",Spanish,1580,20
+reyes,"king, queen",Spanish,1590,45
+reyes,"king, queen",Spanish,15u0,1
+reyes,"king, queen",Spanish,1600,25
+reyes,"king, queen",Spanish,1610,36
+reyes,"king, queen",Spanish,1620,61
+reyes,"king, queen",Spanish,1630,27
+reyes,"king, queen",Spanish,1640,44
+reyes,"king, queen",Spanish,1650,18
+reyes,"king, queen",Spanish,1660,23
+reyes,"king, queen",Spanish,1670,32
+reyes,"king, queen",Spanish,1680,42
+reyes,"king, queen",Spanish,1690,21
+reyes,"king, queen",Spanish,16u0,2
+reyes,"king, queen",Spanish,1700,28
+reyes,"king, queen",Spanish,1710,16
+reyes,"king, queen",Spanish,1720,23
+reyes,"king, queen",Spanish,1730,33
+reyes,"king, queen",Spanish,1740,12
+reyes,"king, queen",Spanish,1750,28
+reyes,"king, queen",Spanish,1760,17
+reyes,"king, queen",Spanish,1770,45
+reyes,"king, queen",Spanish,1780,81
+reyes,"king, queen",Spanish,1790,45
+reyes,"king, queen",Spanish,17u0,3
+reyes,"king, queen",Spanish,1800,6
+right,right,English,1500,12
+right,right,English,1510,9
+right,right,English,1520,35
+right,right,English,1530,17
+right,right,English,1540,107
+right,right,English,1550,147
+right,right,English,1560,87
+right,right,English,1570,379
+right,right,English,1580,648
+right,right,English,1590,509
+right,right,English,15u0,4
+right,right,English,1600,584
+right,right,English,1610,581
+right,right,English,1620,614
+right,right,English,1630,630
+right,right,English,1640,5146
+right,right,English,1650,1791
+right,right,English,1660,1372
+right,right,English,1670,1420
+right,right,English,1680,2957
+right,right,English,1690,2085
+right,right,English,16u0,24
+right,right,English,1700,3189
+right,right,English,1710,3359
+right,right,English,1720,2369
+right,right,English,1730,2770
+right,right,English,1740,3971
+right,right,English,1750,3064
+right,right,English,1760,6530
+right,right,English,1770,3718
+right,right,English,1780,4080
+right,right,English,1790,7160
+right,right,English,17u0,30
+right,right,English,1800,629
+rightful,right,English,1570,1
+rightful,right,English,1680,10
+rightful,right,English,1690,8
+rightful,right,English,1700,15
+rightful,right,English,1710,34
+rightful,right,English,1720,4
+rightful,right,English,1740,13
+rights,right,English,1500,1
+rights,right,English,1520,1
+rights,right,English,1550,3
+rights,right,English,1590,2
+rights,right,English,1600,2
+rights,right,English,1610,16
+rights,right,English,1620,17
+rights,right,English,1630,14
+rights,right,English,1640,299
+rights,right,English,1650,125
+rights,right,English,1660,119
+rights,right,English,1670,95
+rights,right,English,1680,304
+rights,right,English,1690,181
+rights,right,English,16u0,2
+rights,right,English,1700,735
+rights,right,English,1710,387
+rights,right,English,1720,125
+rights,right,English,1730,182
+rights,right,English,1740,143
+rights,right,English,1750,126
+rights,right,English,1760,391
+rights,right,English,1770,624
+rights,right,English,1780,426
+rights,right,English,1790,1867
+rights,right,English,17u0,7
+rights,right,English,1800,50
+rivoluzione,revolution,Italian,1690,2
+rivoluzione,revolution,Italian,1750,7
+rivoluzione,revolution,Italian,1760,4
+rivoluzione,revolution,Italian,1770,1
+rivoluzione,revolution,Italian,1780,9
+rivoluzione,revolution,Italian,1790,50
+rivoluzione,revolution,Italian,17u0,1
+rivoluzione,revolution,Italian,1800,20
+roi,"king, queen",French,1500,40
+roi,"king, queen",French,1510,1
+roi,"king, queen",French,1540,5
+roi,"king, queen",French,1550,8
+roi,"king, queen",French,1560,12
+roi,"king, queen",French,1570,21
+roi,"king, queen",French,1580,40
+roi,"king, queen",French,1590,11
+roi,"king, queen",French,1600,210
+roi,"king, queen",French,1610,26
+roi,"king, queen",French,1620,37
+roi,"king, queen",French,1630,25
+roi,"king, queen",French,1640,27
+roi,"king, queen",French,1650,27
+roi,"king, queen",French,1660,53
+roi,"king, queen",French,1670,64
+roi,"king, queen",French,1680,136
+roi,"king, queen",French,1690,200
+roi,"king, queen",French,16u0,1
+roi,"king, queen",French,1700,210
+roi,"king, queen",French,1710,366
+roi,"king, queen",French,1720,292
+roi,"king, queen",French,1730,371
+roi,"king, queen",French,1740,587
+roi,"king, queen",French,1750,1204
+roi,"king, queen",French,1760,1625
+roi,"king, queen",French,1770,2798
+roi,"king, queen",French,1780,6036
+roi,"king, queen",French,1790,3805
+roi,"king, queen",French,17u0,23
+roi,"king, queen",French,1800,81
+science,science,English,1500,6
+science,science,French,1500,6
+science,science,English,1510,6
+science,science,French,1510,6
+science,science,English,1520,17
+science,science,French,1520,17
+science,science,English,1530,16
+science,science,French,1530,16
+science,science,English,1540,15
+science,science,French,1540,15
+science,science,English,1550,5
+science,science,French,1550,5
+science,science,English,1560,26
+science,science,French,1560,26
+science,science,English,1570,50
+science,science,French,1570,50
+science,science,English,1580,18
+science,science,French,1580,18
+science,science,English,1590,25
+science,science,French,1590,25
+science,science,English,15u0,1
+science,science,French,15u0,1
+science,science,English,1600,16
+science,science,French,1600,16
+science,science,English,1610,31
+science,science,French,1610,31
+science,science,English,1620,28
+science,science,French,1620,28
+science,science,English,1630,33
+science,science,French,1630,33
+science,science,English,1640,71
+science,science,French,1640,71
+science,science,English,1650,98
+science,science,French,1650,98
+science,science,English,1660,128
+science,science,French,1660,128
+science,science,English,1670,101
+science,science,French,1670,101
+science,science,English,1680,63
+science,science,French,1680,63
+science,science,English,1690,124
+science,science,French,1690,124
+science,science,English,16u0,1
+science,science,French,16u0,1
+science,science,English,1700,49
+science,science,French,1700,49
+science,science,English,1710,104
+science,science,French,1710,104
+science,science,English,1720,154
+science,science,French,1720,154
+science,science,English,1730,101
+science,science,French,1730,101
+science,science,English,1740,96
+science,science,French,1740,96
+science,science,English,1750,163
+science,science,French,1750,163
+science,science,English,1760,132
+science,science,French,1760,132
+science,science,English,1770,336
+science,science,French,1770,336
+science,science,English,1780,350
+science,science,French,1780,350
+science,science,English,1790,571
+science,science,French,1790,571
+science,science,English,17u0,6
+science,science,French,17u0,6
+science,science,English,1800,114
+science,science,French,1800,114
+scientia,science,Latin,1500,20
+scientia,science,Latin,1510,6
+scientia,science,Latin,1520,25
+scientia,science,Latin,1530,23
+scientia,science,Latin,1540,34
+scientia,science,Latin,1550,54
+scientia,science,Latin,1560,36
+scientia,science,Latin,1570,17
+scientia,science,Latin,1580,22
+scientia,science,Latin,1590,14
+scientia,science,Latin,1600,22
+scientia,science,Latin,1610,12
+scientia,science,Latin,1620,8
+scientia,science,Latin,1630,32
+scientia,science,Latin,1640,19
+scientia,science,Latin,1650,38
+scientia,science,Latin,1660,42
+scientia,science,Latin,1670,53
+scientia,science,Latin,1680,63
+scientia,science,Latin,1690,10
+scientia,science,Latin,16u0,1
+scientia,science,Latin,1700,19
+scientia,science,Latin,1710,18
+scientia,science,Latin,1720,42
+scientia,science,Latin,1730,51
+scientia,science,Latin,1740,16
+scientia,science,Latin,1750,41
+scientia,science,Latin,1760,23
+scientia,science,Latin,1770,16
+scientia,science,Latin,1780,6
+scientia,science,Latin,1790,7
+scientia,science,Latin,1800,2
+scienza,science,Italian,1520,2
+scienza,science,Italian,1540,1
+scienza,science,Italian,1550,2
+scienza,science,Italian,1560,6
+scienza,science,Italian,1570,3
+scienza,science,Italian,1580,18
+scienza,science,Italian,1590,7
+scienza,science,Italian,1600,12
+scienza,science,Italian,1610,1
+scienza,science,Italian,1620,6
+scienza,science,Italian,1640,7
+scienza,science,Italian,1650,6
+scienza,science,Italian,1660,6
+scienza,science,Italian,1670,10
+scienza,science,Italian,1680,9
+scienza,science,Italian,1690,1
+scienza,science,Italian,1700,2
+scienza,science,Italian,1710,25
+scienza,science,Italian,1720,14
+scienza,science,Italian,1730,10
+scienza,science,Italian,1740,47
+scienza,science,Italian,1750,30
+scienza,science,Italian,1760,14
+scienza,science,Italian,1770,12
+scienza,science,Italian,1780,43
+scienza,science,Italian,1790,40
+scienza,science,Italian,1800,3
+scienze,science,Italian,1540,7
+scienze,science,Italian,1550,4
+scienze,science,Italian,1560,5
+scienze,science,Italian,1570,6
+scienze,science,Italian,1580,30
+scienze,science,Italian,1590,10
+scienze,science,Italian,1600,6
+scienze,science,Italian,1620,3
+scienze,science,Italian,1630,8
+scienze,science,Italian,1640,3
+scienze,science,Italian,1650,1
+scienze,science,Italian,1660,1
+scienze,science,Italian,1670,1
+scienze,science,Italian,1680,4
+scienze,science,Italian,1690,3
+scienze,science,Italian,1700,12
+scienze,science,Italian,1710,5
+scienze,science,Italian,1720,11
+scienze,science,Italian,1730,39
+scienze,science,Italian,1740,35
+scienze,science,Italian,1750,37
+scienze,science,Italian,1760,43
+scienze,science,Italian,1770,34
+scienze,science,Italian,1780,80
+scienze,science,Italian,1790,25
+scienze,science,Italian,1800,1
+staat,state,Dutch,1520,3
+staat,state,German,1520,3
+staat,state,Dutch,1540,1
+staat,state,German,1540,1
+staat,state,Dutch,1550,1
+staat,state,German,1550,1
+staat,state,Dutch,1560,1
+staat,state,German,1560,1
+staat,state,Dutch,1580,1
+staat,state,German,1580,1
+staat,state,Dutch,1590,1
+staat,state,German,1590,1
+staat,state,Dutch,1610,3
+staat,state,German,1610,3
+staat,state,Dutch,1620,1
+staat,state,German,1620,1
+staat,state,Dutch,1630,2
+staat,state,German,1630,2
+staat,state,Dutch,1640,6
+staat,state,German,1640,6
+staat,state,Dutch,1650,6
+staat,state,German,1650,6
+staat,state,Dutch,1660,25
+staat,state,German,1660,25
+staat,state,Dutch,1670,24
+staat,state,German,1670,24
+staat,state,Dutch,1680,75
+staat,state,German,1680,75
+staat,state,Dutch,1690,69
+staat,state,German,1690,69
+staat,state,Dutch,16u0,3
+staat,state,German,16u0,3
+staat,state,Dutch,1700,56
+staat,state,German,1700,56
+staat,state,Dutch,1710,56
+staat,state,German,1710,56
+staat,state,Dutch,1720,68
+staat,state,German,1720,68
+staat,state,Dutch,1730,74
+staat,state,German,1730,74
+staat,state,Dutch,1740,64
+staat,state,German,1740,64
+staat,state,Dutch,1750,75
+staat,state,German,1750,75
+staat,state,Dutch,1760,67
+staat,state,German,1760,67
+staat,state,Dutch,1770,68
+staat,state,German,1770,68
+staat,state,Dutch,1780,208
+staat,state,German,1780,208
+staat,state,Dutch,1790,114
+staat,state,German,1790,114
+staat,state,Dutch,17u0,2
+staat,state,German,17u0,2
+staat,state,Dutch,1800,11
+staat,state,German,1800,11
+staats,state,German,1650,1
+staats,state,German,1660,3
+staats,state,German,1670,4
+staats,state,German,1680,11
+staats,state,German,1690,12
+staats,state,German,1700,7
+staats,state,German,1710,15
+staats,state,German,1720,7
+staats,state,German,1730,11
+staats,state,German,1740,10
+staats,state,German,1750,23
+staats,state,German,1760,20
+staats,state,German,1770,31
+staats,state,German,1780,27
+staats,state,German,1790,42
+staats,state,German,1800,6
+state,state,English,1500,4
+state,state,English,1520,8
+state,state,English,1530,20
+state,state,English,1540,108
+state,state,English,1550,124
+state,state,English,1560,37
+state,state,English,1570,160
+state,state,English,1580,145
+state,state,English,1590,168
+state,state,English,1600,266
+state,state,English,1610,180
+state,state,English,1620,503
+state,state,English,1630,401
+state,state,English,1640,1503
+state,state,English,1650,1391
+state,state,English,1660,836
+state,state,English,1670,1591
+state,state,English,1680,2138
+state,state,English,1690,1977
+state,state,English,16u0,10
+state,state,English,1700,2171
+state,state,English,1710,2869
+state,state,English,1720,2200
+state,state,English,1730,2783
+state,state,English,1740,2860
+state,state,English,1750,2809
+state,state,English,1760,2738
+state,state,English,1770,5798
+state,state,English,1780,9105
+state,state,English,1790,13280
+state,state,English,17u0,27
+state,state,English,1800,1249
+states,state,English,1500,1
+states,state,English,1540,29
+states,state,English,1560,7
+states,state,English,1570,59
+states,state,English,1580,35
+states,state,English,1590,58
+states,state,English,1600,106
+states,state,English,1610,160
+states,state,English,1620,99
+states,state,English,1630,72
+states,state,English,1640,493
+states,state,English,1650,325
+states,state,English,1660,225
+states,state,English,1670,301
+states,state,English,1680,394
+states,state,English,1690,166
+states,state,English,1700,323
+states,state,English,1710,182
+states,state,English,1720,74
+states,state,English,1730,36
+states,state,English,1740,202
+states,state,English,1750,220
+states,state,English,1760,105
+states,state,English,1770,649
+states,state,English,1780,3916
+states,state,English,1790,7390
+states,state,English,17u0,10
+states,state,English,1800,1050
+stato,state,Italian,1500,4
+stato,state,Italian,1510,1
+stato,state,Italian,1520,8
+stato,state,Italian,1530,15
+stato,state,Italian,1540,3
+stato,state,Italian,1550,22
+stato,state,Italian,1560,32
+stato,state,Italian,1570,46
+stato,state,Italian,1580,77
+stato,state,Italian,1590,106
+stato,state,Italian,15u0,2
+stato,state,Italian,1600,95
+stato,state,Italian,1610,71
+stato,state,Italian,1620,73
+stato,state,Italian,1630,51
+stato,state,Italian,1640,95
+stato,state,Italian,1650,60
+stato,state,Italian,1660,53
+stato,state,Italian,1670,87
+stato,state,Italian,1680,59
+stato,state,Italian,1690,50
+stato,state,Italian,16u0,10
+stato,state,Italian,1700,62
+stato,state,Italian,1710,54
+stato,state,Italian,1720,58
+stato,state,Italian,1730,64
+stato,state,Italian,1740,35
+stato,state,Italian,1750,84
+stato,state,Italian,1760,96
+stato,state,Italian,1770,120
+stato,state,Italian,1780,169
+stato,state,Italian,1790,181
+stato,state,Italian,17u0,6
+stato,state,Italian,1800,13
+umsturz,revolution,German,1770,1
+umsturz,revolution,German,1790,3
+verlichting,Enlightenment,Dutch,1780,2
+verlichting,Enlightenment,Dutch,1790,12
+verlichting,Enlightenment,Dutch,1800,3
+violence,violence,English,1500,1
+violence,violence,French,1500,1
+violence,violence,English,1580,3
+violence,violence,French,1580,3
+violence,violence,English,1590,3
+violence,violence,French,1590,3
+violence,violence,English,1600,2
+violence,violence,French,1600,2
+violence,violence,English,1610,7
+violence,violence,French,1610,7
+violence,violence,English,1620,1
+violence,violence,French,1620,1
+violence,violence,English,1630,3
+violence,violence,French,1630,3
+violence,violence,English,1640,52
+violence,violence,French,1640,52
+violence,violence,English,1650,41
+violence,violence,French,1650,41
+violence,violence,English,1660,14
+violence,violence,French,1660,14
+violence,violence,English,1670,25
+violence,violence,French,1670,25
+violence,violence,English,1680,17
+violence,violence,French,1680,17
+violence,violence,English,1690,23
+violence,violence,French,1690,23
+violence,violence,English,1700,1
+violence,violence,French,1700,1
+violence,violence,English,1710,15
+violence,violence,French,1710,15
+violence,violence,English,1720,1
+violence,violence,French,1720,1
+violence,violence,English,1730,12
+violence,violence,French,1730,12
+violence,violence,English,1740,16
+violence,violence,French,1740,16
+violence,violence,English,1750,15
+violence,violence,French,1750,15
+violence,violence,English,1760,10
+violence,violence,French,1760,10
+violence,violence,English,1770,14
+violence,violence,French,1770,14
+violence,violence,English,1780,31
+violence,violence,French,1780,31
+violence,violence,English,1790,80
+violence,violence,French,1790,80
+violencia,violence,Spanish,1660,1
+violencia,violence,Spanish,1670,1
+violencia,violence,Spanish,1690,1
+violencia,violence,Spanish,1730,3
+violencia,violence,Spanish,17u0,2
+violentia,violence,Latin,1500,1
+violentia,violence,Latin,1590,1
+violentia,violence,Latin,1600,1
+violentia,violence,Latin,1630,2
+violentia,violence,Latin,1690,2
+violenza,violence,Italian,1560,1
+violenza,violence,Italian,1570,1
+violenza,violence,Italian,1650,1
+violenza,violence,Italian,1700,4
+volk,"nation, people",German,1530,1
+volk,"nation, people",Dutch,1530,1
+volk,"nation, people",German,1540,4
+volk,"nation, people",Dutch,1540,4
+volk,"nation, people",German,1550,2
+volk,"nation, people",Dutch,1550,2
+volk,"nation, people",German,1560,1
+volk,"nation, people",Dutch,1560,1
+volk,"nation, people",German,1580,1
+volk,"nation, people",Dutch,1580,1
+volk,"nation, people",German,1590,2
+volk,"nation, people",Dutch,1590,2
+volk,"nation, people",German,15u0,1
+volk,"nation, people",Dutch,15u0,1
+volk,"nation, people",German,1620,1
+volk,"nation, people",Dutch,1620,1
+volk,"nation, people",German,1630,2
+volk,"nation, people",Dutch,1630,2
+volk,"nation, people",German,1660,3
+volk,"nation, people",Dutch,1660,3
+volk,"nation, people",German,1670,6
+volk,"nation, people",Dutch,1670,6
+volk,"nation, people",German,1680,5
+volk,"nation, people",Dutch,1680,5
+volk,"nation, people",German,1690,7
+volk,"nation, people",Dutch,1690,7
+volk,"nation, people",German,1700,9
+volk,"nation, people",Dutch,1700,9
+volk,"nation, people",German,1710,4
+volk,"nation, people",Dutch,1710,4
+volk,"nation, people",German,1720,6
+volk,"nation, people",Dutch,1720,6
+volk,"nation, people",German,1730,7
+volk,"nation, people",Dutch,1730,7
+volk,"nation, people",German,1740,14
+volk,"nation, people",Dutch,1740,14
+volk,"nation, people",German,1750,9
+volk,"nation, people",Dutch,1750,9
+volk,"nation, people",German,1760,10
+volk,"nation, people",Dutch,1760,10
+volk,"nation, people",German,1770,27
+volk,"nation, people",Dutch,1770,27
+volk,"nation, people",German,1780,89
+volk,"nation, people",Dutch,1780,89
+volk,"nation, people",German,1790,298
+volk,"nation, people",Dutch,1790,298
+volk,"nation, people",German,17u0,4
+volk,"nation, people",Dutch,17u0,4
+volk,"nation, people",German,1800,5
+volk,"nation, people",Dutch,1800,5
+wetenschap,science,Dutch,1610,3
+wetenschap,science,Dutch,1650,5
+wetenschap,science,Dutch,1730,1
+wetenschap,science,Dutch,1750,1
+wetenschap,science,Dutch,1770,1
+wetenschap,science,Dutch,1780,1
+wetenschap,science,Dutch,1790,2
+wissenschaft,science,German,1640,4
+wissenschaft,science,German,1650,1
+wissenschaft,science,German,1670,4
+wissenschaft,science,German,1680,3
+wissenschaft,science,German,1690,1
+wissenschaft,science,German,1700,13
+wissenschaft,science,German,1710,10
+wissenschaft,science,German,1720,4
+wissenschaft,science,German,1730,13
+wissenschaft,science,German,1740,6
+wissenschaft,science,German,1750,17
+wissenschaft,science,German,1760,53
+wissenschaft,science,German,1770,24
+wissenschaft,science,German,1780,13
+wissenschaft,science,German,1790,32
+wissenschaft,science,German,1800,5
