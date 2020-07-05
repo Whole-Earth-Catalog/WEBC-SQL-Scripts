@@ -1,4 +1,4 @@
-CREATE TABLE terms (term_lc varchar(20), term_cap1 varchar(20), term_key varchar(20), language varchar(20));
+CREATE TABLE terms (term_lc varchar(40), term_cap1 varchar(40), term_key varchar(20), language varchar(20));
 INSERT INTO terms VALUES ("justice", "Justice", "justice", "English");
 INSERT INTO terms VALUES ("gerechtigheid", "Gerechtigheid", "justice", "Dutch");
 INSERT INTO terms VALUES ("justice", "Justice", "justice", "French");
