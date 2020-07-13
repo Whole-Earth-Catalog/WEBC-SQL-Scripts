@@ -12,6 +12,7 @@ RESULTS
   - Q8) Returns number of unique ids where terms were found: 408,370. This is about 80% of the entire data set meaning that most titles are only associated with one language and term. 
 - *grouping.sql*: uses group by command to create republication groups
 - *hamlet_variations*: select all publications of hamlet and study output for an idea of title variation in dataset
+- *terms_by_decade.sql*: gets terms and key term frequency counts per decade, exported as json files 
 
 ## Language Matrix
 To search the database I'm given a matrix in google sheets of terms organized by languages and keys. I use the google sheets API in python (import gspread) to turn
