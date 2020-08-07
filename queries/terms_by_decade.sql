@@ -4,7 +4,7 @@ select concat(term_key) as term_key , concat(language) AS language, CONCAT(decad
 from (
 	SELECT terms_and_titles.*, SUBSTRING(tag008.data, 8, 3) AS decade_num
     FROM terms_and_titles, tag008
-    WHERE terms_and_titles.id=tag008.id AND LOWER(SUBSTRING(terms_and_titles.language, 1, 3))=SUBSTRING(tag008.data, 36, 3)
+    WHERE terms_and_titles.id=tag008.id
 ) AS terms_and_decades
 group by term_key, decade_num, language
 order by term_key, decade_num;
