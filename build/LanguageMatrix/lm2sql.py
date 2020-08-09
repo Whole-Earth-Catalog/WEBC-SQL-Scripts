@@ -1,4 +1,5 @@
 import gspread 
+import mysql.connector
 
 def clean_item(item):
     clean_item = item.strip("\n").strip("*").strip()
