@@ -21,6 +21,19 @@ gc = gspread.service_account()
 lm = gc.open_by_key('1X9Ifq6mgzT0G-yjJPBoi1MVWh4KCc4qAQUfatY8rekE')
 # select worksheet
 lm_sheet = lm.get_worksheet(0)
+
+# connect to webc database
+print("Connecting to database ...")
+webc_db = mysql.connector.connect(
+    host = "localhost",
+    user = "root",
+    password = "root",
+    database = "webc"
+)
+print("Done.\n")
+# create database cursor
+db_cursor = webc_db.cursor()
+
 # Get a map of keys
 keys = lm_sheet.col_values(1)
 key_rows = fill_keys(keys)
@@ -36,24 +49,31 @@ num_col = len(all_values[0])
 # print("number of columns: " + str(num_col))
 # print("columns: " + str(columns))
 
+# remove terms table if it exists
+db_cursor.execute("drop table if exists terms")
+
 # write create table command for full term table
-print("CREATE TABLE terms (" + 
-      "term_lc varchar(40), " +
-      "term_cap1 varchar(40), " +
-      "term_key varchar(20), " + 
+create_statement = ("CREATE TABLE terms (" + 
+      "term_lc varchar(40), " 
+      "term_key varchar(20), " 
+      "term_type varchar(20), " 
       "language varchar(20));")
+
+# create term table
+db_cursor.execute(create_statement)
 
 for row in range(1,num_row):
     for col in range(1,num_col-1):
 	term = clean_item(all_values[row][col])
 	if term != "":
 	    term_lc = term.lower()
-	    term_cap1 = term_lc[0].upper() + term_lc[1:]
+	    term_type = "search_term"
 	    language = columns[col]
 	    term_key = key_rows[row]
-	    print("INSERT INTO terms " + 
+	    # insert row into database
+	    db_cursor.execute("INSERT INTO terms " + 
                    "VALUES (\"" + term_lc +
-                   "\", \"" + term_cap1 + 
-                   "\", \"" + term_key +
+                   "\", \"" + term_key + 
+                   "\", \"" + term_type +
                    "\", \"" + language + "\");")
 
