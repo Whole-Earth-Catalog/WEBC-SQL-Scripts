@@ -1,21 +1,3 @@
-# function to remove punctuation and capital letters in titles
-drop function if exists clean_title;
-delimiter //
-create function clean_title(title varchar(6000))
-returns varchar(6000)
-deterministic
-begin
-	declare new_title varchar(6000);
-	set new_title = lower(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
-    replace(replace(replace(replace(replace(replace(replace(replace(
-    replace(replace(replace(replace(replace(replace(replace(replace(
-    replace(replace(title, '|', ''), '=', '')
-    , '+', ''), '\_', ''), '-', ''), '}' ,''), '{', ''), '*', ''), '^', ''), '>' ,'')
-    , '<', ''), '\"', ''), '\'', ''), '\\', ''), '\%', ''), '$', ''), '#', ''), '@', '')
-    , '!', ''), ')', ''), '(', ''), ']', ''),'[', ''), '/', ''), ';', ''), ':', ''), '?', ''), ',', ''), '.', ''));
-    return new_title;
-end//
-delimiter ;
 drop table if exists terms_and_titles;
 CREATE table terms_and_titles AS
 SELECT master_help.id, master_help.title, terms.term, terms.term_key, terms.language, master_help.decade, terms.term_type
