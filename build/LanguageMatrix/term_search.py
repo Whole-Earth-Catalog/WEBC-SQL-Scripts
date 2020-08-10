@@ -1,3 +1,5 @@
+""" Runs search term queries on database.
+"""
 import gspread 
 import mysql.connector
 import csv
@@ -17,16 +19,72 @@ def fill_keys(key_list):
         row_list.append(elem)
     return row_list
 
-def get_lm_vals():
-    pass
+def drop_table(db, table_name):
+    cursor = db.cursor() # create database cursor
+    cursor.execute("drop table if exists" + table_name + ";")
+    webc_db.commit()
+    cursor.close()
 
-def insert_terms(term_lc, term_key, term_type, language):
-    db_cursor.execute("INSERT INTO terms " + 
+def create_terms_table(db):
+    cursor = db.cursor() # create database cursor
+    # write create table command for full term table
+    create_statement = ("CREATE TABLE terms (" + 
+          "term varchar(40), " 
+          "term_key varchar(20), " 
+          "term_type varchar(20), " 
+          "language varchar(20));")
+    cursor.execute(create_statement)
+    webc_db.commit()
+    cursor.close()
+
+def insert_terms(db, term_lc, term_key, term_type, language):
+    cursor = db.cursor() # create database cursor
+    cursor.execute("INSERT INTO terms " + 
                    "VALUES (\"" + term_lc +
                    "\", \"" + term_key + 
                    "\", \"" + term_type +
                    "\", \"" + language + "\");")
     webc_db.commit()
+    cursor.close()
+
+def lm_to_table(db):
+    gc = gspread.service_account()
+    # Open language matrix sheet
+    print("Opening spreadsheet...")
+    lm = gc.open_by_key('1X9Ifq6mgzT0G-yjJPBoi1MVWh4KCc4qAQUfatY8rekE')
+    # select worksheet
+    lm_sheet = lm.get_worksheet(0)
+    print("Getting values...")
+    # Get a map of keys
+    keys = lm_sheet.col_values(1)
+    key_rows = fill_keys(keys)
+    # get all values as list of lists
+    all_values = lm_sheet.get_all_values()
+    num_row = len(all_values)
+    # print("number of rows: " + str(num_row))
+    columns = all_values[0]
+    num_col = len(all_values[0])
+    print("Inserting search term values into table...")
+    for row in range(1,num_row):
+        for col in range(1,num_col-1):
+            term = clean_item(all_values[row][col])
+            if term != "":
+                term_lc = term.lower()
+                term_type = "search_term"
+                language = columns[col]
+                term_key = key_rows[row]
+	            # insert row into database
+                insert_terms(db, term_lc, term_key, term_type, language)
+
+def insert_common_terms(db):
+    cursor = db.cursor() # create database cursor
+    with open('common_terms.csv') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        count = 0
+        for row in csv_reader:
+            if count > 0:
+                insert_terms(db, row[0],row[1],row[2],row[3])
+            count += 1
 
 def results_to_csv(results, csv_name, column_title_row):
     csv_file = open(csv_name, 'w')
@@ -42,32 +100,6 @@ def results_to_csv(results, csv_name, column_title_row):
     csv_file.close()
 
 
-
-gc = gspread.service_account()
-# Open language matrix sheet
-print("Opening spreadsheet...")
-lm = gc.open_by_key('1X9Ifq6mgzT0G-yjJPBoi1MVWh4KCc4qAQUfatY8rekE')
-# select worksheet
-lm_sheet = lm.get_worksheet(0)
-print("Done.\n")
-
-print("Getting values...")
-# Get a map of keys
-keys = lm_sheet.col_values(1)
-key_rows = fill_keys(keys)
-#print("Map of key col")
-#print(key_rows)
-
-# get all values as list of lists
-all_values = lm_sheet.get_all_values()
-num_row = len(all_values)
-# print("number of rows: " + str(num_row))
-columns = all_values[0]
-num_col = len(all_values[0])
-# print("number of columns: " + str(num_col))
-# print("columns: " + str(columns))
-print("Done.\n")
-
 # connect to webc database
 print("Connecting to database ...")
 webc_db = mysql.connector.connect(
@@ -77,55 +109,22 @@ webc_db = mysql.connector.connect(
     database = "webc"
 )
 print("Done.\n")
-# create database cursor
-db_cursor = webc_db.cursor()
 
-print("Dropping terms table if it exists")
-# remove terms table if it exists
-db_cursor.execute("drop table if exists terms;")
-webc_db.commit()
+print("Dropping terms table if it exists...")
+drop_table(webc_db, "terms")
 print("Done.\n")
-
-# write create table command for full term table
-create_statement = ("CREATE TABLE terms (" + 
-      "term varchar(40), " 
-      "term_key varchar(20), " 
-      "term_type varchar(20), " 
-      "language varchar(20));")
 
 print("Creating terms table")
-# create term table
-db_cursor.execute(create_statement)
-webc_db.commit()
-print("Done.\n")
-
-print("Inserting search term values into table...")
-for row in range(1,num_row):
-    for col in range(1,num_col-1):
-	term = clean_item(all_values[row][col])
-	if term != "":
-	    term_lc = term.lower()
-	    term_type = "search_term"
-	    language = columns[col]
-	    term_key = key_rows[row]
-	    # insert row into database
-	    insert_terms(term_lc, term_key, term_type, language)
+create_terms_table(webc_db) 
 print("Done.\n")
 
 print("Inserting common term values into table...")
-with open('common_terms.csv') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    count = 0
-    for row in csv_reader:
-	if count > 0:
-            insert_terms(row[0],row[1],row[2],row[3])
-        count += 1
+insert_common_terms(webc_db)
 print("Done.\n")
 
 """
 print("Dropping terms and titles table if it exists...")
-db_cursor.execute("drop table if exists terms_and_titles;")
-webc_db.commit()
+drop_table(db_cursor, terms)
 print("Done.")
 """
 """
