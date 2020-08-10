@@ -1,5 +1,6 @@
 import gspread 
 import mysql.connector
+import csv
 
 def clean_item(item):
     clean_item = item.strip("\n").strip("*").strip()
@@ -16,6 +17,9 @@ def fill_keys(key_list):
         row_list.append(elem)
     return row_list
 
+def get_lm_vals():
+    pass
+
 def insert_terms(term_lc, term_key, term_type, language):
     db_cursor.execute("INSERT INTO terms " + 
                    "VALUES (\"" + term_lc +
@@ -24,8 +28,22 @@ def insert_terms(term_lc, term_key, term_type, language):
                    "\", \"" + language + "\");")
     webc_db.commit()
 
-gc = gspread.service_account()
+def results_to_csv(results, csv_name, column_title_row):
+    csv_file = open(csv_name, 'w')
+    csv_file.write(column_title_row + "\n")
+    for row in results:
+        index = 0
+        csv_line = str(row[index])
+        for item in row:
+            if index > 0:
+                csv_line += "," + str(item)
+            index += 1
+        csv_file.write(csv_line + "\n")
+    csv_file.close()
 
+
+
+gc = gspread.service_account()
 # Open language matrix sheet
 print("Opening spreadsheet...")
 lm = gc.open_by_key('1X9Ifq6mgzT0G-yjJPBoi1MVWh4KCc4qAQUfatY8rekE')
@@ -95,4 +113,70 @@ for row in range(1,num_row):
 print("Done.\n")
 
 print("Inserting common term values into table...")
+with open('common_terms.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    count = 0
+    for row in csv_reader:
+	if count > 0:
+            insert_terms(row[0],row[1],row[2],row[3])
+        count += 1
 print("Done.\n")
+
+"""
+print("Dropping terms and titles table if it exists...")
+db_cursor.execute("drop table if exists terms_and_titles;")
+webc_db.commit()
+print("Done.")
+"""
+"""
+print("Updating master_help table")
+print("Dropping master_help if it already exists...")
+db_cursor.execute("drop table if exists master_help;")
+webc_db.commit()
+
+print("Creating master table...")
+"""
+#query =  create table master_help as
+"""    
+select tag245.id as id, concat(\' \', clean_title(tag245.$a), \' \') as title, substring(tag008.data, 36, 3) as lang, substring(tag008.data, 8, 3) as decade
+    from tag245, tag008
+    where tag008.id=tag245.id;
+    """
+"""
+db_cursor.execute(query)
+webc_db.commit()
+print("Done.\n")
+"""
+
+#print("Creating terms and titles table... (this may take a while)")
+"""query =  CREATE table terms_and_titles AS
+SELECT master_help.id, master_help.title, terms.term, terms.term_key, 
+    terms.language, master_help.decade, terms.term_type
+FROM master_help, terms
+WHERE master_help.title LIKE(CONCAT(\'% \',terms.term,\' %\'))
+     AND master_help.lang=lower(substring(terms.language,1,3));  """
+#db_cursor.execute(query)
+#webc_db.commit()
+#print("Done.")
+
+
+print("Selecting term groups per decade...")
+select_query = """
+select term_key, language, term_type, concat(decade, '0'), count(id)
+from terms_and_titles
+group by term_key, decade, language, term_type
+having term_type=\"search_term\"
+union
+select term, language, term_type, concat(decade, '0'), count(id)
+from terms_and_titles
+group by term, language,decade, term_type
+having term_type=\"common_term\"
+order by 4;
+"""
+db_cursor.execute(select_query)
+result = db_cursor.fetchall()
+csv_name = "data.csv"
+results_to_csv(result, csv_name, "term,language,type,decade,count")
+
+print("Done.\n")
+
