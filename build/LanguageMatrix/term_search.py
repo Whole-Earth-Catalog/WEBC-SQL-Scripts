@@ -143,7 +143,7 @@ def results_to_tsv(results, tsv_name, column_title_row):
         tsv_line = str(row[index])
         for item in row:
             if index > 0:
-                tsv_line += "," + str(item)
+                tsv_line += "\t" + str(item)
             index += 1
         tsv_file.write(tsv_line + "\n")
     tsv_file.close()
@@ -195,7 +195,7 @@ end_time = time.time()
 total_time = end_time - start_time
 print("Time (in seconds) to create master table: " + str(total_time))
 print("Done.\n")
-'''
+
 
 print("Dropping terms and titles table if it exists...")
 drop_table(webc_db, "terms_and_titles")
@@ -208,6 +208,7 @@ end_time = time.time()
 total_time = end_time - start_time
 print("Time (in seconds) to create terms_and_titles table: " + str(total_time))
 print("Done.")
+'''
 
 print("Selecting term groups per decade...")
 get_final_tsv(webc_db)
