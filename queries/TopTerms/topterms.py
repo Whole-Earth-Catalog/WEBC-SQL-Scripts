@@ -20,6 +20,9 @@ import mysql.connector
 import re
 from collections import Counter
 
+def remove_stop_words():
+    pass
+
 def get_decade_list(start_decade, end_decade):
     """Creates list of decades
 
