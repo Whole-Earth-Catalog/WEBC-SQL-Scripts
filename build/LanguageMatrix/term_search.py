@@ -132,7 +132,7 @@ def get_final_tsv(db):
     cursor.execute(select_query)
     result = cursor.fetchall()
     tsv_name = "data.tsv"
-    results_to_tsv(result, tsv_name, "term,language,type,decade,count")
+    results_to_tsv(result, tsv_name, "term\tlanguage\ttype\tdecade\tcount")
     cursor.close()
 
 def results_to_tsv(results, tsv_name, column_title_row):

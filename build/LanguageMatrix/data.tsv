@@ -1,4 +1,4 @@
-term,language,type,decade,count
+term	language	type	decade	count
 right	Latin	search_term	1500	159
 king, queen	English	search_term	1500	41
 king, queen	French	search_term	1500	143
