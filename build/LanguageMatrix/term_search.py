@@ -3,6 +3,7 @@
 import gspread 
 import mysql.connector
 import csv
+import time
 
 def clean_item(item):
     clean_item = item.strip("\n").strip("*").strip()
@@ -155,36 +156,38 @@ print("Dropping terms table if it exists...")
 drop_table(webc_db, "terms")
 print("Done.\n")
 
-print("Creating terms table")
+print("Creating terms table from google spreadsheet...")
 create_terms_table(webc_db) 
 print("Done.\n")
 
-print("Inserting common term values into table...")
+print("Inserting common term values from csv into terms table...")
 insert_common_terms(webc_db)
 print("Done.\n")
 
-"""
 print("Updating master_help table...")
 print("Dropping master_help if it already exists...")
 drop_table(webc_db, "master_help")
 print("Creating master table...")
+start_time = time.time()
 create_master_help(webc_db)
+end_time = time.time()
+total_time = end_time - start_time
+print("Time (in seconds) to create master table: " + str(total_time))
 print("Done.\n")
-"""
 
-"""
 print("Dropping terms and titles table if it exists...")
 drop_table(webc_db, "terms_and_titles")
 print("Done.")
-"""
 
-"""
-print("Creating terms and titles table... (this may take a while)")
-create_terms_and_titles(db)
+print("Creating terms and titles table...")
+start_time = time.time()
+create_terms_and_titles(webc_db)
+end_time = time.time()
+total_time = end_time - start_time
+print("Time (in seconds) to create terms_and_titles table: " + str(total_time))
 print("Done.")
-"""
 
 print("Selecting term groups per decade...")
-get_final_csv(db)
+get_final_csv(webc_db)
 print("Done.\n")
 
