@@ -21,7 +21,7 @@ def fill_keys(key_list):
 
 def drop_table(db, table_name):
     cursor = db.cursor() # create database cursor
-    cursor.execute("drop table if exists" + table_name + ";")
+    cursor.execute("drop table if exists " + table_name + ";")
     webc_db.commit()
     cursor.close()
 
