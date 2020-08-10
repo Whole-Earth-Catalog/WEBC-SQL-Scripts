@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "\\build",
-    "\\build\\LanguageMatrix"
+    "\\build\\LanguageMatrix",
+    "\\queries"
   ],
   "PreviewInSolutionExplorer": false
 }
