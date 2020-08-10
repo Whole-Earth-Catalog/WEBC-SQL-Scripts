@@ -66,6 +66,7 @@ def lm_to_table(db):
     columns = all_values[0]
     num_col = len(all_values[0])
     print("Inserting search term values into table...")
+    all_term_keys = []
     for row in range(1,num_row):
         for col in range(1,num_col-1):
             term = clean_item(all_values[row][col])
@@ -74,17 +75,23 @@ def lm_to_table(db):
                 term_type = "search_term"
                 language = columns[col]
                 term_key = key_rows[row]
-	            # insert row into database
+	        # insert row into database
                 insert_terms(db, term_lc, term_key, term_type, language)
+		if term_key not in all_term_keys:
+                    all_term_keys.append(term_key)
+    return all_term_keys
 
 def insert_common_terms(db):
+    common_terms = []
     with open('common_terms.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         count = 0
         for row in csv_reader:
             if count > 0:
+                common_terms.append(row[0])
                 insert_terms(db, row[0],row[1],row[2],row[3])
             count += 1
+    return common_terms
 
 def create_master_help(db):
     cursor = db.cursor() # create database cursor
@@ -110,7 +117,7 @@ def create_terms_and_titles(db):
     db.commit()
     cursor.close()
 
-def get_final_csv(db):
+def get_final_tsv(db):
     cursor = db.cursor() # create database cursor
     select_query = """ select term_key, language, term_type, concat(decade, '0'), count(id)
                         from terms_and_titles
@@ -124,22 +131,22 @@ def get_final_csv(db):
                         order by 4;"""
     cursor.execute(select_query)
     result = cursor.fetchall()
-    csv_name = "data.csv"
-    results_to_csv(result, csv_name, "term,language,type,decade,count")
+    tsv_name = "data.tsv"
+    results_to_tsv(result, tsv_name, "term,language,type,decade,count")
     cursor.close()
 
-def results_to_csv(results, csv_name, column_title_row):
-    csv_file = open(csv_name, 'w')
-    csv_file.write(column_title_row + "\n")
+def results_to_tsv(results, tsv_name, column_title_row):
+    tsv_file = open(tsv_name, 'w')
+    tsv_file.write(column_title_row + "\n")
     for row in results:
         index = 0
-        csv_line = str(row[index])
+        tsv_line = str(row[index])
         for item in row:
             if index > 0:
-                csv_line += "," + str(item)
+                tsv_line += "," + str(item)
             index += 1
-        csv_file.write(csv_line + "\n")
-    csv_file.close()
+        tsv_file.write(tsv_line + "\n")
+    tsv_file.close()
 
 
 # connect to webc database
@@ -156,14 +163,28 @@ print("Dropping terms table if it exists...")
 drop_table(webc_db, "terms")
 print("Done.\n")
 
-print("Creating terms table from google spreadsheet...")
+print("Creating terms table...")
 create_terms_table(webc_db) 
 print("Done.\n")
 
-print("Inserting common term values from csv into terms table...")
-insert_common_terms(webc_db)
+print("Inserting search terms from spreadsheet...")
+all_term_keys = lm_to_table(webc_db)
 print("Done.\n")
 
+print("Inserting common term values from csv into terms table...")
+common_terms = insert_common_terms(webc_db)
+print("Done.\n")
+
+print("Creating term lines file...")
+f = open('all_terms.tsv', 'w')
+for term in all_term_keys:
+    f.write(term + "\tsearch_term\n")
+for term in common_terms:
+    f.write(term + "\tcommon_term\n")
+f.close()
+print("Done")
+
+'''
 print("Updating master_help table...")
 print("Dropping master_help if it already exists...")
 drop_table(webc_db, "master_help")
@@ -174,6 +195,7 @@ end_time = time.time()
 total_time = end_time - start_time
 print("Time (in seconds) to create master table: " + str(total_time))
 print("Done.\n")
+'''
 
 print("Dropping terms and titles table if it exists...")
 drop_table(webc_db, "terms_and_titles")
@@ -188,6 +210,5 @@ print("Time (in seconds) to create terms_and_titles table: " + str(total_time))
 print("Done.")
 
 print("Selecting term groups per decade...")
-get_final_csv(webc_db)
+get_final_tsv(webc_db)
 print("Done.\n")
-
