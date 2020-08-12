@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
+    "",
     "\\build",
     "\\build\\LanguageMatrix",
-    "\\queries"
+    "\\queries",
+    "\\queries\\TopTerms"
   ],
+  "SelectedNode": "\\build\\LanguageMatrix\\term_search.py",
   "PreviewInSolutionExplorer": false
 }
