@@ -19,9 +19,18 @@ and consider the linguistic, historical, and pragmatic uses of the term.
 import mysql.connector
 import re
 from collections import Counter
+import json
+from unidecode import unidecode
+import time
 
-def remove_stop_words():
-    pass
+def get_stop_word_dict():
+    with open('all_stop_words.json') as f:
+        stop_terms = json.load(f)
+    # print(stop_terms)
+    return stop_terms
+
+def is_stop_word(word, language, stop_word_dict):
+    return word in stop_word_dict[language] or len(word) <= 1
 
 def get_decade_list(start_decade, end_decade):
     """Creates list of decades
@@ -43,24 +52,56 @@ def get_decade_list(start_decade, end_decade):
         decade_list.append(decade)
     return decade_list
 
-def get_terms(lang, decade, count):
+def get_langs_from_db():
+    # get languages in database
+    db_cursor.execute("select lang from master_help group by lang;")
+    result  = db_cursor.fetchall()
+    langs = []
+    for row  in result:
+        if row[0] != '':
+            langs.append(row[0])
+    return langs
+
+def get_top_term(lang, decade, stop_word_dict):
     # select all titles for the language and decade
     query = "select title from master_help where lang=\"" + lang + "\" and decade=\"" + str(decade/10) + "\";"
     db_cursor.execute(query)
     result = db_cursor.fetchall()
     all_terms = []
     for row in result:
-	title = row[0].lower()
+	title = unidecode(row[0].lower())
 	# remove unwanted characters from titles
 	title = re.sub(r'[^\w\s]', '', title)
 	#print(title)
 	these_terms = title.split()
-	all_terms += these_terms
+	for term in these_terms:
+            if not is_stop_word(term, lang, stop_word_dict):
+                all_terms.append(term)
     term_counts = Counter(all_terms)
-    top = []
-    for term in term_counts.most_common(count):
-	top.append(term[0])
-    return top
+    return term_counts.most_common(1)[0]
+
+def get_all_top_terms(langs, decades, print_rows=True):
+    stop_word_dict = get_stop_word_dict()
+    top_terms = []
+    # iterate through each decade for each lang
+    for lang in langs:
+    # print("Getting most common words that exist in each decade...")
+        for decade in decades:
+             # print(decade)
+             term = get_top_term(lang, decade, stop_word_dict)
+             long_lang = langs[lang]
+             term_string = term[0] + "\tcommon\t" + long_lang + "\t" + str(decade) + "\t" + str(term[1]) + "\n"
+             top_terms.append(term_string)
+             if(print_rows):
+                 print(term_string)
+    return top_terms
+
+def get_term_file(file_name, top_terms):
+    f = open(file_name, 'w')
+    f.write("term\tterm_key\tlanguage\tdecade\tcount\n")
+    for line in top_terms:
+        f.write(line)
+    f.close()
 
 # connect to webc database
 print("Connecting to database ...")
@@ -73,51 +114,21 @@ webc_db = mysql.connector.connect(
 print("Done.\n")
 # create database cursor
 db_cursor = webc_db.cursor()
-
+# get a list of decades
 decades = get_decade_list(1500, 1800)
 
-
 # get languages in database
-print("Getting languages from tag008")
-db_cursor.execute("select lang from master_help group by lang;")
-result  = db_cursor.fetchall()
-langs = []
-for row  in result:
-    if row[0] != '':
-        langs.append(row[0])
-	print(row[0])
+langs = {'eng':"English", 'spa':"Spanish", 'ita':"Italian", 'fre':"French", 'lat':"Latin", 
+         'dut':"Dutch", 'ger':"German"}
+
+small_select = ['ger','dut']
+print("Getting all top terms for all languages...")
+t0 = time.time()
+top_terms = get_all_top_terms(langs, decades) 
+print(time.time()-t0)
 print("Done.\n")
 
+print("Printing to file...")
+get_term_file('common_terms.tsv', top_terms)
+print("Done.\n")
 
-# iterate through each decade for each lang
-for lang in langs:
-    con_terms = set([])
-    # print("Getting most common words that exist in each decade...")
-    for decade in decades:
-        # print(decade)
-        terms = get_terms(lang, decade, 500)
-        if decade == 1500:
-            con_terms = set(terms)
-        else:
-            con_terms = con_terms.intersection(set(terms))
-    final_terms = list(con_terms)
-    f_name = lang + "_terms.txt"
-    f = open(f_name, 'w')
-    f.write(lang + "\n")
-    for term in final_terms:
-        f.write(term + "\n")
-    f.close()
-
-'''
-# test english
-con_terms = set([])
-print("Getting most common words that exist in each decade...")
-for decade in decades:
-    print(decade)
-    terms = get_terms('eng', decade, 500)
-    if decade == 1500:
-	con_terms = set(terms)
-    else:
-	con_terms = con_terms.intersection(set(terms))
-print(con_terms)
-'''

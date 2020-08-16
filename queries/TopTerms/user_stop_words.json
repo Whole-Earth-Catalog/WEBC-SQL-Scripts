@@ -1,0 +1,9 @@
+{
+   "eng": ["de", "anno", "gl", "der", "bl", "fol", "ad", "vnd", "la", "von", "edited", "translated", "ms", "zu", "mr","mrs", "sermon", "letter"],
+   "lat": ["libri", "dissertatio", "sive", "liber", "opera", "lettera", "storia", "disputatio", "seu", "inauguralis", "super"],
+   "spa": ["of", "dela", "libro", "don", "in", "senor", "coplas", "the", "senifor", "san", "etc"],
+   "ita": ["de", "et", "libro", "opera", "libri", "etc", "el", "signor", "storia", "lettera", "cittaiEUR""],
+   "dut": ["der", "ende", "den", "eni", "des", "vande", "ofte", "book", "by", "publicatie"],
+   "fre": ["gl", "aiEUR"],
+   "ger": ["sermon", "derer", "fuir", "anno", "by", "zui", "bericht", "unnd", "auss", "beschreibung", "vnd", "de", "eyn", "with", "etc", "herrn", "zeitung", "the", "uber", "fur", "ain", "auff", "vnnd", "dess", "van", "bey", "uiber", "buch"]
+}
