@@ -122,7 +122,7 @@ def get_final_tsv(db):
     cursor.execute(select_query)
     result = cursor.fetchall()
     tsv_name = "data.tsv"
-    results_to_tsv(result, tsv_name, "term_key\tlanguage\tdecade\tcount")
+    results_to_tsv(result, tsv_name, "term\tlanguage\ttype\tdecade\tcount")
     cursor.close()
 
 def results_to_tsv(results, tsv_name, column_title_row):
@@ -130,11 +130,7 @@ def results_to_tsv(results, tsv_name, column_title_row):
     tsv_file.write(column_title_row + "\n")
     for row in results:
         index = 0
-        tsv_line = str(row[index])
-        for item in row:
-            if index > 0:
-                tsv_line += "\t" + str(item)
-            index += 1
+        tsv_line = str(row[0]) + "\t" + str(row[1]) + "\tsearch_term\t" + str(row[2]) + "\t" + str(row[3])
         tsv_file.write(tsv_line + "\n")
     # add common terms
     with open('common_terms.tsv') as ct_file:
@@ -142,7 +138,10 @@ def results_to_tsv(results, tsv_name, column_title_row):
         count = 0
         for row in tsv_reader:
             if count > 0:
-                tsv_file.write(row[1] + "\t" + row[2] + "\t" + row[3] + "\t" + row[4] + "\n")
+                if row[1] == "common":
+                    tsv_file.write(row[1] + "\t" + row[2] + "\tcommon_term\t" + row[3] + "\t" + row[4] + "\n")
+                else :
+                    tsv_file.write(row[1] + "\t" + row[2] + "\tsearch_term\t" + row[3] + "\t" + row[4] + "\n")
             count += 1
     tsv_file.close()
 
@@ -157,6 +156,7 @@ webc_db = mysql.connector.connect(
 )
 print("Done.\n")
 
+'''
 print("Dropping terms table if it exists...")
 drop_table(webc_db, "terms")
 print("Done.\n")
@@ -169,7 +169,6 @@ print("Inserting search terms from spreadsheet...")
 all_term_keys = lm_to_table(webc_db)
 print("Done.\n")
 
-'''
 print("Updating master_help table...")
 print("Dropping master_help if it already exists...")
 drop_table(webc_db, "master_help")
