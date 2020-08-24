@@ -118,6 +118,7 @@ def get_final_tsv(db):
     select_query = """ select term_key, language, concat(decade, '0'), count(id)
                         from terms_and_titles
                         group by term_key, decade, language
+                        order by term_key, language, decade;
                    """
     cursor.execute(select_query)
     result = cursor.fetchall()
