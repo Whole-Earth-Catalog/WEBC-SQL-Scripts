@@ -79,16 +79,6 @@ def lm_to_table(db):
                     all_term_keys.append(term_key)
     return all_term_keys
 
-def insert_common_terms(db):
-    common_terms = []
-    with open('common_terms.csv') as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
-        count = 0
-        for row in csv_reader:
-            if count > 0:
-                common_terms.append(row[0])
-                insert_terms(db, row[0],row[1],row[2],row[3])
-
 def create_master_help(db):
     cursor = db.cursor() # create database cursor
     query =  """create table master_help as 
@@ -157,7 +147,7 @@ webc_db = mysql.connector.connect(
 )
 print("Done.\n")
 
-'''
+
 print("Dropping terms table if it exists...")
 drop_table(webc_db, "terms")
 print("Done.\n")
@@ -173,6 +163,7 @@ print("Done.\n")
 print("Updating master_help table...")
 print("Dropping master_help if it already exists...")
 drop_table(webc_db, "master_help")
+
 print("Creating master table...")
 start_time = time.time()
 create_master_help(webc_db)
@@ -192,7 +183,6 @@ end_time = time.time()
 total_time = end_time - start_time
 print("Time (in seconds) to create terms_and_titles table: " + str(total_time))
 print("Done.")
-'''
 
 print("Selecting term groups per decade...")
 get_final_tsv(webc_db)
