@@ -129,7 +129,7 @@ def results_to_tsv(results, tsv_name, column_title_row):
         count = 0
         for row in csv_reader:
             if count > 0:
-                 tsv_file.write( "common\t" + row[2] + "\tcommon_term\t" + row[1] + "\t" + row[3] + "\n")
+                 tsv_file.write( "common\t" + row[2] + "\tcommon_term\t" + row[1] + "\t" + row[4] + "\n")
             count += 1
     tsv_file.close()
 
