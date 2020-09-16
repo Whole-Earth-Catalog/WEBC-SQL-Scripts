@@ -27,7 +27,7 @@ for language in all_languages:
     # add EMA values to lang_df
     lang_df['EMA'] = lang_df.iloc[:,0].ewm(span=40,adjust=False).mean()
     # add SMA values to lang_df
-    lang_df['pandas_SMA_3'] = lang_df.iloc[:,1].rolling(window=3).mean()
+    lang_df['pandas_SMA_3'] = lang_df.iloc[:,0].rolling(window=3).mean()
     new_terms_df = pd.concat([new_terms_df,lang_df])
     print(lang_df)
 
