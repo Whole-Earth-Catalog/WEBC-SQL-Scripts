@@ -124,15 +124,12 @@ def results_to_tsv(results, tsv_name, column_title_row):
         tsv_line = str(row[0]) + "\t" + str(row[1]) + "\tsearch_term\t" + str(row[2]) + "\t" + str(row[3])
         tsv_file.write(tsv_line + "\n")
     # add common terms
-    with open('common_terms.tsv') as ct_file:
-        tsv_reader = csv.reader(ct_file, delimiter='\t')
+    with open('ema_data.csv') as ct_file:
+        csv_reader = csv.reader(ct_file, delimiter=',')
         count = 0
-        for row in tsv_reader:
+        for row in csv_reader:
             if count > 0:
-                if row[1] == "common":
-                    tsv_file.write(row[1] + "\t" + row[2] + "\tcommon_term\t" + row[3] + "\t" + row[4] + "\n")
-                else :
-                    tsv_file.write(row[1] + "\t" + row[2] + "\tsearch_term\t" + row[3] + "\t" + row[4] + "\n")
+                 tsv_file.write( "common\t" + row[2] + "\tcommon_term\t" + row[1] + "\t" + row[3] + "\n")
             count += 1
     tsv_file.close()
 
@@ -147,7 +144,7 @@ webc_db = mysql.connector.connect(
 )
 print("Done.\n")
 
-
+'''
 print("Dropping terms table if it exists...")
 drop_table(webc_db, "terms")
 print("Done.\n")
@@ -183,6 +180,8 @@ end_time = time.time()
 total_time = end_time - start_time
 print("Time (in seconds) to create terms_and_titles table: " + str(total_time))
 print("Done.")
+
+'''
 
 print("Selecting term groups per decade...")
 get_final_tsv(webc_db)
