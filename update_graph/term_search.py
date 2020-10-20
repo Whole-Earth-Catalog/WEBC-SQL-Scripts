@@ -159,7 +159,7 @@ def results_to_tsv(results, tsv_name, column_title_row, totals):
         decade = row[2]
         count = float(row[3])
         total = float(totals[short_lang][decade])
-        proportion = count/total * 100
+        proportion = count/total * 100 * 1000
         tsv_line = str(row[0]) + "\t" + str(long_lang) + "\tsearch_term\t" + str(decade) + "\t" + str(proportion)
         tsv_file.write(tsv_line + "\n")
     tsv_file.close()
@@ -187,7 +187,7 @@ print("Done.\n")
 print("Inserting search terms from spreadsheet...")
 all_term_keys = lm_to_table(webc_db)
 print("Done.\n")
-'''
+
 
 print("Updating master_help table...")
 print("Dropping master_help if it already exists...")
@@ -212,7 +212,7 @@ end_time = time.time()
 total_time = end_time - start_time
 print("Time (in seconds) to create terms_and_titles table: " + str(total_time))
 print("Done.")
-
+'''
 print("Selecting term groups per decade...")
 get_final_tsv(webc_db)
 print("Done.\n")
