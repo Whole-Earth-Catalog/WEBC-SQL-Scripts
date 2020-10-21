@@ -147,7 +147,7 @@ def get_final_tsv(db):
     result = cursor.fetchall()
     tsv_name = "data.tsv"
     totals = get_total_titles(db)
-    results_to_tsv(result, tsv_name, "term\tlanguage\ttype\tdecade\tproportion", totals)
+    results_to_tsv(result, tsv_name, "term\tlanguage\ttype\tdecade\tcount", totals)
     cursor.close()
 
 def results_to_tsv(results, tsv_name, column_title_row, totals):
