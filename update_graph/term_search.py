@@ -159,7 +159,7 @@ def results_to_tsv(results, tsv_name, column_title_row, totals):
         decade = row[2]
         count = float(row[3])
         total = float(totals[short_lang][decade])
-        proportion = count/total * 100
+        proportion = count/total
         tsv_line = str(row[0]) + "\t" + str(long_lang) + "\tsearch_term\t" + str(decade) + "\t" + str(proportion)
         tsv_file.write(tsv_line + "\n")
     tsv_file.close()
