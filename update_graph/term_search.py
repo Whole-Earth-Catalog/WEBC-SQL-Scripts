@@ -116,12 +116,16 @@ def create_terms_and_titles(db):
     cursor.close()
 
 def get_total_titles(db):
-    totals = {'eng':{}, 'spa':{}, 'lat':{}, 'fre':{}, 'ita':{}, 'ger':{}, 'dut':{}}
+    totals = {'eng':{}, 'spa':{}, 'lat':{}, 'fre':{}, 'ita':{}, 'ger':{}, 'dut':{}, 'all':{}}
     cursor = db.cursor() # create datbase cursor
-    query = """ select lang, concat(decade, '0'), count(id)
+    query = """ select lang, concat(decade, '0') as decade, count(id)
                 from master_help
                 group by lang, decade
-                order by lang, decade
+                union
+                select 'all' as lang, concat(decade, '0') as decade, count(id)
+                from master_help
+                group by decade
+                order by lang, decade;
     """
     cursor.execute(query)
     result = cursor.fetchall()
@@ -134,13 +138,21 @@ def get_total_titles(db):
 
 def get_final_tsv(db):
     cursor = db.cursor() # create database cursor
-    select_query = """ select term_key, language, concat(decade, '0'), count(id)
+    select_query = """ select term_key, language, concat(decade, '0') as decade, count(id)
                         from (
 			   select term_key, decade, language, id
                            from terms_and_titles
-                           group by term_key,decade, language, id
+                           group by term_key, decade, language, id
                         ) as clean_tt
                         group by term_key, decade, language
+			union 
+                        select term_key, concat('all') as language, concat(decade, '0') as decade, count(id)
+                        from (
+                           select term_key, decade, id
+                           from terms_and_titles
+                           group by term_key, decade, language, id
+                        ) as clean_tt
+                        group by term_key, decade
                         order by term_key, language, decade;
                    """
     cursor.execute(select_query)
@@ -159,7 +171,7 @@ def results_to_tsv(results, tsv_name, column_title_row, totals):
         decade = row[2]
         count = float(row[3])
         total = float(totals[short_lang][decade])
-        proportion = count/total
+        proportion = count/total * 100
         tsv_line = str(row[0]) + "\t" + str(long_lang) + "\tsearch_term\t" + str(decade) + "\t" + str(proportion)
         tsv_file.write(tsv_line + "\n")
     tsv_file.close()
