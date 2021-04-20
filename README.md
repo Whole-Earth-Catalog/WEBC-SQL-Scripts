@@ -24,3 +24,6 @@ $ use wc
 - tag008:
 	- has the control number, with date code and other useful info
 	- to use this field, use the SQL substring function (SUBSTRING(data, 8, 4) as year), SUBSTRING(data, 36, 3) as language, SUBSTRING(data, 16, 3) as country, etc. )
+## pythonSQLTemplate.py
+Has a template for accesing the sql server in a python script. This is helpful if you want to use pthon functionality to deal with results from mysql queries without having
+to export large files from mysql.
